@@ -88,22 +88,28 @@ module ExternalPosts
 
     def fetch_from_urls(site, src)
       data_file = site.in_source_dir("_data/fetched_posts.yml")
-      if File.exist?(data_file)
-        fetched_posts = YAML.load_file(data_file)['posts']
-        fetched_posts.each do |post|
-          if post['source_name'] == src['name']
-            puts "...loading pre-fetched content for #{post['url']}"
-            content = {
-              title: post['title'],
-              content: post['content'],
-              summary: post['content'][0, 150] + '...',
-              published: Time.parse(post['published_date'].to_s).utc
-            }
-            create_document(site, src['name'], post['url'], content)
-          end
-        end
-      else
+      unless File.exist?(data_file)
         puts "Warning: _data/fetched_posts.yml not found. Run bin/fetch_external_posts.rb to generate it."
+        return
+      end
+
+      fetched_posts_data = YAML.load_file(data_file, permitted_classes: [Date, Time])['posts'].group_by { |p| p['url'] }
+
+      src['posts'].each do |post_config|
+        url = post_config['url']
+        if fetched_posts_data.key?(url)
+          post_data = fetched_posts_data[url].first
+          puts "...loading pre-fetched content for #{url}"
+          content = {
+            title: post_data['title'],
+            content: post_data['content'],
+            summary: post_data['content'][0, 150] + '...',
+            published: Time.parse(post_data['published_date'].to_s).utc
+          }
+          create_document(site, src['name'], url, content)
+        else
+          puts "Warning: No pre-fetched data found for #{url} in _data/fetched_posts.yml"
+        end
       end
     end
 
