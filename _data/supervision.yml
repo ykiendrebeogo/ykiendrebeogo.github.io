@@ -37,7 +37,7 @@
 - name: Zhan-Yi Liao
   year: 2023-current
   info: "Institute of Information Management, National Yang Ming Chiao Tung University (NYCU)"
-  thesis: "Robust Counterfactual Explanations using Gaussian Bayesian Classifiers"
+  thesis: "Structure-Aware Robust Counterfactual Explanation via Conditional Gaussian Bayesian Network"
   abstract: "Counterfactual explanations (CEs) play a key role in explainable artificial intelligence (XAI), particularly in detecting bias and improving the interpretability of data-driven classification models. A counterfactual explanation identifies the minimal perturbation needed to change the model's decision, thereby shedding light on the reasoning behind the model's decision-making process. However, when applied to statistical learning models, existing counterfactual explanation methods often lack a clear causal structure, leading to explanations that rely on statistical correlations rather than causal reasoning. This makes it difficult to derive explicit and meaningful justifications for the decisions. This study conducts counterfactual reasoning based on a Gaussian Bayesian classifier (GBC), integrating a robust optimization iterative method to identify counterfactual explanations that remain valid even after slight perturbations to the features, thereby improving the reliability and persuasiveness of the counterfactual explanations. Experimental results demonstrate that our method shows strong potential for applications in domains such as medical diagnosis, financial risk assessment, recommendation systems, fairness audits, and legal decision support, providing more causally sound explanations for critical decision-making."
   note: Co-advised with <strong> <a href="https://iim.nycu.edu.tw/en/teacher/chen-po-an" target="_blank">Po-An Chen</a> </strong> (NYCU)
   status: "In Progress"
@@ -49,21 +49,21 @@
 - name: Pei-Jou (Pearl) Lin
   year: 2023-current
   info: "Institute of Service Science, National Tsing Hua University (NTHU)"
-  thesis: "Social initiatives (e.g., AI for social good; AI4SG) and innovation activity on Github"
+  thesis: "Effects of Paid Family Leave Policy on Firm Risk-Taking: A Quasi-Experimental Approach"
   status: "In Progress"
   degree: "Masters"
 
 - name: Natasha Carissa Tedjasukmana
   year: 2023-current
   info: "iMBA, National Tsing Hua University (NTHU)"
-  thesis: "Unintended consequences of sales ban: Empirical analysis of the book retailing industry"
+  thesis: "Unintended Consequences of Sales Ban: Empirical Analysis of the Book Retailing Industry"
   status: "In Progress"
   degree: "Masters"
 
 - name: Medjine Nestant
   year: 2023-current
   info: "iMBA, National Tsing Hua University (NTHU)"
-  thesis: "Impact of in-store music familiarity on affect, engagement, and purchase behavior"
+  thesis: "When Algorithms Go Silent: Effects of Trending Topic Suspension on Political Information Consumption"
   status: "In Progress"
   degree: "Masters"
 
