@@ -59,6 +59,8 @@
 "Chen*": 
   - firstname: ["Yuxin", "Y."]
     url: https://shanghai.nyu.edu/academics/faculty/directory/yuxin-chen
+  - firstname: ["Po-An", "P.A."]
+    url: https://iim.nycu.edu.tw/en/teacher/chen-po-an
 
 
 "Nam": 
@@ -101,3 +103,7 @@
 "Kang": 
   - firstname: ["Minjeong", "M.J."]
     url: https://www.linkedin.com/in/mjkang47?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+
+"Liao":
+  - firstname: ["Zhan-Yi", "Z.Y."]
+    url: https://www.linkedin.com/in/zhan-yi-liao
