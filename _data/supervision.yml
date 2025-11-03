@@ -37,13 +37,14 @@
 - name: Zhan-Yi Liao
   year: 2023-current
   info: "Institute of Information Management, National Yang Ming Chiao Tung University (NYCU)"
-  thesis: "Structure-Aware Robust Counterfactual Explanation via Conditional Gaussian Bayesian Network"
-  abstract: "Counterfactual explanations (CEs) play a key role in explainable artificial intelligence (XAI), particularly in detecting bias and improving the interpretability of data-driven classification models. A counterfactual explanation identifies the minimal perturbation needed to change the model's decision, thereby shedding light on the reasoning behind the model's decision-making process. However, when applied to statistical learning models, existing counterfactual explanation methods often lack a clear causal structure, leading to explanations that rely on statistical correlations rather than causal reasoning. This makes it difficult to derive explicit and meaningful justifications for the decisions. This study conducts counterfactual reasoning based on a Gaussian Bayesian classifier (GBC), integrating a robust optimization iterative method to identify counterfactual explanations that remain valid even after slight perturbations to the features, thereby improving the reliability and persuasiveness of the counterfactual explanations. Experimental results demonstrate that our method shows strong potential for applications in domains such as medical diagnosis, financial risk assessment, recommendation systems, fairness audits, and legal decision support, providing more causally sound explanations for critical decision-making."
+  thesis: "Structure-Aware Robust Counterfactual Explanations via Conditional Gaussian Network Classifiers"
+  abstract: "Counterfactual explanation (CE), a core technique in explainable AI (XAI), is widely used to interpret model decisions and suggest actionable alternatives. This work proposes a structure-aware and robust counterfactual search method based on the Conditional Gaussian Network Classifier (CGNC). By modeling conditional dependencies among features via a graphical structure, CGNC naturally embeds variable relationships and generative logic into the search process, eliminating the need for additional feasibility constraints. Unlike most black-box approaches that overlook feature dependencies and data distributions, our method integrates these properties with perturbation robustness into the optimization process, ensuring consistency with the model’s generative structure. We employ a convergence-guaranteed cutting-set mechanism to iteratively solve a master-adversary optimization framework. To address the nonconvex quadratic structure introduced by the model, piecewise relaxation is applied to handle second-order terms, enabling reformulation into a mixed-integer linear program (MILP). Experiments show that even direct global optimization of the original nonconvex problem yields stable and efficient results. The framework is extensible to more complex constraint settings and future work on nonconvex quadratic programming designs."
   note: Co-advised with <strong> <a href="https://iim.nycu.edu.tw/en/teacher/chen-po-an" target="_blank">Po-An Chen</a> </strong> (NYCU)
   status: "In Progress"
   degree: "Masters"
-  linkedin: "https://www.linkedin.com/in/zhan-yi-liao"
+  thesis_url: https://thesis.lib.nycu.edu.tw/items/afad6b16-1a74-4d3b-9af9-6d0546212a73
   github: "https://github.com/zhanyiliao"
+  # linkedin: "https://www.linkedin.com/in/zhan-yi-liao"
   # photo: zhanyi_liao.jpg
 
 - name: Pei-Jou (Pearl) Lin
