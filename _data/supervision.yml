@@ -1,5 +1,5 @@
 - name: Yichun (Jean) Liu
-  year: 2021-23
+  year: 2021-2023
   info: "Institute of Service Science, National Tsing Hua University (NTHU)"
   thesis: "Does CSR Visibility Lead to Superior Financial Performance? Evidence from a Regression Discontinuity Design"
   abstract: "This study investigates the impact of Corporate Social Responsibility (CSR) Visibility on financial performance using a quasi-experimental design. CSR Visibility is operationalized through a leading sustainability index called the Dow Jones Sustainability World Index (DJSI). The study focuses on firms that are accepted or declined by a narrow margin of CSR score, which allows for the examination of the effect of DJSI membership on performance through the use of a Regression Discontinuity Design (RDD). Based on my empirical findings, it appears that greater CSR visibility does not result in improved financial performance. This suggests that firms with higher levels of CSR visibility may need to allocate more resources towards CSR activities in order to meet stakeholder expectations, or that stakeholders may not attach significant value to CSR certification. As a result, these firms may experience a decline in financial performance in the short term."
@@ -8,7 +8,7 @@
   thesis_url: https://etd.lib.nthu.edu.tw/detail/3debccdc9b57b7596044c3c05ffe1b1b/
 
 - name: Daniel Vinicio Gonzalez de Leon
-  year: 2021-23
+  year: 2021-2023
   info: "iMBA, National Tsing Hua University (NTHU)"
   thesis: "Evaluating Risk-Reducing Incentives to Influence Consumers' Purchase Decision of Private-Label Products"
   abstract: "Private Labels (PL) continue to grow in sales and portfolio, driven by the increasing interest from both retailers and consumers toward PL. There has been continuous research in the field, and even after the constant improvement in the quality of PL products, the main concern faced by consumers when deciding whether to switch from National Brands to PL is the perceived risk. We test three different promotions, Price Promotion, Extra Warranty, and Free Returns, to evaluate the effectiveness to increase consumer PL purchase decisions and reduce perceived risk. This paper conducted three studies, to measure the main effect of the promotions on PL purchase decisions, PL purchase intention, and perceived risk. The effect was measured using an online base purchase scenario. A total of 300 participants were collected using Prolific Academic to collect the data. All three strategies were found to positively influence consumer purchase decisions of treated Private labels, varying across product price ranges. Study 3 shows that perceived risk mediates the effect of the promotion strategies. Also proving that results are still significant for “self” and “others” purchase scenarios."
@@ -17,7 +17,7 @@
   thesis_url: https://etd.lib.nthu.edu.tw/detail/eb793427d2f5d99a24007a84ca1fd4e9/
   
 - name: Sin-Yu (Celine) Lin
-  year: 2022-24
+  year: 2022-2024
   info: "Institute of Service Science, National Tsing Hua University (NTHU)"
   thesis: "Influence of Message Framing on Consumer Adoption of AI Services: Evidence from the Financial Sector"
   abstract: "This study investigates the factors influencing technology acceptance, focusing on the roles of perceived trust, mutual benefits, social influence, and perceived risk. Employing a combination of main effect, mediation, and moderation models, the research aims to elucidate the complex interactions between these variables. The main effect model highlights the critical importance of perceived trust in driving technology acceptance, while the mediation analysis reveals that perceived trust mediates the effects of mutual benefits and social influence on technology acceptance. The moderation analysis examines the influence of task complexity and task importance on the relationship between perceived risk and trust, finding significant moderation by task complexity but not by task importance. The study’s findings underscore the need for managers to prioritize trust-building measures and consider task-related factors when designing strategies to enhance technology adoption. Limitations include the sample size, diversity, and the cross- sectional nature of the data, suggesting the need for future research with larger, more diverse samples and longitudinal designs. Additionally, the current study’s reliance on email advertisements as the treatment medium suggests that future research should explore alternative communication channels to validate the findings. These insights provide a comprehensive understanding of the dynamics affecting technology acceptance and offer practical implications for enhancing adoption in various contexts."
@@ -26,7 +26,7 @@
   thesis_url: https://etd.lib.nthu.edu.tw/detail/668262f8f04ca01c4f1b938a1a3b0412/
   
 - name: Yu-Chen (Amy) Hsiao
-  year: 2022-24
+  year: 2022-2024
   info: "Institute of Service Science, National Tsing Hua University (NTHU)"
   thesis: "Examining the Impact of Paid Family and Medical Leave Policy on Firm Innovation: Evidence from Quasi-Experiments"
   abstract: "This thesis examines the impact of Paid Family and Medical Leave (PFML) on firm innovation within the United States, employing a novel empirical approach to address a gap in current research. As the U.S. marks the 30th anniversary of the Family and Medical Leave Act (FMLA), which offers unpaid leave, the absence of a federal paid leave policy stands in stark contrast to other OECD countries. This study explores how state-level PFML policies, which provide paid leave, affect firm innovation, a crucial aspect of economic competitiveness that has been underexplored in the context of PFML. Utilizing a difference-in-differences methodology as proposed by Callaway and Sant’Anna, the research investigates firm-level innovation outcomes, specifically the number of patents and adjusted total citations, across various states with staggered implementations of PFML policies from 1994 to 2015. The findings indicate that PFML has a positive and statistically significant effect on firm innovation, suggesting that PFML policies do not merely alleviate employee challenges but actively contribute to enhancing a firm’s innovative output. By integrating PFML into the broader discussion of workforce policies, this study challenges the prevailing view of such policies as burdensome costs to businesses. Instead, it highlights their potential as investments in human capital that yield returns in the form of higher innovation. These insights are particularly valuable for policymakers, business leaders, and scholars as they consider the implications of expanding family-friendly policies to foster a more inclusive and productive economic environment."
@@ -35,7 +35,7 @@
   thesis_url: https://etd.lib.nthu.edu.tw/detail/0570df8a7951673cc90d245c94b48a0f/
   
 - name: Zhan-Yi Liao
-  year: 2023-current
+  year: 2023-2025
   info: "Institute of Information Management, National Yang Ming Chiao Tung University (NYCU)"
   thesis: "Structure-Aware Robust Counterfactual Explanations via Conditional Gaussian Network Classifiers"
   abstract: "Counterfactual explanation (CE), a core technique in explainable AI (XAI), is widely used to interpret model decisions and suggest actionable alternatives. This work proposes a structure-aware and robust counterfactual search method based on the Conditional Gaussian Network Classifier (CGNC). By modeling conditional dependencies among features via a graphical structure, CGNC naturally embeds variable relationships and generative logic into the search process, eliminating the need for additional feasibility constraints. Unlike most black-box approaches that overlook feature dependencies and data distributions, our method integrates these properties with perturbation robustness into the optimization process, ensuring consistency with the model’s generative structure. We employ a convergence-guaranteed cutting-set mechanism to iteratively solve a master-adversary optimization framework. To address the nonconvex quadratic structure introduced by the model, piecewise relaxation is applied to handle second-order terms, enabling reformulation into a mixed-integer linear program (MILP). Experiments show that even direct global optimization of the original nonconvex problem yields stable and efficient results. The framework is extensible to more complex constraint settings and future work on nonconvex quadratic programming designs."
@@ -48,7 +48,7 @@
   # photo: zhanyi_liao.jpg
 
 - name: Pei-Jou (Pearl) Lin
-  year: 2023-current
+  year: 2023-2025
   info: "Institute of Service Science, National Tsing Hua University (NTHU)"
   thesis: "Effects of Paid Family Leave Policy on Firm Risk-Taking: A Quasi-Experimental Approach"
   status: "In Progress"
@@ -57,7 +57,7 @@
   abstract: "This study examines how state-level Paid Family Leave (PFL) policies in the United States affect firm strategic risk-taking. Although PFL programs are primarily designed to support employees, firms may perceive such policies as regulatory shocks, interpreting them either as threats that introduce operational uncertainty and short-term costs or as opportunities to enhance workforce stability. Drawing on the threat–opportunity categorization framework, Upper Echelon Theory (UET), and the Behavioral Agency Model (BAM), this study develops competing hypotheses regarding the direction of firms’ strategic responses to PFL adoption. Using panel data on publicly listed U.S. manufacturing firms from 2002 to 2019, the study exploits the staggered rollout of PFL across states as a quasi-natural experiment. It applies both conventional two-way fixed effects (TWFE) and the staggered Difference-in-Differences (DiD) estimator by Callaway and Sant’Anna (2021), which accounts for variation in treatment timing and heterogeneous effects. The results consistently show that PFL adoption is associated with increased strategic risk-taking, as measured by a standardized composite factor score of R&D investment, capital expenditures, and long-term debt. This suggests that managers may view PFL as a short-term threat and respond by taking greater risks. However, the effect is significantly weaker among small and medium-sized enterprises (SMEs), possibly due to resource constraints and operational vulnerabilities. These findings highlight how pro-employee social policies can shape firm behavior, offering important insights for both managers and policymakers navigating regulatory change."
 
 - name: Natasha Carissa Tedjasukmana
-  year: 2023-current
+  year: 2023-2025
   info: "iMBA, National Tsing Hua University (NTHU)"
   thesis: "Unintended Consequences of Sales Ban: Empirical Analysis of the Book Retailing Industry"
   status: "In Progress"
@@ -66,7 +66,7 @@
   abstract: "This thesis examines the unintended consequences of the 2008 book ban imposed by the South Korean government on 23 book titles. While book bans are typically intended to suppress the circulation of certain books, they can also increase public attention to the banned books, hence resulting in a reactance phenomenon. Using a panel dataset of monthly book sales from a major South Korean bookstore, this study applies a Difference-in-Differences (DiD) framework using a Two-Way Fixed Effects (TWFE) model to estimate the causal impact of the ban on the sales performance of the banned books compared to non-banned books before and after the ban. The analysis also explores the spillover effect on genre, as well as heterogeneity effects of different buyer characteristics, such as conscription eligibility, gender, political regionalism, and regional GDP. The results suggest that, rather than suppressing demand, the book ban in fact significantly stimulated sales for the banned books. These findings contribute to the literature on consumer behavior and policymaking."
 
 - name: Medjine Nestant
-  year: 2023-current
+  year: 2023-2025
   info: "iMBA, National Tsing Hua University (NTHU)"
   thesis: "When Algorithms Go Silent: Effects of Trending Topic Suspension on Political Information Consumption"
   status: "In Progress"
