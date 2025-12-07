@@ -59,7 +59,7 @@ materials:
     url: "/assets/courses/eci/ECI_14_Causal%20Mechanisms.pdf"
 ---
 ## Course Description
-This course introduces experimental methods for causal inference that are widely used in a broad array of domains such as marketing and information systems. The focus is on delivering a breadth of substantive topics and methodological considerations that emerge in utilizing identification-oriented methods. 
+This course introduces experimental and quasi experimental methods for causal inference that are widely used in a broad array of domains such as marketing and information systems. The focus is on delivering a breadth of substantive topics and methodological considerations that emerge in utilizing identification-oriented methods. 
 
 Students engage with relevant research papers on each topic, facilitating active discussions about the nature of causation and alternative means of inferring causal relationships.
 
