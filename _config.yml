@@ -144,6 +144,9 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
+  teaching:
+    output: true
+    permalink: /teaching/:title/
   books:
     output: true
   news:

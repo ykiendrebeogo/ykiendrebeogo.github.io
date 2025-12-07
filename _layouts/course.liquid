@@ -1,0 +1,147 @@
+---
+layout: default
+---
+{% if page._styles %}
+  <!-- Page/Post style -->
+  <style type="text/css">
+    {{ page._styles }}
+  </style>
+{% endif %}
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
+
+  <article>
+    <div class="row">
+      <!-- Main Content (Description) -->
+      <div class="col-md-8">
+        {{ content }}
+      </div>
+
+      <!-- Sidebar (Info Card) -->
+      <div class="col-md-4">
+        <div class="card border-0 shadow-sm mb-4">
+          <div class="card-body">
+            <h5 class="card-title text-muted">Course Info</h5>
+            <p class="card-text small text-muted">
+              <i class="fas fa-calendar-alt mr-2"></i> {{ page.semester | default: "Spring 2026" }}<br>
+              <i class="fas fa-clock mr-2"></i> {{ page.time | default: "Thu, 14:20-17:20" }}<br>
+              <i class="fas fa-map-marker-alt mr-2"></i> {{ page.location | default: "TSMC Bldg. R406" }}
+            </p>
+            
+            {% if page.syllabus %}
+              <div class="syllabus-section mt-3">
+                {% if page.syllabus contains '.pdf' %}
+                  <a href="{{ page.syllabus | relative_url }}#toolbar=0&navpanes=0" class="btn btn-outline-primary btn-block z-depth-0" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-eye"></i> View Syllabus
+                  </a>
+                {% else %}
+                  <div class="syllabus-content">
+                    {{ page.syllabus | markdownify }}
+                  </div>
+                {% endif %}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feature Grid (Highlights/Toolkit) -->
+    {% if page.features %}
+      <div class="feature-grid mb-5">
+        <h3 class="mb-4">Course Highlights</h3>
+        <div class="row">
+          {% for feature in page.features %}
+            <div class="col-md-4 mb-3">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body text-center">
+                  <div class="feature-icon mb-3">
+                    <i class="{{ feature.icon }} fa-2x text-primary"></i>
+                  </div>
+                  <h5 class="card-title">{{ feature.title }}</h5>
+                  <p class="card-text small text-muted">{{ feature.description }}</p>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <hr>
+    {% endif %}
+
+    <!-- Course Materials -->
+    {% if page.materials %}
+      <h3>Lecture Materials</h3>
+      <div class="materials-list">
+        <ul>
+          {% for item in page.materials %}
+            <li>
+              <div class="row">
+                <div class="col-sm-10">
+                  <span class="material-title">{{ item.title }}</span>
+                </div>
+                <div class="col-sm-2 text-right">
+                  <a href="{{ item.url | relative_url }}#toolbar=0&navpanes=0" target="_blank" class="btn btn-sm z-depth-0" role="button" rel="noopener noreferrer" data-toggle="tooltip" title="View PDF">
+                    <i class="fas fa-eye"></i> View
+                  </a>
+                </div>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <hr>
+    {% endif %}
+
+    <!-- Student Work / Samples -->
+    {% if page.samples %}
+      <h3>Student Work</h3>
+      <div class="publications">
+        <ol class="bibliography">
+        {% for item in page.samples %}
+          <li>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="title">{{ item.title }}</div>
+                <div class="periodical">{{ item.description }}</div>
+                <div class="links">
+                  <a href="{{ item.url | relative_url }}#toolbar=0&navpanes=0" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">View PDF</a>
+                </div>
+              </div>
+            </div>
+          </li>
+        {% endfor %}
+        </ol>
+      </div>
+    {% endif %}
+
+    <!-- Video Lectures -->
+    {% if page.videos %}
+      <h3>Video Lectures</h3>
+      <div class="row mt-3">
+        {% for video in page.videos %}
+        <div class="col-sm-6 mb-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h6 class="card-title">{{ video.title }}</h6>
+              <div class="embed-responsive embed-responsive-16by9">
+                {% assign vid_id = video.id | downcase %}
+                {% if vid_id contains 'pl' or vid_id contains 'list=' %}
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list={{ video.id }}" allowfullscreen title="{{ video.title }}"></iframe>
+                {% else %}
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ video.id }}" allowfullscreen title="{{ video.title }}"></iframe>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+  </article>
+</div>
