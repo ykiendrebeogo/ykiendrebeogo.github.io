@@ -2,6 +2,9 @@
 layout: course
 title: Programming for Business Analytics
 description: This course introduces the basics of programming using R for business applications.
+semester: "Fall 2025"
+location: "TSMC Bldg. R421"
+time: "Mon, 14:20-17:20"
 series: "Skills"
 features:
   - title: "Data Wrangling & Viz"
@@ -16,7 +19,7 @@ features:
   - title: "Professional Workflow"
     icon: "fab fa-github"
     description: "Mastery of R, RStudio, Git, and GitHub for collaborative analytics."
-syllabus: /assets/courses/pba/PBA_Syllabus.pdf
+syllabus: /assets/courses/pba/ISS4066_PBA Undergrad Syllabus_Fall_25.pdf
 videos:
   - title: "Lecture 4: User Defined Functions & Visualization II"
     id: "PLZ-20Y9GiPbkZYpCb5oKxvRfwRzJgzDSG"
@@ -46,15 +49,26 @@ This course leverages R to equip students with the fundamental skills required f
 
 The goal is to inspire a passion for data analysis and foster a community among students to deepen their learning and enhance their collaborative skills.
 
+## Git and GitHub
+Statistical computing lives in the world of **plain-text tools** (like **R**, **Quarto/RMarkdown**, and **Git**). While tools like Excel and Word are familiar, they often trap us in a cycle of filenames like `report_final_v2.docx` and forgotten steps ("how did I make this figure?").
+
+We write code that is universally portable and reproducible, allowing us to recreate entire analyses with a single command. To manage this work, we use **Git**—a version control system that tracks the history of our entire project folder, rather than just "tracking changes" inside a single file. This workflow helps us keep the mess in check and collaborate effectively.
+
+Mastering these tools also allows you to build a **Professional Identity** on GitHub. Your profile serves as a living portfolio, showcasing your actual code and contributions to prospective employers.
+
+## Recommended Textbooks
+We will use the following books in this class. 
+- [MD] Ismay, Chester and Albert Y. Kim. 2022. [Statistical Inference via Data Science: A ModernDive into R and the Tidyverse](https://moderndive.com/).
+- [QSS] Imai, Kosuke and Nora Webb Willaims. 2022. Quantitative Social Science: An Introduction with Tidyverse, 2022. Princeton University Press.
+- [IMS] Mine Cetinkaya-Rundel and Johanna Hardin. 2021. [Introduction to Modern Statistics](https://openintro-ims.netlify.app/). OpenIntro.
+- [AAG] R for Everyone: Advanced Analytics and Graphics, 2nd Edition by Jared P. Lander, O'Reilly Media, 2017.
+- [VT] Visualize This: The Flowing Data Guide to Design, Visualization, and Statistics by Nathan Yau, John Wiley & Sons, 2011.
+
+
 ## Final Project
 A specific focus of this course is the production of a polished, portfolio-ready project. Students develop a clear research question, locate and prepare data, and apply analytical techniques to answer it. The final deliverable is a publicly accessible article that demonstrates data fluency to prospective employers and peers.
 
-
-<br>
-
-#### Milestones
-
-| Milestone | Timeline |
+| Deliverable | Timeline |
 |:--- | :--- |
 | **Creating a GitHub Repository** | Week 4 |
 | **Data and Proposal** | Week 6 |
@@ -62,4 +76,11 @@ A specific focus of this course is the production of a polished, portfolio-ready
 | **First Analysis** | Week 11 |
 | **Final Report** | Week 15 |
 
-<br>
+
+<div style="height: 30px;"></div>
+
+## Learning Objectives
+- **Data Visualization and Wrangling**: Students will learn to summarize and visualize data, transforming messy data into tidy, analyzable formats.
+- **Causality and Regression Analysis**: The course emphasizes evaluating claims about causality and using linear regression to conduct data analysis.
+- **Statistical Uncertainty**: Understanding and quantifying uncertainty in data analysis are core components of the curriculum.
+- **Professional Tools**: Mastery of professional tools such as R, RStudio, git, and GitHub will be developed.
