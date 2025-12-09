@@ -74,9 +74,9 @@ In lieu of a final exam, this course requires students to write a short paper ap
 - **Week 16**: Submit final version of the project.
 
 ## Learning Objectives
-- **Strategic Selection**: Determine which methods and results best support specific empirical inference questions.
-- **Methodological Fluency**: Gain familiarity with causal inference toolkit widely used for business analytics.
-- **Critical Assessment**: Understand the trade-offs in the design, analysis, and reporting of field, quasi, and natural experiments.
+- Determine which methods and results best support specific empirical inference questions.
+- Gain familiarity with causal inference toolkit widely used for business analytics.
+- Understand the trade-offs in the design, analysis, and reporting of field, quasi, and natural experiments.
 
 ## Prerequisites
 - **Math**: Undergraduate-level probability theory and statistics.
