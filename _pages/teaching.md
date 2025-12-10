@@ -8,6 +8,28 @@ nav_order: 6
 ---
 
 
+<style>
+  .btn-theme {
+    color: var(--global-text-color) !important;
+    border: 1px solid var(--global-text-color) !important;
+    background-color: transparent !important;
+  }
+  .btn-theme:hover {
+    color: var(--global-theme-color) !important;
+    border-color: var(--global-theme-color) !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    text-decoration: none !important;
+  }
+  .card-title a {
+    color: var(--global-text-color) !important;
+  }
+  .card-title a:hover {
+    color: var(--global-theme-color) !important;
+    text-decoration: none;
+  }
+</style>
+
 <!-- Dynamic Course Grid -->
 <div class="row row-cols-1 row-cols-md-2">
   {% for course in site.teaching %}
@@ -18,7 +40,7 @@ nav_order: 6
             <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
           </h4>
           <p class="card-text text-muted">{{ course.description }}</p>
-          <a href="{{ course.url | relative_url }}" class="btn btn-outline-primary btn-sm stretched-link">View Course</a>
+          <a href="{{ course.url | relative_url }}" class="btn btn-outline-secondary btn-sm stretched-link btn-theme">View Course</a>
         </div>
       </div>
     </div>

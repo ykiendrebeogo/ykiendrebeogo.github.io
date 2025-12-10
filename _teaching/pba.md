@@ -15,7 +15,7 @@ features:
     icon: "fas fa-balance-scale"
     description: "Evaluating causal claims and conducting rigorous regression analysis."
   - title: "Statistical Uncertainty"
-    icon: "fas fa-bell"
+    icon_svg: "gaussian"
     description: "Simulation-based (Bootstrapping) vs. Conventional (CLT) approaches to uncertainty."
   - title: "Professional Workflow"
     icon: "fab fa-github"

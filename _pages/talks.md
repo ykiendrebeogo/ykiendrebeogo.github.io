@@ -34,7 +34,7 @@ nav_order: 7
         </div>
         {% if talk.note %}
           <div class="periodical">
-            <em>Note: <span {% if talk.highlight_note %}style="color: #d9534f; font-weight: 500;"{% endif %}>{{ talk.note }}</span></em>
+            <em>Note: <span {% if talk.highlight_note %}style="color: var(--global-theme-color); font-weight: 500;"{% endif %}>{{ talk.note }}</span></em>
           </div>
         {% endif %}
       </li>
