@@ -3,6 +3,7 @@ layout: course
 title: Programming for Business Analytics
 description: This course introduces the basics of programming using R for business applications.
 semester: "Fall 2025"
+course_number: "ISS4066 / ISS5066"
 location: "TSMC Bldg. R421"
 time: "Mon, 14:20-17:20"
 series: "Skills"
@@ -50,7 +51,7 @@ This course leverages R to equip students with the fundamental skills required f
 The goal is to inspire a passion for data analysis and foster a community among students to deepen their learning and enhance their collaborative skills.
 
 ## Git and GitHub
-Statistical computing lives in the world of **plain-text tools** (like **R**, **Quarto/RMarkdown**, and **Git**). While tools like Excel and Word are familiar, they often trap us in a cycle of filenames like `report_final_v2.docx` and forgotten steps ("how did I make this figure?").
+Statistical computing lives in the world of **plain-text tools** (like **R**, **Quarto/RMarkdown**, and **Git**). While tools like Excel and Word are familiar, they often trap us in a cycle of filenames like `report_final_v2.docx` and forgotten steps ("how did I make this figure?"). For a conceptual overview, see Kieran Healy's <a href="https://plain-text.co/" target="_blank" rel="noopener noreferrer">The Plain Person's Guide to Plain Text Social Science</a>.
 
 We write code that is universally portable and reproducible, allowing us to recreate entire analyses with a single command. To manage this work, we use **Git**—a version control system that tracks the history of our entire project folder, rather than just "tracking changes" inside a single file. This workflow helps us keep the mess in check and collaborate effectively.
 

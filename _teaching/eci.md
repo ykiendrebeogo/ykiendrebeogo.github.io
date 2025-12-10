@@ -3,6 +3,7 @@ layout: course
 title: Experiments and Causal Inference
 description: A deep dive into experimental and quasi experimental designs and causal inference methods for business analytics.
 semester: "Spring 2026"
+course_number: "ISS5096"
 series: "Methods"
 features:
   - title: "RCT"

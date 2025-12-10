@@ -27,6 +27,9 @@ layout: default
           <div class="card-body">
             <h5 class="card-title text-muted">Course Info</h5>
             <p class="card-text small text-muted">
+              {% if page.course_number %}
+                <i class="fas fa-hashtag mr-2"></i> {{ page.course_number }}<br>
+              {% endif %}
               <i class="fas fa-calendar-alt mr-2"></i> {{ page.semester | default: "Spring 2026" }}<br>
               <i class="fas fa-clock mr-2"></i> {{ page.time | default: "Thu, 14:20-17:20" }}<br>
               <i class="fas fa-map-marker-alt mr-2"></i> {{ page.location | default: "TSMC Bldg. R406" }}

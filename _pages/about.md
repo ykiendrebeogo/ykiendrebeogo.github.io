@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: I am an Assistant Professor at the <a href='https://www.iss.nthu.edu.tw'>Institute of Service Science</a> in the <a href='http://www.ctm.nthu.edu.tw/'>College of Technology Management</a>, <a href='https://nthu-en.site.nthu.edu.tw/'>National Tsing Hua University (NTHU)</a> where I teach courses related to business analytics and causal inference using experimental and observational studies.
+subtitle: I am an Assistant Professor at the <a href='https://www.iss.nthu.edu.tw'>Institute of Service Science</a> in the <a href='http://www.ctm.nthu.edu.tw/'>College of Technology Management</a>, <a href='https://nthu-en.site.nthu.edu.tw/'>National Tsing Hua University (NTHU)</a> where I teach <a href='/teaching/'>courses</a> related to business analytics and causal inference using experimental and observational studies.
 
 profile:
   align: right
@@ -35,7 +35,7 @@ I also serve as an *ad hoc* reviewer for [MIS Quarterly](http://www.misq.org/) (
 
 **For prospective students:**
 
-Students who are interested in pursuing research under my supervision are strongly encouraged to have first completed at least one of my courses. Familiarity with the material from [ISS5096](https://drive.google.com/file/d/18S9kzicR84sdMbW2mkB8oOf4vjOEzI-E/view?usp=sharing) is particularly beneficial.
+Students who are interested in pursuing research under my supervision are strongly encouraged to have first completed at least one of my courses. Familiarity with the material from [ISS5096]({% link _pages/teaching.md %}eci/) is particularly beneficial.
 
 When reaching out, please include a <ins>cover letter</ins> detailing your research interests and proposed topic area, accompanied by your <ins>CV</ins> and <ins>academic transcript</ins>. You may want to browse my [completed and ongoing supervisions]({% link _pages/supervisions.md %}) to get a sense of potential research directions.
 
