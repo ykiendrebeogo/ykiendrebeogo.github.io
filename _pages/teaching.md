@@ -51,56 +51,51 @@ nav_order: 6
 
 <h3>Class Photos</h3>
 <div id="teachingPhotoCarousel" class="carousel slide mt-3 shadow-sm rounded" data-ride="carousel">
-  <div class="carousel-inner rounded">
-    <!-- 2025 Photos -->
-    <div class="carousel-item active">
-      <img src="/assets/img/teaching_photos/20251218_162714-1400.webp" class="d-block w-100" alt="Class Photo 2025" style="max-height: 600px; object-fit: contain; background: #333;">
+  <div class="carousel-inner rounded" id="carouselInner">
+    <div class="carousel-item">
+      <img src="/assets/img/teaching_photos/20240604_160044.jpg" class="d-block w-100" alt="Class Photo" style="max-height: 600px; object-fit: contain; background: #333;">
     </div>
     <div class="carousel-item">
-      <img src="/assets/img/teaching_photos/20251218_162716-1400.webp" class="d-block w-100" alt="Class Photo 2025" style="max-height: 600px; object-fit: contain; background: #333;">
+      <img src="/assets/img/teaching_photos/20251218_162714.jpg" class="d-block w-100" alt="Class Photo" style="max-height: 600px; object-fit: contain; background: #333;">
     </div>
     <div class="carousel-item">
-      <img src="/assets/img/teaching_photos/20251218_162717-1400.webp" class="d-block w-100" alt="Class Photo 2025" style="max-height: 600px; object-fit: contain; background: #333;">
+      <img src="/assets/img/teaching_photos/20251218_162716.jpg" class="d-block w-100" alt="Class Photo" style="max-height: 600px; object-fit: contain; background: #333;">
     </div>
     <div class="carousel-item">
-      <img src="/assets/img/teaching_photos/20251218_162718-1400.webp" class="d-block w-100" alt="Class Photo 2025" style="max-height: 600px; object-fit: contain; background: #333;">
+      <img src="/assets/img/teaching_photos/20251218_162717.jpg" class="d-block w-100" alt="Class Photo" style="max-height: 600px; object-fit: contain; background: #333;">
     </div>
     <div class="carousel-item">
-      <img src="/assets/img/teaching_photos/20251218_162720-1400.webp" class="d-block w-100" alt="Class Photo 2025" style="max-height: 600px; object-fit: contain; background: #333;">
+      <img src="/assets/img/teaching_photos/20251218_162718.jpg" class="d-block w-100" alt="Class Photo" style="max-height: 600px; object-fit: contain; background: #333;">
     </div>
     <div class="carousel-item">
-      <img src="/assets/img/teaching_photos/20251218_162721-1400.webp" class="d-block w-100" alt="Class Photo 2025" style="max-height: 600px; object-fit: contain; background: #333;">
+      <img src="/assets/img/teaching_photos/20251218_162720.jpg" class="d-block w-100" alt="Class Photo" style="max-height: 600px; object-fit: contain; background: #333;">
     </div>
     <div class="carousel-item">
-      <img src="/assets/img/teaching_photos/20251218_162722-1400.webp" class="d-block w-100" alt="Class Photo 2025" style="max-height: 600px; object-fit: contain; background: #333;">
-    </div>
-
-    <!-- 2024 Photos -->
-    <div class="carousel-item">
-      <img src="/assets/img/teaching_photos/PXL_20241219_083528513-1400.webp" class="d-block w-100" alt="Class Photo 2024" style="max-height: 600px; object-fit: contain; background: #333;">
+      <img src="/assets/img/teaching_photos/20251218_162721.jpg" class="d-block w-100" alt="Class Photo" style="max-height: 600px; object-fit: contain; background: #333;">
     </div>
     <div class="carousel-item">
-      <img src="/assets/img/teaching_photos/20240604_160044-1400.webp" class="d-block w-100" alt="Class Photo 2024" style="max-height: 600px; object-fit: contain; background: #333;">
-    </div>
-
-    <!-- Older Photos -->
-    <div class="carousel-item">
-      <img src="/assets/img/teaching_photos/PXL_20230615_062409352-1400.webp" class="d-block w-100" alt="Class Photo 2023" style="max-height: 600px; object-fit: contain; background: #333;">
+      <img src="/assets/img/teaching_photos/20251218_162722.jpg" class="d-block w-100" alt="Class Photo" style="max-height: 600px; object-fit: contain; background: #333;">
     </div>
     <div class="carousel-item">
-      <img src="/assets/img/teaching_photos/PXL_20220106_071147725.MP-1400.webp" class="d-block w-100" alt="Class Photo 2022" style="max-height: 600px; object-fit: contain; background: #333;">
+      <img src="/assets/img/teaching_photos/IMG_0993.jpg" class="d-block w-100" alt="Class Photo" style="max-height: 600px; object-fit: contain; background: #333;">
     </div>
     <div class="carousel-item">
-      <img src="/assets/img/teaching_photos/IMG_0993-1400.webp" class="d-block w-100" alt="Class Photo" style="max-height: 600px; object-fit: contain; background: #333;">
+      <img src="/assets/img/teaching_photos/IMG_1068.jpeg" class="d-block w-100" alt="Class Photo" style="max-height: 600px; object-fit: contain; background: #333;">
     </div>
     <div class="carousel-item">
-      <img src="/assets/img/teaching_photos/IMG_1068-1400.webp" class="d-block w-100" alt="Class Photo" style="max-height: 600px; object-fit: contain; background: #333;">
+      <img src="/assets/img/teaching_photos/IMG_1070.jpeg" class="d-block w-100" alt="Class Photo" style="max-height: 600px; object-fit: contain; background: #333;">
     </div>
     <div class="carousel-item">
-      <img src="/assets/img/teaching_photos/IMG_1070-1400.webp" class="d-block w-100" alt="Class Photo" style="max-height: 600px; object-fit: contain; background: #333;">
+      <img src="/assets/img/teaching_photos/IMG_1072.jpeg" class="d-block w-100" alt="Class Photo" style="max-height: 600px; object-fit: contain; background: #333;">
     </div>
     <div class="carousel-item">
-      <img src="/assets/img/teaching_photos/IMG_1072-1400.webp" class="d-block w-100" alt="Class Photo" style="max-height: 600px; object-fit: contain; background: #333;">
+      <img src="/assets/img/teaching_photos/PXL_20220106_071147725.MP.jpg" class="d-block w-100" alt="Class Photo" style="max-height: 600px; object-fit: contain; background: #333;">
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/img/teaching_photos/PXL_20230615_062409352.jpg" class="d-block w-100" alt="Class Photo" style="max-height: 600px; object-fit: contain; background: #333;">
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/img/teaching_photos/PXL_20241219_083528513.jpg" class="d-block w-100" alt="Class Photo" style="max-height: 600px; object-fit: contain; background: #333;">
     </div>
   </div>
 
@@ -113,3 +108,22 @@ nav_order: 6
     <span class="sr-only">Next</span>
   </a>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var parent = document.getElementById("carouselInner");
+    var divs = parent.children;
+    var frag = document.createDocumentFragment();
+    while (divs.length) {
+        frag.appendChild(divs[Math.floor(Math.random() * divs.length)]);
+    }
+    parent.appendChild(frag);
+    
+    // Ensure first item is active
+    var items = parent.querySelectorAll('.carousel-item');
+    items.forEach(el => el.classList.remove('active'));
+    if(items.length > 0) {
+      items[0].classList.add('active');
+    }
+  });
+</script>
