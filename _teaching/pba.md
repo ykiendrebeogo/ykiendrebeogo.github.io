@@ -25,9 +25,8 @@ videos:
   - title: "Lecture 4: User Defined Functions & Visualization II"
     id: "PLZ-20Y9GiPbkZYpCb5oKxvRfwRzJgzDSG"
   - title: "Lecture 5: Data wrangling"
-    id: "PLZ-20Y9GiPbna0vaBWzNz8x6EyzApcOzU"
-  - title: "Lecture 6: Causality"
     id: "PLZ-20Y9GiPbm3n2nmqfaJXFzI0YErZt-m"
+
 materials:
   - title: "Lecture 1: Course Intro"
   - title: "Lecture 2: R Programming Basics"

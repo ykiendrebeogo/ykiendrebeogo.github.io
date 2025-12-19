@@ -177,5 +177,42 @@ layout: default
       </div>
     {% endif %}
 
+    <!-- Class Photos (Carousel) -->
+    {% if page.photos %}
+      <hr>
+      <h3>Class Photos</h3>
+      <div id="classPhotoCarousel" class="carousel slide mt-3 shadow-sm rounded" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          {% for photo in page.photos %}
+            <li data-target="#classPhotoCarousel" data-slide-to="{{ forloop.index0 }}" class="{% if forloop.first %}active{% endif %}"></li>
+          {% endfor %}
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner rounded">
+          {% for photo in page.photos %}
+            <div class="carousel-item {% if forloop.first %}active{% endif %}">
+              <img src="{{ photo.url | relative_url }}" class="d-block w-100" alt="{{ photo.caption | default: 'Class Photo' }}" style="max-height: 500px; object-fit: cover;">
+              {% if photo.caption %}
+                <div class="carousel-caption d-none d-md-block" style="background: rgba(0,0,0,0.5); padding: 10px; border-radius: 5px;">
+                  <p class="mb-0">{{ photo.caption }}</p>
+                </div>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+
+        <!-- Controls -->
+        <a class="carousel-control-prev" href="#classPhotoCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#classPhotoCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    {% endif %}
   </article>
 </div>

@@ -28,6 +28,7 @@ syllabus: /assets/courses/eci/ECI_Syllabus.pdf
 videos:
   - title: "Lecture 7 - Noncompliance and Instrumental Variables"
     id: "8S06mqd6pTM"
+
 materials:
   - title: "Lecture 1: Intro and Potential Outcomes"
     url: "/assets/courses/eci/ECI_01_Intro_and_Potential%20Outcomes.pdf"
