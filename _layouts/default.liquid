@@ -45,7 +45,9 @@
       {% else %}
         {{ content }}
       {% endif %}
+      {% unless page.url contains '/blog/' %}
       {% include contact_details.liquid %}
+      {% endunless %}
     </div>
 
     <!-- Footer -->
