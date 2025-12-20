@@ -49,7 +49,6 @@ nav_order: 6
 
 <hr>
 
-<h3>Class Photos</h3>
 <div id="teachingPhotoCarousel" class="carousel slide mt-3 shadow-sm rounded" data-ride="carousel">
   <div class="carousel-inner rounded" id="carouselInner">
     <div class="carousel-item">
