@@ -6,7 +6,7 @@ subtitle: I am an Assistant Professor at the <a href='https://www.iss.nthu.edu.t
 
 profile:
   align: right
-  image: prof_pic_cyberpunk.jpg
+  image: prof_jaewon_yoo.jpg
   image_circular: false # crops the image to make it circular
   #more_info: >
   #  <p>Assistant Professor</p>
