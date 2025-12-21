@@ -1585,3 +1585,32 @@ figure.cover {
      Example: circle at center, but you might want to offset it. */
   clip-path: circle(40% at 50% 50%);
 }
+
+// Layered Profile Image Effect (Refined)
+.profile-layered-wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+  /* Ensure aspect ratio is maintained if needed, but img handles it usually */
+}
+
+.profile-layer-bottom {
+  position: relative;
+  z-index: 1;
+  /* The 'Frame' Layer: Circular Clip */
+  /* Adjust '50%' for circle size and '50% 55%' for position (x y) */
+  clip-path: circle(38% at 50% 55%);
+}
+
+.profile-layer-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  /* The 'Pop-out' Layer: Reveal Head */
+  /* Inset from: Top Right Bottom Left */
+  /* We cut off the bottom 60% to only show the head sticking out */
+  clip-path: inset(0 0 60% 0);
+}
