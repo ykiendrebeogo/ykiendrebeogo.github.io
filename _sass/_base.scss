@@ -24,6 +24,7 @@ hr {
 }
 
 table {
+
   td,
   th {
     font-size: 1rem;
@@ -51,6 +52,7 @@ table.table a {
 
 .table-dark {
   background-color: transparent;
+
   &.table-bordered {
     border: 1px solid var(--global-divider-color) !important;
   }
@@ -135,10 +137,11 @@ blockquote {
 // Checklist
 
 ul.task-list {
-  list-style-type: none; /* Remove bullets from all levels */
+  list-style-type: none;
+  /* Remove bullets from all levels */
 }
 
-ul.task-list > li ul {
+ul.task-list>li ul {
   /* Nested lists within .task-list */
   padding-inline-start: 1.5rem;
 }
@@ -295,7 +298,7 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
-  .navbar-nav .nav-item.active > .nav-link {
+  .navbar-nav .nav-item.active>.nav-link {
     background-color: inherit;
     font-weight: bolder;
     color: var(--global-theme-color);
@@ -455,7 +458,7 @@ ul.task-list input[type="checkbox"] {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.wechat-modal > img {
+.wechat-modal>img {
   display: block;
   position: relative;
   top: 50%;
@@ -466,7 +469,7 @@ ul.task-list input[type="checkbox"] {
 }
 
 @media only screen and (max-width: 400px) {
-  .wechat-modal > img {
+  .wechat-modal>img {
     width: 100%;
   }
 }
@@ -700,7 +703,7 @@ footer.sticky-bottom {
   // Add spacing between student entries (supervision page only)
   .student-row {
     margin-bottom: 1.25rem;
-    
+
     // Student photo styling for supervisions page
     .col-sm-2.preview {
       img {
@@ -718,7 +721,7 @@ footer.sticky-bottom {
   h2.year {
     margin-top: 2.5rem;
     margin-bottom: 1rem;
-    
+
     &:first-child {
       margin-top: 1rem; // Less space for the first year group
     }
@@ -727,7 +730,7 @@ footer.sticky-bottom {
   // Student entry styling for supervisions page (simple layout)
   .student-entry {
     margin-bottom: 1.5rem;
-    
+
     .links {
       a.btn {
         color: var(--global-text-color);
@@ -888,12 +891,12 @@ footer.sticky-bottom {
           }
         }
 
-        > em {
+        >em {
           border-bottom: 1px solid;
           font-style: normal;
         }
 
-        > span.more-authors {
+        >span.more-authors {
           color: var(--global-text-color-light);
           border-bottom: 1px dashed var(--global-text-color-light);
           cursor: pointer;
@@ -933,6 +936,7 @@ footer.sticky-bottom {
             box-shadow: none;
           }
         }
+
         a.award.btn {
           border-color: var(--global-highlight-color);
         }
@@ -940,6 +944,7 @@ footer.sticky-bottom {
 
       .badges {
         padding-bottom: 0.5rem;
+
         span {
           display: inline-block;
           color: $black-color;
@@ -993,15 +998,19 @@ footer.sticky-bottom {
         border-color: var(--global-text-color);
       }
     }
+
     div.award.hidden {
       border: dashed 1px var(--global-bg-color);
     }
+
     div.award.hidden.open {
       border-color: var(--global-highlight-color);
     }
+
     div.thesis.hidden {
       border: dashed 1px var(--global-bg-color);
     }
+
     div.thesis.hidden.open {
       border-color: var(--global-text-color);
     }
@@ -1207,11 +1216,11 @@ progress::-moz-progress-bar {
 nav[data-toggle="toc"] {
   top: 5rem;
 
-  .nav .nav > li > a {
+  .nav .nav>li>a {
     font-size: 0.75rem;
   }
 
-  .nav > li > a {
+  .nav>li>a {
     color: var(--global-text-color);
     font-size: 0.75rem;
 
@@ -1235,6 +1244,7 @@ nav[data-toggle="toc"] {
 
 /* small screens */
 @media (max-width: 576px) {
+
   /* override stickyness so that the navigation does not follow scrolling */
   nav[data-toggle="toc"] {
     visibility: hidden;
@@ -1307,7 +1317,7 @@ swiper-container {
     border-bottom: 2px solid var(--global-text-color);
   }
 
-  .ps-algorithm.with-caption > .ps-line:first-child {
+  .ps-algorithm.with-caption>.ps-line:first-child {
     border-bottom: 2px solid var(--global-text-color);
   }
 }
@@ -1429,6 +1439,7 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 @media (max-width: 575px) {
+
   .newsletter-form-input,
   .newsletter-form-button,
   .newsletter-loading-button,
@@ -1436,6 +1447,7 @@ ninja-keys::part(ninja-input-wrapper) {
   .newsletter-error {
     font-size: 16px !important;
   }
+
   .newsletter-form-container {
     margin-right: 20px;
     margin-left: 20px;
@@ -1458,6 +1470,7 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 .bs-popover-top {
+
   // arrow fill color
   .arrow::after {
     border-top-color: var(--global-bg-color);
@@ -1470,6 +1483,7 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 .bs-popover-bottom {
+
   // arrow fill color
   .arrow::after {
     border-bottom-color: var(--global-bg-color);
@@ -1490,7 +1504,8 @@ ninja-keys::part(ninja-input-wrapper) {
 figure.cover {
   display: inline-block;
   text-align: center;
-  margin: 0.5rem; /* adjust as needed */
+  margin: 0.5rem;
+  /* adjust as needed */
 
   img {
     vertical-align: bottom;
@@ -1559,58 +1574,4 @@ figure.cover {
   a.cover-link:hover {
     color: #23212d !important;
   }
-}
-
-// Layered Profile Image Effect
-.profile-image-wrapper {
-  position: relative;
-  /* Ensure wrapper takes the width of internal images or container */
-  width: 100%;
-  height: auto;
-}
-
-.profile-image-layer-bottom {
-  position: relative;
-  z-index: 1;
-}
-
-.profile-image-layer-top {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-  /* Adjust this clip-path to change the cutout shape.
-     Example: circle at center, but you might want to offset it. */
-  clip-path: circle(40% at 50% 50%);
-}
-
-// Layered Profile Image Effect (Refined)
-.profile-layered-wrapper {
-  position: relative;
-  width: 100%;
-  height: auto;
-  /* Ensure aspect ratio is maintained if needed, but img handles it usually */
-}
-
-.profile-layer-bottom {
-  position: relative;
-  z-index: 1;
-  /* The 'Frame' Layer: Circular Clip */
-  /* Adjust '50%' for circle size and '50% 55%' for position (x y) */
-  clip-path: circle(38% at 50% 55%);
-}
-
-.profile-layer-top {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-  /* The 'Pop-out' Layer: Reveal Head */
-  /* Inset from: Top Right Bottom Left */
-  /* We cut off the bottom 60% to only show the head sticking out */
-  clip-path: inset(0 0 60% 0);
 }
