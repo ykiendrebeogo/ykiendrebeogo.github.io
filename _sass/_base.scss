@@ -1560,3 +1560,28 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+// Layered Profile Image Effect
+.profile-image-wrapper {
+  position: relative;
+  /* Ensure wrapper takes the width of internal images or container */
+  width: 100%;
+  height: auto;
+}
+
+.profile-image-layer-bottom {
+  position: relative;
+  z-index: 1;
+}
+
+.profile-image-layer-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  /* Adjust this clip-path to change the cutout shape.
+     Example: circle at center, but you might want to offset it. */
+  clip-path: circle(40% at 50% 50%);
+}
