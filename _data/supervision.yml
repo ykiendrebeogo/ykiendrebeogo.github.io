@@ -1,12 +1,3 @@
-- name: Yichun (Jean) Liu
-  year: 2021-23
-  info: "Institute of Service Science, National Tsing Hua University (NTHU)"
-  thesis: "Does CSR Visibility Lead to Superior Financial Performance? Evidence from a Regression Discontinuity Design"
-  abstract: "This study investigates the impact of Corporate Social Responsibility (CSR) Visibility on financial performance using a quasi-experimental design. CSR Visibility is operationalized through a leading sustainability index called the Dow Jones Sustainability World Index (DJSI). The study focuses on firms that are accepted or declined by a narrow margin of CSR score, which allows for the examination of the effect of DJSI membership on performance through the use of a Regression Discontinuity Design (RDD). Based on my empirical findings, it appears that greater CSR visibility does not result in improved financial performance. This suggests that firms with higher levels of CSR visibility may need to allocate more resources towards CSR activities in order to meet stakeholder expectations, or that stakeholders may not attach significant value to CSR certification. As a result, these firms may experience a decline in financial performance in the short term."
-  degree: "Masters"
-  status: "Completed"
-  thesis_url: https://etd.lib.nthu.edu.tw/detail/3debccdc9b57b7596044c3c05ffe1b1b/
-
 - name: Daniel Vinicio Gonzalez de Leon
   year: 2021-23
   info: "iMBA, National Tsing Hua University (NTHU)"
@@ -15,6 +6,15 @@
   status: "Completed"
   degree: "Masters"
   thesis_url: https://etd.lib.nthu.edu.tw/detail/eb793427d2f5d99a24007a84ca1fd4e9/
+
+- name: Yichun (Jean) Liu
+  year: 2021-23
+  info: "Institute of Service Science, National Tsing Hua University (NTHU)"
+  thesis: "Does CSR Visibility Lead to Superior Financial Performance? Evidence from a Regression Discontinuity Design"
+  abstract: "This study investigates the impact of Corporate Social Responsibility (CSR) Visibility on financial performance using a quasi-experimental design. CSR Visibility is operationalized through a leading sustainability index called the Dow Jones Sustainability World Index (DJSI). The study focuses on firms that are accepted or declined by a narrow margin of CSR score, which allows for the examination of the effect of DJSI membership on performance through the use of a Regression Discontinuity Design (RDD). Based on my empirical findings, it appears that greater CSR visibility does not result in improved financial performance. This suggests that firms with higher levels of CSR visibility may need to allocate more resources towards CSR activities in order to meet stakeholder expectations, or that stakeholders may not attach significant value to CSR certification. As a result, these firms may experience a decline in financial performance in the short term."
+  degree: "Masters"
+  status: "Completed"
+  thesis_url: https://etd.lib.nthu.edu.tw/detail/3debccdc9b57b7596044c3c05ffe1b1b/
   
 - name: Sin-Yu (Celine) Lin
   year: 2022-24
