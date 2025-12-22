@@ -198,6 +198,7 @@ exclude:
 keep_files:
   - CNAME
   - .nojekyll
+  - assets/pdf/cv_jaewon.pdf
 
 # Plug-ins
 plugins:
@@ -267,8 +268,8 @@ jekyll-archives:
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Yoo]
+  first_name: [Jaewon]
 
   style: apa
   locale: en

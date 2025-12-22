@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{ page.title }}</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 11pt;
+            line-height: 1.3;
+            color: #000;
+            background: #fff;
+            margin: 0;
+            padding: 2cm;
+            max-width: 21cm; /* A4 width */
+            margin: auto;
+        }
+        h1 {
+            font-size: 16pt;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+        .contact-info {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 10pt;
+        }
+        h2 {
+            font-size: 12pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 1px solid #000;
+            padding-bottom: 2px;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 15px;
+        }
+        .entry {
+            margin-bottom: 8px;
+        }
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+        .entry-subheader {
+            font-style: italic;
+        }
+        .entry-content {
+            margin-top: 2px;
+        }
+        ul {
+            margin: 2px 0 0 20px;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 0;
+        }
+        a {
+            color: #007bff;
+            text-decoration: underline;
+        }
+        @media print {
+            body {
+                padding: 0;
+                margin: 0;
+            }
+            @page {
+                margin: 2cm;
+            }
+        }
+        button.btn {
+            display: none !important;
+        }
+        /* Hide year headers from jekyll-scholar group_by (assuming they are secondary h2s) */
+        section h2:not(:first-of-type) {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    {% assign basics = site.data.resume.basics %}
+    
+    <header style="margin-bottom: 20px;">
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 15px;">
+             <h1 style="text-align: left; margin: 0; font-size: 22pt;">{{ basics.name }}</h1>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+            <div style="text-align: left; width: 55%; font-size: 10pt; line-height: 1.4;">
+                National Tsing Hua University (國立清華大學)<br>
+                Institute of Service Science, College of Technology Management<br>
+                Rm 828B, TSMC Bldg., No. 101, Sect. 2, Kuang-Fu Rd.<br>
+                Hsinchu, Taiwan 30013
+            </div>
+            <div style="text-align: right; width: 45%; font-size: 10pt; line-height: 1.4;">
+                 <strong>{{ basics.label }}</strong><br>
+                 Email: <a href="mailto:{{ basics.email }}">{{ basics.email }}</a><br>
+                 Homepage: <a href="{{ basics.url }}">{{ basics.url | remove: "https://" | remove: "http://" }}</a><br>
+                 Phone: {{ basics.phone }}
+            </div>
+        </div>
+    </header>
+
+    {% comment %}
+    Order of sections:
+    1. Education
+    2. Work (Academic Appointments)
+    3. Research (Publications)
+    4. Teaching
+    5. Supervision
+    6. Skills / Interests
+    {% endcomment %}
+
+    {% if site.data.resume.work.size > 0 %}
+    <section>
+        <h2>Academic Appointments</h2>
+        {% for work in site.data.resume.work %}
+        <div class="entry">
+            <div class="entry-header">
+                <span>{{ work.name }}</span>
+                <span>
+                    {% if work.startDate %}{{ work.startDate | date: "%B %Y" }}{% endif %}
+                    {% if work.endDate %} - {{ work.endDate | date: "%B %Y" }}{% else %} - Present{% endif %}
+                </span>
+            </div>
+            <div class="entry-subheader">
+                {{ work.position }}
+            </div>
+            <div class="entry-content">
+                {{ work.summary }}
+                {% if work.highlights.size > 0 %}
+                <ul>
+                    {% for highlight in work.highlights %}
+                    {% assign parts = highlight | split: " ::: " %}
+                    <li>
+                        {{ parts[0] }}
+                        {% if parts.size > 1 %}
+                        <span style="float: right;">{{ parts[1] }}</span>
+                        {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </section>
+    {% endif %}
+
+    {% if site.data.resume.education.size > 0 %}
+    <section>
+        <h2>Education</h2>
+        {% for edu in site.data.resume.education %}
+        <div class="entry">
+            <div class="entry-header">
+                <span>{{ edu.institution }}</span>
+                <span>
+                    {% if edu.startDate %}{{ edu.startDate | date: "%B %Y" }}{% endif %}
+                    {% if edu.endDate %} - {{ edu.endDate | date: "%B %Y" }}{% else %} - Present{% endif %}
+                </span>
+            </div>
+            <div class="entry-subheader">
+                {{ edu.studyType }} in {{ edu.area }}
+            </div>
+            <div class="entry-content">
+                {% if edu.courses.size > 0 %}
+                <ul>
+                    {% for course in edu.courses %}
+                    <li>{{ course }}</li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </section>
+    {% endif %}
+
+
+
+    <section>
+        <h2>Research</h2>
+        <div style="font-size: 10pt; margin-bottom: 10px; font-style: italic;">
+            The corresponding author is denoted by *.
+        </div>
+        <!-- This will render the bibliography from _pages/cv_print.md -->
+        {{ content }}
+    </section>
+
+    {% if site.data.talks.size > 0 %}
+    <section>
+        <h2>Academic Talks and Conferences</h2>
+        {% assign sorted_talks = site.data.talks | sort: 'date' | reverse %}
+        {% for talk in sorted_talks %}
+        <div class="entry">
+             <div class="entry-header">
+                <span>{{ talk.title }}</span>
+                <span>{{ talk.year }}</span>
+            </div>
+            <div class="entry-content">
+                {{ talk.venue }}, {{ talk.date | date: "%B %d" }}, {{ talk.year }}.
+                {% if talk.note %}
+                <br><em>{{ talk.note }}</em>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </section>
+    {% endif %}
+
+    <section>
+        <h2>Teaching</h2>
+        {% assign sorted_teaching = site.teaching | sort: 'semester' | reverse %}
+        {% for course in sorted_teaching %}
+        <div class="entry">
+             <div class="entry-header">
+                <span>{{ course.title }}</span>
+                <span>{{ course.semester }} - </span>
+            </div>
+            <div class="entry-content">
+                {{ course.course_number }} · {{ course.description }}
+            </div>
+        </div>
+        {% endfor %}
+    </section>
+
+    <section>
+        <h2>Supervision</h2>
+        {% assign students_by_year = site.data.supervision | group_by: 'year' | sort: 'name' | reverse %}
+        {% for year_group in students_by_year %}
+            {% for student in year_group.items %}
+            <div class="entry">
+                <div class="entry-header">
+                    <span>{{ student.name }}</span>
+                    <span>{{ student.year }}</span>
+                </div>
+                <div class="entry-content">
+                    {{ student.info }}
+                    {% if student.thesis %}
+                    <br><em>Thesis:</em> {{ student.thesis }}
+                    {% endif %}
+                    {% if student.note %}
+                    <br><em>Note:</em> {{ student.note }}
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        {% endfor %}
+    </section>
+
+
+
+    <div style="font-size: 9pt; margin-top: 30px; font-style: italic; text-align: center; color: #555;">
+        Updated on {{ site.time | date: "%B %d, %Y" }}.<br>
+        Automatically generated using <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://pptr.dev/" target="_blank">Puppeteer</a>.
+    </div>
+
+</body>
+</html>

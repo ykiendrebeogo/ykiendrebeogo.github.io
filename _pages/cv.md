@@ -4,15 +4,11 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 10
-# cv_pdf: example_pdf.pdf # you can also use external links here
-# description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description: ""
+subtitle: ""
 # toc:
 #   sidebar: left
 ---
-
-<p align="center">
-<a href="https://j1yoo.github.io/cv_jaewon.pdf" target="_blank"> Download C.V. </a> (updated on September 09, 2024)
-</p>
 
 <html>
   <style>
@@ -27,11 +23,32 @@ nav_order: 10
       width: 100%;
       height: 100%;
     }
+    .last-updated {
+      font-size: 0.9rem;
+      color: #888;
+      margin-bottom: 6px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      cursor: default;
+      transition: color 0.2s;
+    }
+    .last-updated:hover {
+      color: #555;
+    }
+    .last-updated:hover .fa-rotate {
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin { 100% { transform: rotate(360deg); } }
   </style>
-  
-  <p align="center">
-    <div class="responsive">
-     <iframe src="https://j1yoo.github.io/cv_jaewon.pdf" width="750" height="650"></iframe>
+
+  <div style="text-align: center;">
+    <div class="last-updated" title="Automatically updated on build">
+      <i class="fa-solid fa-rotate"></i> Updated on {{ site.time | date: "%B %d, %Y" }}
     </div>
-  </p>
+  </div>
+  
+  <div class="responsive">
+    <iframe src="{{ 'assets/pdf/cv_jaewon.pdf' | relative_url }}" width="750" height="650"></iframe>
+  </div>
 </html>

@@ -2,7 +2,7 @@
 layout: course
 title: Programming for Business Analytics
 description: This course introduces the basics of programming using R for business applications.
-semester: "Fall 2025"
+semester: "Fall 2021"
 course_number: "ISS4066 / ISS5066"
 location: "TSMC Bldg. R421"
 time: "Mon, 14:20-17:20"
