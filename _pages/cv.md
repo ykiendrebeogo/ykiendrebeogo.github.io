@@ -40,6 +40,23 @@ subtitle: ""
       animation: spin 1s linear infinite;
     }
     @keyframes spin { 100% { transform: rotate(360deg); } }
+    
+    /* Custom Theme Button to match al-folio bibliography style */
+    .btn-theme {
+      color: var(--global-text-color);
+      border: 1px solid var(--global-text-color);
+      background-color: transparent;
+      text-decoration: none;
+      transition: all 0.2s ease-in-out;
+    }
+    .btn-theme:hover {
+      color: var(--global-theme-color) !important;
+      border-color: var(--global-theme-color) !important;
+      text-decoration: none;
+    }
+    .btn-theme:focus {
+      box-shadow: none;
+    }
   </style>
 
   <div style="text-align: center; margin-bottom: 20px;">
@@ -48,7 +65,7 @@ subtitle: ""
     </div>
     <!-- Mobile-friendly fallback -->
     <div>
-        <a href="{{ 'assets/pdf/cv_jaewon.pdf' | relative_url }}" class="btn z-depth-1" style="border: 1px solid #ddd;" target="_blank">
+        <a href="{{ 'assets/pdf/cv_jaewon.pdf' | relative_url }}" class="btn btn-theme z-depth-0" target="_blank">
             <i class="fas fa-file-pdf"></i> Download/Open PDF
         </a>
     </div>
