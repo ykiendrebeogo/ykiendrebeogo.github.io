@@ -2,14 +2,27 @@ const puppeteer = require('puppeteer');
 
 (async () => {
     const browser = await puppeteer.launch({
-        headless: "new"
+        headless: "new",
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
     const page = await browser.newPage();
 
     // We assume the server is running on localhost:4000 as per user's state
-    const url = 'http://127.0.0.1:4000/cv_print/';
+    const path = require('path');
+    const fs = require('fs');
+
+    // Construct reference to the generated HTML file in _site
+    // This removes dependency on localhost:4000 being up
+    const buildDir = path.join(process.cwd(), '_site');
+    const htmlPath = path.join(buildDir, 'cv_print', 'index.html');
+    const url = `file://${htmlPath}`;
 
     console.log(`Generating PDF from ${url}...`);
+
+    if (!fs.existsSync(htmlPath)) {
+        console.error(`❌ Source HTML not found at ${htmlPath}. Ensure Jekyll has built the site.`);
+        process.exit(1);
+    }
 
     try {
         await page.goto(url, { waitUntil: 'networkidle0' });

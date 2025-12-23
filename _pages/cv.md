@@ -42,9 +42,15 @@ subtitle: ""
     @keyframes spin { 100% { transform: rotate(360deg); } }
   </style>
 
-  <div style="text-align: center;">
-    <div class="last-updated" title="Automatically updated on build">
+  <div style="text-align: center; margin-bottom: 20px;">
+    <div class="last-updated" title="Automatically updated on build" style="margin-bottom: 10px;">
       <i class="fa-solid fa-rotate"></i> Updated on {{ site.time | date: "%B %d, %Y" }}
+    </div>
+    <!-- Mobile-friendly fallback -->
+    <div>
+        <a href="{{ 'assets/pdf/cv_jaewon.pdf' | relative_url }}" class="btn z-depth-1" style="border: 1px solid #ddd;" target="_blank">
+            <i class="fas fa-file-pdf"></i> Download/Open PDF
+        </a>
     </div>
   </div>
   
