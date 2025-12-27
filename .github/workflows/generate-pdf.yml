@@ -21,7 +21,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: '3.3.5'
           bundler-cache: true
 
       - name: Setup Node
@@ -30,6 +30,12 @@ jobs:
           node-version: '18'
           cache: 'npm'
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+
       - name: Disable AppArmor
         run: echo 0 | sudo tee /proc/sys/kernel/apparmor_restrict_unprivileged_userns
 
@@ -37,6 +43,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y \
+            imagemagick \
             ca-certificates fonts-liberation libx11-6 libxcomposite1 libxcursor1 \
             libxdamage1 libxext6 libxfixes3 libxi6 libxtst6 libnss3 libglib2.0-0 \
             libasound2t64 libxrandr2 libpangocairo-1.0-0 libatk1.0-0 \
@@ -45,6 +52,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
+          pip3 install --upgrade nbconvert
           npm ci
           bundle install
 
