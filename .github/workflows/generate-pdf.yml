@@ -1,0 +1,56 @@
+name: Generate PDF
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'assets/pdf/**'
+      - 'README.md'
+      - '.github/workflows/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: |
+          npm install
+          bundle install
+
+      - name: Build Site
+        run: bundle exec jekyll build
+
+      - name: Generate PDF
+        run: npm run pdf
+
+      - name: Commit and Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Check if the PDF has changed
+          if [[ -n $(git status --porcelain assets/pdf/cv_jaewon.pdf) ]]; then
+            git add assets/pdf/cv_jaewon.pdf
+            git commit -m "Update CV PDF [skip ci]"
+            git push
+          else
+            echo "No changes to the PDF. Skipping commit."
+          fi
