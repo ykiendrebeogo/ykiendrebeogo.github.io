@@ -12,43 +12,43 @@ subtitle: "Automatically generated from [website content](https://j1yoo.github.i
 
 <html>
   <style>
-    /* Desktop: show iframe, hide preview */
-    .cv-iframe-container {
+    .responsive {
       width: 100%;
-      height: 85vh;
-      min-height: 600px;
+      height: 0;
+      padding-bottom: 129%; /* A4 aspect ratio (297/210) */
+      position: relative;
     }
-    .cv-iframe-container iframe {
+    .responsive iframe {
+      position: absolute;
       width: 100%;
       height: 100%;
       border: 1px solid #ddd;
       border-radius: 4px;
     }
-    .cv-mobile-preview {
-      display: none;
-    }
 
-    /* Mobile: hide iframe, show preview */
+    /* Mobile: hide iframe, show message */
     @media (max-width: 768px) {
-      .cv-iframe-container {
+      .responsive {
         display: none;
       }
-      .cv-mobile-preview {
+      .cv-mobile-message {
         display: block;
         text-align: center;
-      }
-      .cv-mobile-preview img {
-        max-width: 100%;
-        height: auto;
+        padding: 40px 20px;
+        background: var(--global-bg-color, #f8f9fa);
         border: 1px solid #ddd;
-        border-radius: 4px;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        border-radius: 8px;
+        margin-top: 10px;
       }
-      .cv-mobile-notice {
-        font-size: 0.85rem;
+      .cv-mobile-message p {
         color: #666;
-        margin-top: 12px;
-        font-style: italic;
+        margin: 0;
+        font-size: 0.95rem;
+      }
+    }
+    @media (min-width: 769px) {
+      .cv-mobile-message {
+        display: none;
       }
     }
 
@@ -100,15 +100,12 @@ subtitle: "Automatically generated from [website content](https://j1yoo.github.i
   </div>
 
   <!-- Desktop: Interactive PDF iframe -->
-  <div class="cv-iframe-container">
+  <div class="responsive">
     <iframe src="{{ 'assets/pdf/cv_jaewon.pdf' | relative_url }}"></iframe>
   </div>
 
-  <!-- Mobile: Image preview -->
-  <div class="cv-mobile-preview">
-    <a href="{{ 'assets/pdf/cv_jaewon.pdf' | relative_url }}" target="_blank">
-      <img src="{{ 'assets/pdf/cv_preview.png' | relative_url }}" alt="CV Preview - Tap to open full PDF">
-    </a>
-    <p class="cv-mobile-notice">Tap the image or button above to view the full CV</p>
+  <!-- Mobile: Clean message instead of broken iframe -->
+  <div class="cv-mobile-message">
+    <p><i class="fas fa-mobile-alt"></i> Use the button above to view the full CV on mobile devices.</p>
   </div>
 </html>
