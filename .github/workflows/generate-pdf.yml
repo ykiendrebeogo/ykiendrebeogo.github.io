@@ -7,7 +7,7 @@ on:
     paths-ignore:
       - 'assets/pdf/**'
       - 'README.md'
-      - '.github/workflows/**'
+  workflow_dispatch:  # Allow manual triggering for testing
 
 jobs:
   build:
@@ -30,10 +30,18 @@ jobs:
           node-version: '18'
           cache: 'npm'
 
+      - name: Disable AppArmor
+        run: echo 0 | sudo tee /proc/sys/kernel/apparmor_restrict_unprivileged_userns
+
       - name: Install System Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y ca-certificates fonts-liberation libasound2 libatk-bridge2.0-0 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgbm1 libgcc1 libglib2.0-0 libgtk-3-0 libnspr4 libnss3 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 lsb-release wget xdg-utils
+          sudo apt-get install -y \
+            ca-certificates fonts-liberation libx11-6 libxcomposite1 libxcursor1 \
+            libxdamage1 libxext6 libxfixes3 libxi6 libxtst6 libnss3 libglib2.0-0 \
+            libasound2t64 libxrandr2 libpangocairo-1.0-0 libatk1.0-0 \
+            libatk-bridge2.0-0 libcups2 libdbus-1-3 libdrm2 libgbm1 \
+            libnspr4 libpango-1.0-0 lsb-release wget xdg-utils
 
       - name: Install Dependencies
         run: |
