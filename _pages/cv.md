@@ -5,7 +5,7 @@ title: cv
 nav: true
 nav_order: 10
 description: ""
-subtitle: ""
+subtitle: "Automatically generated from the content of this website (j1yoo.github.io) using Jekyll and Puppeteer via GitHub Actions."
 # toc:
 #   sidebar: left
 ---
