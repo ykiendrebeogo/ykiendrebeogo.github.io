@@ -15,39 +15,18 @@ subtitle: "Automatically generated from [website content](https://j1yoo.github.i
     .responsive {
       width: 100%;
       height: 0;
-      padding-bottom: 129%; /* A4 aspect ratio (297/210) */
+      padding-bottom: 56.25%;
       position: relative;
     }
     .responsive iframe {
       position: absolute;
       width: 100%;
       height: 100%;
-      border: 1px solid #ddd;
-      border-radius: 4px;
     }
 
-    /* Mobile: hide iframe, show message */
+    /* Mobile: hide iframe (iOS Safari can't scroll multi-page PDFs in iframes) */
     @media (max-width: 768px) {
       .responsive {
-        display: none;
-      }
-      .cv-mobile-message {
-        display: block;
-        text-align: center;
-        padding: 40px 20px;
-        background: var(--global-bg-color, #f8f9fa);
-        border: 1px solid #ddd;
-        border-radius: 8px;
-        margin-top: 10px;
-      }
-      .cv-mobile-message p {
-        color: #666;
-        margin: 0;
-        font-size: 0.95rem;
-      }
-    }
-    @media (min-width: 769px) {
-      .cv-mobile-message {
         display: none;
       }
     }
@@ -104,8 +83,4 @@ subtitle: "Automatically generated from [website content](https://j1yoo.github.i
     <iframe src="{{ 'assets/pdf/cv_jaewon.pdf' | relative_url }}"></iframe>
   </div>
 
-  <!-- Mobile: Clean message instead of broken iframe -->
-  <div class="cv-mobile-message">
-    <p><i class="fas fa-mobile-alt"></i> Use the button above to view the full CV on mobile devices.</p>
-  </div>
 </html>
