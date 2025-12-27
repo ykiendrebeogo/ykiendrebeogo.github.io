@@ -181,6 +181,7 @@ exclude:
   - CUSTOMIZE.md
   - Dockerfile
   - docker-compose.yml
+  - assets/pdf/cv_jaewon.pdf
   - docker-compose-slim.yml
   - FAQ.md
   - Gemfile
