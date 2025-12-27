@@ -12,17 +12,46 @@ subtitle: "Automatically generated from [website content](https://j1yoo.github.i
 
 <html>
   <style>
-    .responsive {
+    /* Desktop: show iframe, hide preview */
+    .cv-iframe-container {
       width: 100%;
-      height: 0;
-      padding-bottom: 56.25%;
-      position: relative;
+      height: 85vh;
+      min-height: 600px;
     }
-    .responsive iframe {
-      position: absolute;
+    .cv-iframe-container iframe {
       width: 100%;
       height: 100%;
+      border: 1px solid #ddd;
+      border-radius: 4px;
     }
+    .cv-mobile-preview {
+      display: none;
+    }
+
+    /* Mobile: hide iframe, show preview */
+    @media (max-width: 768px) {
+      .cv-iframe-container {
+        display: none;
+      }
+      .cv-mobile-preview {
+        display: block;
+        text-align: center;
+      }
+      .cv-mobile-preview img {
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      }
+      .cv-mobile-notice {
+        font-size: 0.85rem;
+        color: #666;
+        margin-top: 12px;
+        font-style: italic;
+      }
+    }
+
     .last-updated {
       font-size: 0.9rem;
       color: #888;
@@ -40,7 +69,7 @@ subtitle: "Automatically generated from [website content](https://j1yoo.github.i
       animation: spin 1s linear infinite;
     }
     @keyframes spin { 100% { transform: rotate(360deg); } }
-    
+
     /* Custom Theme Button to match al-folio bibliography style */
     .btn-theme {
       color: var(--global-text-color);
@@ -63,15 +92,23 @@ subtitle: "Automatically generated from [website content](https://j1yoo.github.i
     <div class="last-updated" title="Automatically updated on build" style="margin-bottom: 10px;">
       <i class="fa-solid fa-rotate"></i> Updated on {{ site.time | date: "%B %d, %Y" }}
     </div>
-    <!-- Mobile-friendly fallback -->
     <div>
         <a href="{{ 'assets/pdf/cv_jaewon.pdf' | relative_url }}" class="btn btn-theme z-depth-0" target="_blank">
             <i class="fas fa-file-pdf"></i> Download/Open PDF
         </a>
     </div>
   </div>
-  
-  <div class="responsive">
-    <iframe src="{{ 'assets/pdf/cv_jaewon.pdf' | relative_url }}" width="750" height="650"></iframe>
+
+  <!-- Desktop: Interactive PDF iframe -->
+  <div class="cv-iframe-container">
+    <iframe src="{{ 'assets/pdf/cv_jaewon.pdf' | relative_url }}"></iframe>
+  </div>
+
+  <!-- Mobile: Image preview -->
+  <div class="cv-mobile-preview">
+    <a href="{{ 'assets/pdf/cv_jaewon.pdf' | relative_url }}" target="_blank">
+      <img src="{{ 'assets/pdf/cv_preview.png' | relative_url }}" alt="CV Preview - Tap to open full PDF">
+    </a>
+    <p class="cv-mobile-notice">Tap the image or button above to view the full CV</p>
   </div>
 </html>
