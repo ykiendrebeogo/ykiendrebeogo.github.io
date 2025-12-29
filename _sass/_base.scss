@@ -809,6 +809,50 @@ footer.sticky-bottom {
     div.thesis.hidden.open {
       border-color: var(--global-text-color);
     }
+
+    // Podcast player styles
+    div.podcast.hidden {
+      border: dashed 1px var(--global-bg-color);
+    }
+
+    div.podcast.hidden.open {
+      border-color: var(--global-theme-color);
+    }
+
+    .podcast-player {
+      padding: 10px 0;
+      text-align: left;
+    }
+
+    .podcast-info {
+      font-size: 0.9em;
+      color: var(--global-text-color-light);
+      a {
+        color: var(--global-theme-color);
+      }
+    }
+
+    // Video player styles
+    div.video.hidden {
+      border: dashed 1px var(--global-bg-color);
+    }
+
+    div.video.hidden.open {
+      border-color: var(--global-theme-color);
+    }
+
+    .video-player {
+      padding: 10px 0;
+      text-align: left;
+    }
+
+    .video-info {
+      font-size: 0.9em;
+      color: var(--global-text-color-light);
+      a {
+        color: var(--global-theme-color);
+      }
+    }
   }
 
   h1 {

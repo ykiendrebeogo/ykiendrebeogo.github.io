@@ -205,6 +205,12 @@
           {%- if entry.altmetric %}
             <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-altmetric-id="{{ entry.altmetric }}" class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-popover="right" data-badge-type="2" style="display:inline"></div>
           {%- endif %}
+          {%- if entry.podcast %}
+            <a class="podcast btn btn-sm z-depth-0" role="button" onclick="if(typeof gtag==='function')gtag('event','podcast_play',{paper_id:'{{entry.key}}'});">Podcast (KR)</a>
+          {%- endif %}
+          {%- if entry.video %}
+            <a class="video btn btn-sm z-depth-0" role="button" onclick="if(typeof gtag==='function')gtag('event','video_play',{paper_id:'{{entry.key}}'});">Video</a>
+          {%- endif %}
           </div>
 
           {% if entry.abstract -%}
@@ -218,6 +224,56 @@
           <!-- Hidden bibtex block -->
           <div class="bibtex hidden">
             {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
+          </div>
+          {%- endif %}
+
+          {%- if entry.podcast %}
+          <!-- Hidden podcast block -->
+          <div class="podcast hidden">
+            <div class="podcast-player">
+              <div class="podcast-info">AI Podcast (KR) - Generated with <a href="https://notebooklm.google/" target="_blank">NotebookLM</a></div>
+              <audio controls preload="none" style="width: 100%; margin-top: 8px;">
+                {%- if entry.podcast contains '://' %}
+                <source src="{{ entry.podcast }}" type="audio/mp4">
+                {%- else %}
+                <source src="{{ entry.podcast | prepend: '/assets/ai_podcasts/' | relative_url }}" type="audio/mp4">
+                {%- endif %}
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          </div>
+          {%- endif %}
+
+          {%- if entry.video %}
+          <!-- Hidden video block -->
+          <div class="video hidden">
+            <div class="video-player">
+              <div class="video-info">Generated with <a href="https://notebooklm.google/" target="_blank">NotebookLM</a></div>
+              {%- if entry.video contains '.mp4' or entry.video contains '.webm' or entry.video contains '.mov' %}
+              <!-- Local video file -->
+              <video controls preload="none" style="width: 100%; max-width: 640px; margin-top: 8px;">
+                {%- if entry.video contains '://' %}
+                <source src="{{ entry.video }}" type="video/mp4">
+                {%- else %}
+                <source src="{{ entry.video | prepend: '/assets/ai_videos/' | relative_url }}" type="video/mp4">
+                {%- endif %}
+                Your browser does not support the video element.
+              </video>
+              {%- else %}
+              <!-- YouTube embed (video ID) -->
+              <div class="youtube-container" style="margin-top: 8px;">
+                <iframe
+                  width="640"
+                  height="360"
+                  src="https://www.youtube.com/embed/{{ entry.video }}?rel=0"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  style="max-width: 100%;">
+                </iframe>
+              </div>
+              {%- endif %}
+            </div>
           </div>
           {%- endif %}
         </div>

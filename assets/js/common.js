@@ -5,24 +5,50 @@ $(document).ready(function () {
     $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
     $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
     $(this).parent().parent().find(".thesis.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".podcast.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".video.hidden.open").toggleClass("open");
   });
   $("a.award").click(function () {
     $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
     $(this).parent().parent().find(".award.hidden").toggleClass("open");
     $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
     $(this).parent().parent().find(".thesis.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".podcast.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".video.hidden.open").toggleClass("open");
   });
   $("a.bibtex").click(function () {
     $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
     $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
     $(this).parent().parent().find(".bibtex.hidden").toggleClass("open");
     $(this).parent().parent().find(".thesis.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".podcast.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".video.hidden.open").toggleClass("open");
   });
   $("a.thesis").click(function () {
     $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
     $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
     $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
     $(this).parent().parent().find(".thesis.hidden").toggleClass("open");
+    $(this).parent().parent().find(".podcast.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".video.hidden.open").toggleClass("open");
+  });
+  // Podcast button
+  $("a.podcast").click(function () {
+    $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".thesis.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".video.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".podcast.hidden").toggleClass("open");
+  });
+  // Video button
+  $("a.video").click(function () {
+    $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".thesis.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".podcast.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".video.hidden").toggleClass("open");
   });
   $("a").removeClass("waves-effect waves-light");
 
