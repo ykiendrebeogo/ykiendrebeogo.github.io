@@ -29,7 +29,7 @@ latest_posts:
 
 Before joining NTHU, I was a visiting postdoc fellow at the [Center of Business Education and Research](https://cber.shanghai.nyu.edu/), <a href='https://shanghai.nyu.edu/'>New York University (NYU) Shanghai</a> where I was advised by <a href='https://shanghai.nyu.edu/academics/faculty/directory/yuxin-chen'>Dr. Yuxin Chen</a>. I received my Ph.D. from the <a href='https://btm.kaist.ac.kr/en/'>School of Business and Technology Management</a>, <a href='https://www.business.kaist.edu/'>KAIST College of Business</a>, <a href='https://www.kaist.ac.kr/en/'>KAIST</a> where I was advised by <a href='https://wjkim.kaist.ac.kr/'>Dr. Wonjoon Kim</a>.
 
-My research investigates the following question:
+My [research]({% link _pages/publications.md %}) investigates the following question:
 
 > How do platform and technology design choices shape user/consumer behavior and market outcomes through frictions in decision-making and execution, such as search and evaluation costs, transaction costs, uncertainty, and attention allocation?
 {:.research-question}
