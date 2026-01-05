@@ -29,7 +29,22 @@ videos:
   - title: "Lecture 6: Causality"
     id: "PLZ-20Y9GiPbm3n2nmqfaJXFzI0YErZt-m"
 
-materials: []
+materials:
+  - title: "Lecture 1: Course Intro"
+  - title: "Lecture 2: R Programming Basics"
+  - title: "Lecture 3: Data Types & Visualization I"
+  - title: "Lecture 4: User Defined Functions & Visualization II"
+  - title: "Lecture 5: Data Wrangling"
+  - title: "Lecture 6: Causality"
+  - title: "Lecture 7: Bivariate Relationships & Tidying Data"
+  - title: "Lecture 8: Prediction and Iteration"
+  - title: "Lecture 9: Regression and Model Fit"
+  - title: "Lecture 10: More on Regression"
+  - title: "Lecture 11: Sampling and Sampling Distributions"
+  - title: "Lecture 12: The Bootstrap and CIs"
+  - title: "Lecture 13: Hypothesis Testing"
+  - title: "Lecture 14: Models of Uncertainty"
+  - title: "Lecture 15: Inference for Regression"
 ---
 ## Course Description
 This course leverages R to equip students with the fundamental skills required for robust business data analysis. It addresses both practical programming skills and the conceptual understanding necessary to apply data science effectively in business contexts.
