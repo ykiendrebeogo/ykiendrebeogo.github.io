@@ -39,7 +39,7 @@ This reframing is profound. It shifts the focus of empirical work from "controll
 
 **If you can’t manipulate it, you can’t estimate its effect.**
 
-For a potential outcome like $Y_i(d)$ to be conceptually coherent, the treatment $d$ must be something that is, at least in principle, manipulable. This idea is captured in the influential motto from Paul Holland (1986):
+For a potential outcome like $Y_i(d)$ to be conceptually coherent, the treatment $d$ must be something that is, at least in principle, manipulable. This idea is captured in the influential motto from [Paul Holland (1986)](https://www.jstor.org/stable/2289064):
 
 > "No causation without manipulation"
 {:.research-question}
@@ -59,7 +59,7 @@ In each case, the focus shifts from an immutable trait to a manipulable action o
 
 **Beware of post-treatment bias, especially when treatment affects existence.**
 
-One of the most subtle but critical challenges in causal inference arises when the treatment itself affects whether the outcome can even be observed. This is often called a "truncation" problem (where "death" is a metaphor for the outcome being unobservable), and it creates a thorny form of post-treatment bias.
+One of the most subtle but critical challenges in causal inference arises when the treatment itself affects whether the outcome can even be observed. This is often called a "truncation" problem (where "death" is a metaphor for the outcome being unobservable; [Zhang & Rubin 2003](https://www.jstor.org/stable/3701340)), and it creates a thorny form of post-treatment bias.
 
 Consider a study estimating the effect of a job training program on wages. The outcome, wages ($Y_i$), is only observable for individuals who are employed. The problem is that the job training program ($D_i$) might also affect the likelihood of being employed in the first place. If the program is successful, it might help previously unemployed people find jobs, even if those jobs are at the lower end of the wage scale.
 
