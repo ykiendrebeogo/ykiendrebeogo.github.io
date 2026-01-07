@@ -14,11 +14,11 @@ The central challenge is that the assumption itself doesn't prescribe a method f
 
 ---
 
-## 2. Three Counterintuitive Lessons from Causal Graphs
+## Three Counterintuitive Lessons from Causal Graphs
 
 DAGs force us to confront our statistical intuitions, some of which can be misleading. By visualizing causal relationships, we learn that the path to an unbiased estimate is not always paved with *more* control variables.
 
-### 2.1 Conditioning on a common effect can create spurious associations.
+### Conditioning on a common effect can create spurious associations.
 
 One of the most fundamental and surprising lessons from DAGs involves the **"collider."** A collider is a variable that is a common effect of two other variables (e.g., $D \rightarrow X \leftarrow Y$). In this structure, the two causes, $D$ and $Y$, are **unconditionally independent** of each other. However, once you condition on the collider $X$, they become **conditionally dependent**. Controlling for a common effect can actively introduce a spurious association that did not previously exist.
 
@@ -28,7 +28,7 @@ An intuitive example is a system with two independent light switches controlling
 
 This phenomenon is not just a toy example. Consider a social science case where **Education ($D$)** and **prior Work Experience ($Y$)** are two independent predictors of **being hired for a job ($X$)**. Among the general population, there's no reason to think education levels and experience are correlated. However, if we analyze only the sample of people who were hired (conditioning on the collider $X$), a negative correlation will likely appear. A person with low education who got hired must have had high experience, and a person with low experience must have had high education. Conditioning on being hired creates a spurious trade-off between two otherwise independent variables.
 
-### 2.2 The goal is to block non-causal paths, not just add controls.
+### The goal is to block non-causal paths, not just add controls.
 
 The primary source of confounding bias is the presence of **"backdoor paths"**—non-causal pathways that connect the treatment $D$ to the outcome $Y$. The classic confounder structure, $D \leftarrow X \rightarrow Y$, is a prime example. In this scenario, $X$ is a common cause of both $D$ and $Y$, creating a non-causal association between them.
 
@@ -39,7 +39,7 @@ The purpose of conditioning on covariates is to **"block"** all such backdoor pa
 
 The second condition prevents **"post-treatment bias."** This occurs when we control for a variable that is caused by the treatment itself (a mediator), effectively blocking part of the causal effect we are trying to measure. The Backdoor Criterion provides a clear prescription for not only what we must control for (variables that block backdoor paths) but also what we must *not* control for (descendants of the treatment and, as we will see, certain other variables).
 
-### 2.3 Even pre-treatment variables can be harmful controls.
+### Even pre-treatment variables can be harmful controls.
 
 Perhaps the most controversial lesson from DAGs is that even pre-treatment variables can be problematic controls. In fact, not all backdoor paths induce confounding. This is illustrated by a structure known as **"M-bias."** 
 
@@ -53,7 +53,7 @@ What this reveals is not a minor technical disagreement, but a fundamental diffe
 
 ---
 
-## Conclusion: From Statistical Ritual to Causal Reasoning
+## From Statistical Ritual to Causal Reasoning
 
 Directed Acyclic Graphs shift the practice of covariate selection from a statistical ritual of "controlling for everything" to a deliberate process of **causal reasoning**. They provide a clear, visual language for articulating and defending the assumed data-generating process that underpins any causal claim. 
 
