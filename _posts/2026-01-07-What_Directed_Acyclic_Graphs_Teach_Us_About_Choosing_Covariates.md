@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What Directed Acyclic Graphs Teach Us About Choosing Covariates"
+title: "What Directed Acyclic Graphs (DAGs) Teach Us About Choosing Covariates"
 categories: Research
 tag: Research
 
