@@ -76,6 +76,6 @@ The statistical illusion arises because the "helped" stratum—who likely have l
 
 ---
 
-## Conclusion: A Framework for Thinking
+## A Framework for Thinking
 
 These three insights—framing causality as a missing data problem, demanding manipulability in our treatments, and carefully defining effects when the treatment creates the conditions for observation—are pillars of the modern approach to causal inference. They reveal that the potential outcomes framework is not just a statistical tool for generating estimates; it is a conceptual tool for clarifying thought. It forces us to move from vague associations to precise causal questions. It demands that we be transparent about our assumptions and rigorous in defining the counterfactual world we are invoking. The next time you formulate a research question, ask yourself: what are the unobserved counterfactuals, and what is the hypothetical manipulation required to reveal them? The answer will set you on the path to a more credible conclusion.
