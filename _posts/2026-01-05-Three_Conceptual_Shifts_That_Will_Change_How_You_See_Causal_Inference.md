@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Three Conceptual Shifts That Will Change How You See Causal Inference"
+title: "Three Fundamental Conceptual Shifts in Causal Inference"
 categories: Research
 tag: Research
 mermaid:
