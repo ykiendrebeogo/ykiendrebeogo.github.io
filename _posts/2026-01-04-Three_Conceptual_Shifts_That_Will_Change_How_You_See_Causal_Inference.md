@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Three Fundamental Conceptual Shifts in Causal Inference"
-categories: Research
-tag: Research
+categories: Note
+tags: [Causal Inference]
 mermaid:
   enabled: true
 ---

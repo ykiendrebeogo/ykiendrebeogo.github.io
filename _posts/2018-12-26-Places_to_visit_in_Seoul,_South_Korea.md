@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Places to visit in Seoul, South Korea"
-categories: misc
+categories: Note
+tags: [Travel]
 ---
 
 _**If you want to drink out and enjoy the city life:**_

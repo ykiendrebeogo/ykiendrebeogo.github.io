@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Scraping the Online Job Posting Data: 'Indeed.com'"
-categories: Research
-tag: Research
+categories: Tutorial
+tags: [Web Scraping, R]
 ---
 
 _p.s., This is still a work-in-progress._

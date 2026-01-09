@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Collection of Useful Packages, Cheat Sheets (R and Python), and Tips"
-categories: Research
-tag: Research
+categories: Note
+tags: [R, Python]
 ---
 
 ### Web scrapping:

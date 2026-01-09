@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Crawling the Annual Reports (i.e., 10-Ks) using R"
-categories: Research
-tag: Research
+categories: Tutorial
+tags: [Web Scraping, R]
 ---
 
 ### Terminal and tmux:

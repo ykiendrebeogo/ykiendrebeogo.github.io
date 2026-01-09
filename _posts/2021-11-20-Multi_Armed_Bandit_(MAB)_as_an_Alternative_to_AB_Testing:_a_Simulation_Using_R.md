@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Multi-Armed Bandit (MAB) as an Alternative to A/B Testing: a Simulation using R"
-categories: Research
-tag: Research
+categories: Simulation
+tags: [Machine Learning, Statistics, R]
 ---
 
 Imagine an e-commerce retailer that wants to optimize its checkout process or an advertising agency that is trying to make an optimal advertising decision. This is often done in a *test-and-learn* framework via what is popularly known as A/B testing. In 2019, nearly half of the firms in the US (\\(\\approx 44\\%\\)) were using A/B testing softwares ([Saleh 2020](https://www.invespcro.com/blog/the-state-of-ab-testing/)). In an A/B test, firms equally / randomly divide their customer base into two or more groups each of which are assigned to different versions of what is being tested, e.g., layouts in a landing page or ad versions (explore phase). After finishing the test, firms then use the best performing version of ad / layout (exploit phase). What this means is a large number of customers will be served a suboptimal variant during the test phase which inevitably generates an opportunity cost. Firms can overcome this apparent limitation and do better by *earning-while-learning* using MAB ([Schwartz et al. 2017](https://pubsonline.informs.org/doi/abs/10.1287/mksc.2016.1023)).
