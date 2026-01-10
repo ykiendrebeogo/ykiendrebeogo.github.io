@@ -561,6 +561,22 @@ footer.sticky-bottom {
   }
 }
 
+// Particles.js background
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: transparent;
+  display: none;
+}
+
+html[data-theme="dark"] #particles-js {
+  display: block;
+}
+
 .tag-category-list {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;

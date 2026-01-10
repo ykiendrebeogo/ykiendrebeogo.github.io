@@ -17,6 +17,9 @@
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    <!-- Particles.js container -->
+    <div id="particles-js"></div>
+
     <!-- Header -->
     {% include header.liquid %}
 
@@ -55,5 +58,43 @@
 
     <!-- JavaScripts -->
     {% include scripts.liquid %}
+
+    <!-- Particles.js scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Only initialize particles in dark mode
+        function initParticles() {
+          var theme = document.documentElement.getAttribute('data-theme');
+          var particlesEl = document.getElementById('particles-js');
+
+          if (theme === 'dark') {
+            particlesEl.style.display = 'block';
+            if (!window.pJSDom || window.pJSDom.length === 0) {
+              particlesJS.load('particles-js', '{{ "/assets/json/particles.json" | relative_url }}');
+            }
+          } else {
+            particlesEl.style.display = 'none';
+            if (window.pJSDom && window.pJSDom.length > 0) {
+              window.pJSDom[0].pJS.fn.vendors.destroypJS();
+              window.pJSDom = [];
+            }
+          }
+        }
+
+        // Initialize on load
+        initParticles();
+
+        // Watch for theme changes
+        var observer = new MutationObserver(function(mutations) {
+          mutations.forEach(function(mutation) {
+            if (mutation.attributeName === 'data-theme') {
+              initParticles();
+            }
+          });
+        });
+        observer.observe(document.documentElement, { attributes: true });
+      });
+    </script>
   </body>
 </html>
