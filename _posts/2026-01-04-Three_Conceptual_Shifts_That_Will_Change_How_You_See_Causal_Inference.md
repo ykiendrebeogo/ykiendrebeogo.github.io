@@ -9,7 +9,7 @@ mermaid:
 
 For decades, making causal claims in the social sciences often followed a familiar pattern. Researchers would run a regression with a long list of control variables—the so-called "kitchen sink" approach—find a statistically significant coefficient, and then describe the result using causal weasel words. Phrases like "associated with," "is linked to," or "predicts" were used to hint at a causal relationship without explicitly claiming one, leaving the reader to fill in the blanks.
 
-The modern approach to causal inference, often called the ["credibility revolution"](https://www.aeaweb.org/articles?id=10.1257/jep.24.2.3), demands more. It insists that researchers move beyond ambiguous language and be transparent about the logic underpinning their causal claims. This revolution is less about mastering a specific set of statistical techniques and more about adopting a new way of thinking—a framework for asking causal questions with precision. At its heart is a simple but powerful equation from economist Charles Manski:
+The modern approach to causal inference, often called the ["credibility revolution"](https://www.aeaweb.org/articles?id=10.1257/jep.24.2.3), demands more. It insists that researchers move beyond ambiguous language and be transparent about the logic underpinning their causal claims. This revolution is less about mastering a specific set of statistical techniques and more about adopting a new way of thinking—a framework for asking causal questions with precision. At its heart is a simple but powerful equation from economist [Charles Manski (2018)](https://www.pnas.org/doi/10.1073/pnas.1722389115):
 
 > "data + assumptions = conclusions"
 {:.research-question}
