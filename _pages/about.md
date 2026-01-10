@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <span class="wave-emoji">👋</span> Hi, my name is 유재원 ("Jay-One"; 兪在元, Yú Zài-Yuán) and I am an Assistant Professor at the <a href='https://www.iss.nthu.edu.tw'>Institute of Service Science</a> in the <a href='http://www.ctm.nthu.edu.tw/'>College of Technology Management</a>, <a href='https://nthu-en.site.nthu.edu.tw/'>National Tsing Hua University (NTHU)</a> where I teach <a href='/teaching/'>courses</a> related to business analytics and causal inference using experimental and observational studies.
+subtitle: <span class="wave-emoji">👋</span> Hi, my name is 유재원 ("Jay-One"; 兪在元, Yú Zài-Yuán) and I am an Assistant Professor at the <a href='https://www.iss.nthu.edu.tw'>Institute of Service Science</a> in the <a href='http://www.ctm.nthu.edu.tw/'>College of Technology Management</a>, <a href='https://nthu-en.site.nthu.edu.tw/'>National Tsing Hua University (NTHU)</a> where I teach <a href='/teaching/'>courses</a> related to business analytics and causal inference using experimental and observational studies. Every now and then, I share thoughts on topics that interest me on my <a href='/blog/'>blog</a>.
 
 profile:
   align: right
