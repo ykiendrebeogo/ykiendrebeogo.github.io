@@ -125,6 +125,8 @@ external_sources:
     posts:
         - url: https://diddigest.substack.com/p/ddd-estimators-distributional-effects
           published_date: 2025-05-23
+          tags: [Causal Inference, Statistics]
+          categories: [Note]
 #   - name: Google Blog
 #     posts:
 #       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/

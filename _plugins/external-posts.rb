@@ -82,6 +82,8 @@ module ExternalPosts
       doc.data['description'] = content[:summary]
       doc.data['date'] = content[:published]
       doc.data['redirect'] = url
+      doc.data['tags'] = content[:tags] if content[:tags]
+      doc.data['categories'] = content[:categories] if content[:categories]
       doc.content = content[:content]
       site.collections['posts'].docs << doc
     end
@@ -104,7 +106,9 @@ module ExternalPosts
             title: post_data['title'],
             content: post_data['content'],
             summary: post_data['content'][0, 150] + '...',
-            published: Time.parse(post_data['published_date'].to_s).utc
+            published: Time.parse(post_data['published_date'].to_s).utc,
+            tags: post_config['tags'],
+            categories: post_config['categories']
           }
           create_document(site, src['name'], url, content)
         else
