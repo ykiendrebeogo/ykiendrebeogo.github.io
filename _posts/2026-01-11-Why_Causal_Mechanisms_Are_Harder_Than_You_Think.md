@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why Causal Mechanisms Are Harder Than You Think"
-description: The hidden costs of asking "how does it work?"—cross-world counterfactuals and heroic assumptions.
+description: "The hidden costs of explaining how something works: cross-world counterfactuals and heroic assumptions."
 categories: Note
 tags: [Causal Inference]
 ---
