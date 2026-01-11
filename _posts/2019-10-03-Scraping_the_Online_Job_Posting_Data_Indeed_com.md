@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Scraping the Online Job Posting Data: 'Indeed.com'"
+description: Collecting 100k+ AI job postings from Indeed using R for labor market research.
 categories: Tutorial
 tags: [Web Scraping, R]
 ---

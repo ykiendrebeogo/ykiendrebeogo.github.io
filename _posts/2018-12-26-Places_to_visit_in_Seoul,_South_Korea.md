@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Places to visit in Seoul, South Korea"
+description: A local's guide to nightlife, culture, and hidden gems in Korea's capital.
 categories: Note
 tags: [Travel]
 ---

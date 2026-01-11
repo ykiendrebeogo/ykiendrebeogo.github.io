@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Collection of Useful Packages, Cheat Sheets (R and Python), and Tips"
+description: A curated list of go-to packages and resources for data science workflows.
 categories: Note
 tags: [R, Python]
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Hand-Rolling OLS Using R"
+description: Deriving and coding OLS from scratch to understand what happens under the hood.
 categories: Tutorial
 tags: [Statistics, R]
 ---

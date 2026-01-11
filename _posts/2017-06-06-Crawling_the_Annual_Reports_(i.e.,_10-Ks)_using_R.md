@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Crawling the Annual Reports (i.e., 10-Ks) using R"
+description: Automating SEC filings extraction with R for large-scale text analysis.
 categories: Tutorial
 tags: [Web Scraping, R]
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Why Better Models Can Create Stranger Counterfactuals"
+description: When AI explanations respect real-world constraints, the "what-ifs" become fewer but more meaningful.
 categories: Note
 tags: [Explainable AI, Machine Learning]
 ---
