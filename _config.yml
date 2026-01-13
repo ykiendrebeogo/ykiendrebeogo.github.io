@@ -189,7 +189,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages", "_scripts"]
+include: ["_pages", "_scripts", "favicon.ico"]
 exclude:
   - bin/
   - CONTRIBUTING.md
