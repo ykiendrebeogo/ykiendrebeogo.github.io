@@ -165,12 +165,6 @@ collections:
     permalink: /teaching/:title/
   books:
     output: true
-  research_focus:
-    output: true
-    permalink: /research/:name/
-  methods:
-    output: true
-    permalink: /methods/:name/
   news:
     defaults:
       layout: post
