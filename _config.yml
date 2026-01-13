@@ -189,7 +189,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages", "_scripts", "favicon.ico"]
+include: ["_pages", "_scripts", "favicon.ico"] # ensure favicon.ico is included in build
 exclude:
   - bin/
   - CONTRIBUTING.md
