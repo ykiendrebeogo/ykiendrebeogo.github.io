@@ -7,7 +7,7 @@ first_name: Jaewon
 middle_name:
 last_name: Yoo
 contact_note: >
-  If you are interested in my research, feel free to contact me via any means listed above. 
+  If you are interested in my research, feel free to contact me via any means listed above.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -62,9 +62,23 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: /assets/img/prof_jaewon_yoo.jpg # The site-wide (default for all links) Open Graph preview image
+
+# -----------------------------------------------------------------------------
+# Schema.org Academic Enhancement
+# -----------------------------------------------------------------------------
+
+# Academic profile information
+academic_title: Assistant Professor
+academic_department: Institute of Service Science
+academic_institution: National Tsing Hua University
+academic_institution_url: https://www.iss.nthu.edu.tw
+academic_expertise:
+  ["Causal Inference", "Business Analytics", "Platform Economics", "Digital Markets", "Quasi-Experimental Methods", "Randomized Controlled Trials"]
+academic_languages: ["English", "Korean"]
+scholar_userid: 6vinVNUAAAAJ
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -78,7 +92,7 @@ pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: # your google-site-verification ID (Google Search Console)
+google_site_verification: # ADD YOUR CODE HERE after getting from Google Search Console
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
@@ -86,7 +100,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: # blog_name will be displayed in your blog page
-blog_description: 
+blog_description:
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -123,10 +137,10 @@ disqus_shortname: al-folio # put your disqus shortname
 external_sources:
   - name: substack.com
     posts:
-        - url: https://diddigest.substack.com/p/ddd-estimators-distributional-effects
-          published_date: 2025-05-23
-          tags: [Causal Inference, Statistics]
-          categories: [Note]
+      - url: https://diddigest.substack.com/p/ddd-estimators-distributional-effects
+        published_date: 2025-05-23
+        tags: [Causal Inference, Statistics]
+        categories: [Note]
 #   - name: Google Blog
 #     posts:
 #       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
@@ -151,13 +165,18 @@ collections:
     permalink: /teaching/:title/
   books:
     output: true
+  research_focus:
+    output: true
+    permalink: /research/:name/
+  methods:
+    output: true
+    permalink: /methods/:name/
   news:
     defaults:
       layout: post
     output: true
   projects:
     output: true
-
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
@@ -301,6 +320,9 @@ enable_publication_badges:
   dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
   google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
   inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
+
+# SEO Optimization
+# -----------------------------------------------------------------------------
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:

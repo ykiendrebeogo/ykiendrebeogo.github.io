@@ -42,6 +42,19 @@
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 {% if page.keywords or site.keywords %}
   <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
+  {% if site.academic_expertise and (page.url == '/' or page.url == '/about/') %}
+<!-- Academic-specific meta tags -->
+<meta name="citation_author" content="{{ author_name }}">
+<meta name="citation_affiliation" content="{{ site.academic_institution }}">
+<meta name="citation_keywords" content="{{ site.academic_expertise | join: ', ' }}">
+  {% endif %}
+{% endif %}
+
+<!-- Academic-specific meta tags -->
+{% if site.academic_title and (page.url == '/' or page.url == '/about/') %}
+<meta name="citation_author" content="{{ author_name }}">
+<meta name="citation_affiliation" content="{{ site.academic_institution }}">
+<meta name="citation_keywords" content="{% if site.academic_expertise %}{{ site.academic_expertise | join: ', ' }}{% endif %}">
 {% endif %}
 
 {% assign is_blog_post = false %}
@@ -222,20 +235,46 @@
 
   <script type="application/ld+json">
     {
-        "author":
-        {
-            "@type": "Person",
-            "name": "{{ author_name }}"
+        {% if page.url == '/' or page.url == '/about/' %}
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "{{ author_name }}",
+        {% if site.academic_title %}"jobTitle": "{{ site.academic_title }}",{% endif %}
+        {% if site.academic_department %}"affiliation": {
+            "@type": "Organization",
+            "name": "{{ site.academic_institution }}",
+            {% if site.academic_institution_url %}"url": "{{ site.academic_institution_url }}",{% endif %}
+            "department": "{{ site.academic_department }}"
+        },{% endif %}
+        {% if site.academic_expertise %}"knowsAbout": {{ site.academic_expertise | jsonify }},{% endif %}
+        {% if site.academic_languages %}"knowsLanguage": {{ site.academic_languages | jsonify }},{% endif %}
+        "sameAs": {{ sameaslinks }},
+        "url": "{{ site.url }}{{ site.baseurl }}",
+        "mainEntityOfPage": {
+            "@type": "WebSite",
+            "name": "{{ author_name }} - Academic Profile",
+            "url": "{{ site.url }}{{ site.baseurl }}"
+        }
+        {% else %}
+        "@context": "https://schema.org",
+        "@type": "{% if is_blog_post %}BlogPosting{% else %}WebPage{% endif %}",
+        "author": {
+            "@type": "Person", 
+            "name": "{{ author_name }}",
+            {% if site.academic_title %}"jobTitle": "{{ site.academic_title }}",{% endif %}
+            {% if site.academic_institution %}"affiliation": {
+                "@type": "Organization",
+                "name": "{{ site.academic_institution }}"
+            }{% endif %}
         },
         "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-        "@type": "{% if is_blog_post %}BlogPosting{% else %}WebSite{% endif %}",
         "description": "{% if page.description %}{{ page.description }}{% else if site.description %}{{ site.description }}{% endif %}",
         "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
         {% if sameaslinks != blank %}
         "sameAs": {{ sameaslinks }},
         {% endif %}
-        "name": "{{ author_name }}",
-        "@context": "https://schema.org"
+        "name": "{% if page.title %}{{ page.title }} | {{ author_name }}{% else %}{{ author_name }}{% endif %}"
+        {% endif %}
     }
   </script>
 {% endif %}
