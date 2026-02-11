@@ -52,9 +52,12 @@
     url: https://www.cbs.dk/en/research/departments-and-centres/department-of-digitalization/staff/trgrdigi/
 
 
-"Chen": 
+"Chen":
   - firstname: ["Yuxin", "Y."]
     url: https://shanghai.nyu.edu/academics/faculty/directory/yuxin-chen
+
+  - firstname: ["Po-An", "P.A."]
+    url: https://iim.nycu.edu.tw/en/teacher/chen-po-an
 
 "Chen*": 
   - firstname: ["Yuxin", "Y."]
@@ -103,6 +106,10 @@
 "Kang": 
   - firstname: ["Minjeong", "M.J."]
     url: https://www.linkedin.com/in/mjkang47?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+
+"Yang":
+  - firstname: ["Hao-Tsung", "H.T."]
+    url: https://sites.google.com/stonybrook.edu/haotyang/english?authuser=0
 
 "Liao":
   - firstname: ["Zhan-Yi", "Z.Y."]

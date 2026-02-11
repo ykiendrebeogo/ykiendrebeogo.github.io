@@ -20,6 +20,16 @@
   video={y7mWsSaXpN4},
 }
 
+@article{yoo2025optimization,
+  bibtex_show={true},
+  kind={working papers},
+  title={Structure-Aware Robust Counterfactual Explanations via Conditional Gaussian Network Classifiers},
+  author={Zhan-Yi Liao and Jaewon Yoo and Hao-Tsung Yang and Po-An Chen},
+  year={current},
+  arxiv={2602.08021},
+  abstract={Counterfactual explanation (CE) is a core technique in explainable artificial intelligence (XAI), widely used to interpret model decisions and suggest actionable alternatives. This work presents a structure-aware and robustness-oriented counterfactual search method based on the conditional Gaussian network classifier (CGNC). The CGNC has a generative structure that encodes conditional dependencies and potential causal relations among features through a directed acyclic graph (DAG). This structure naturally embeds feature relationships into the search process, eliminating the need for additional constraints to ensure consistency with the model's structural assumptions. We adopt a convergence-guaranteed cutting-set procedure as an adversarial optimization framework, which iteratively approximates solutions that satisfy global robustness conditions. To address the nonconvex quadratic structure induced by feature dependencies, we apply piecewise McCormick relaxation to reformulate the problem as a mixed-integer linear program (MILP), ensuring global optimality. Experimental results show that our method achieves strong robustness, with direct global optimization of the original formulation providing especially stable and efficient results. The proposed framework is extensible to more complex constraint settings, laying the groundwork for future advances in counterfactual reasoning under nonconvex quadratic formulations.}
+}
+
 @article{shmueli2025counterfactual,
       bibtex_show={true},
       kind={working papers},
@@ -50,7 +60,7 @@
   title={Why Do Direct-to-Physician Promotions by Pharmaceutical Firms Increase Over Time? Evidence from 464 Drugs},
   author={Sungjoon Nam and Minki Kim and Jaewon Yoo*},
   year={current},
-  journal={Under 1st Revise & Resubmit, <i>Journal of Business Research (SSCI/NSTC Mgmt. II Top Journal List)</i>},
+  journal={Under 2nd Revise & Resubmit, <i>Journal of Business Research (SSCI/NSTC Mgmt. II Top Journal List)</i>},
   selected={true},
   abstract={The pharmaceutical industry is well known for their enormous marketing expenditures, particularly on direct-to-physician promotions, also known as detailing. Whereas previous studies have typically concluded that firms should start with a high level of detailing and decrease those activities over time, we find that actual detailing activities do not follow the predicted down- sloping pattern but rather the opposite. Our unique data set (IMS Spectra data) shows that firms' detailing activities increased over time for approximately 40% of 464 drugs. This study sheds light on that discrepancy and the underlying reasons for it. We find that firms show increasing patterns of detailing activities when it takes longer to learn about a drug's efficacy and when uncertainty concerning future sales is higher. Of interest to policymakers, our results reveal that increases in detailing activity are not necessarily driven by excessive competition among pharmaceutical firms. Rather, increases in detailing activities are associated with the approval of drugs for new indications, which help to inform physicians' decisions about prescriptions.},
   abbr={JBR},
@@ -124,16 +134,8 @@
   video={CbzqEhEFY-k},
 }
 
-@article{yoo2025optimization,
-  bibtex_show={true},
-  kind={work-in-progress},
-  title={Structure-Aware Robust Counterfactual Explanations via Conditional Gaussian Network Classifiers},
-  year={current},
-  abstract={Counterfactual explanation (CE), a core technique in explainable AI (XAI), is widely used to interpret model decisions and suggest actionable alternatives. This paper proposes a structure-aware and robust counterfactual search method based on the Conditional Gaussian Network Classifier (CGNC). By modeling conditional dependencies among features via a graphical structure, CGNC naturally embeds variable relationships and generative logic into the search process, eliminating the need for additional feasibility constraints. Unlike most black-box approaches that overlook feature dependencies and data distributions, our method integrates these properties with perturbation robustness into the optimization process, ensuring consistency with the model's structure of feature dependencies. We employ a cutting-set algorithm to iteratively solve a master-adversary optimization problem, which terminates in a finite number of iterations. Starting from a nonconvex quadratic program introduced by the model, a piecewise relaxation can be applied to handle second-order terms, enabling reformulation into a mixed-integer linear program (MILP). Experiments show that even a global optimization of the original nonconvex quadratic problem yields stable and efficient results. The framework is extensible to more complex constraint settings and future work on other nonconvex quadratic programming designs.}
-}
 
 @article{yoo2025confounder,
-  bibtex_show={true},
   kind={work-in-progress},
   title={Improving Causal Identification with Explainable AI-Assisted Confounder Discovery},
   year={current},
@@ -141,7 +143,6 @@
 }
 
 @article{yoo2025synthetic,
-  bibtex_show={true},
   kind={work-in-progress},
   title={Can AI Dream Up a Control Group? Generating Synthetic Respondents to Reconstruct 
 Untreated Potential Outcomes},
