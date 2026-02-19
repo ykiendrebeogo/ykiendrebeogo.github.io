@@ -156,7 +156,7 @@ schedule_content: |
   - <span class="badge-read"><i class="fas fa-book-open"></i>Readings:</span> Imbens & Rubin Ch. 23–24; Angrist & Pischke Ch. 4
   <div class="schedule-deliverables">
   <i class="fas fa-users deliv-icon"></i> Paper Presentations: 2.1 and 2.2<br>
-  <span class="badge-due">Due:</span> Problem Set 5 (Observational Studies)<br>
+  <span class="badge-due">Due:</span> Problem Set 4 (Observational Studies)<br>
   <span class="badge-due">Due:</span> <em>The Effect</em> — CH 7: Drawing Causal Diagrams
   </div>
 
@@ -176,7 +176,7 @@ schedule_content: |
   - <span class="badge-read"><i class="fas fa-book-open"></i>Readings:</span> Angrist & Pischke Ch. 5; [Imai & Kim (2019)](https://doi.org/10.1111/ajps.12417)
   <div class="schedule-deliverables">
   <i class="fas fa-users deliv-icon"></i> Paper Presentations: 3.1 and 3.2<br>
-  <span class="badge-due">Due:</span> Problem Set 4 (Instrumental Variables)<br>
+  <span class="badge-due">Due:</span> Problem Set 5 (Instrumental Variables)<br>
   <span class="badge-due">Due:</span> Progress Report<br>
   <span class="badge-due">Due:</span> <em>The Effect</em> — CH 19: Instrumental Variables
   </div>
@@ -415,12 +415,15 @@ Students will review relevant research papers on each topic and actively engage 
 
 ## Prerequisites
 
-- **Math:** Undergraduate-level probability and statistics; some experience with regression analysis/econometrics is helpful
+- **Math:** Undergraduate-level probability and statistics; some experience with regression analysis/econometrics is helpful. Basic linear algebra is helpful for following textbook derivations.
 - **Programming:** Knowledge of statistical programming (e.g., R and Python)
 - **Recommended prior coursework:**
-  - ISS5077 Business Analytics using Computational Statistics (BACS) — covers hypothesis testing, regression, and applied statistical modeling; ideal preparation for this course.
-  - ECON3033 Econometrics I and ECON3034 Econometrics II — causal inference foundations and regression methodology.
+  - ISS5077 Computational Statistics for Data Science (CSDS) covers hypothesis testing, regression, and applied statistical modeling; ideal preparation for this course.
+  - ECON3033 Econometrics I and ECON3034 Econometrics II — regression methodology and empirical research designs.
   - ISS5066 Programming for Business Analytics (PBA) covers regression, statistical inference, and R programming, but students entering with PBA alone should expect a steeper learning curve.
+  - ISS5090 Business Analytics with Machine Learning (BAML) relevant background for the causal ML topics covered in Weeks 14–15.
+
+  Students may also be interested in ECON5099 Causal Inference in Econometrics, which covers related topics.
 
 ## Teaching Team
 

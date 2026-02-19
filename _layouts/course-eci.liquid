@@ -428,10 +428,26 @@
     /* ── Video embed ── */
     .video-card {
       margin-bottom: 1.5rem;
+      width: 75%;
     }
     .video-card h6 {
       margin-bottom: 0.5rem;
       font-weight: 600;
+    }
+    .video-responsive {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%; /* 16:9 */
+      height: 0;
+      overflow: hidden;
+    }
+    .video-responsive iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
     }
 
     /* ── Shared TOC layout (used by Schedule & Evaluation) ── */
@@ -559,7 +575,7 @@
   <nav class="eci-navbar">
     <div class="navbar-inner">
       <a href="{{ page.url | relative_url }}" class="site-title">{{ page.course_number }} · {{ page.semester }}</a>
-      <button class="mobile-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+      <button class="mobile-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
       <div class="nav-links">
         <a href="#overview" class="eci-nav-link active" data-section="overview">Overview</a>
         <a href="#schedule" class="eci-nav-link" data-section="schedule">Schedule</a>
@@ -650,14 +666,14 @@
         <h2 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 1rem;">Video Lectures</h2>
         <div class="row">
           {% for video in page.videos %}
-          <div class="col-md-8 video-card">
+          <div class="video-card">
             <h6>{{ video.title }}</h6>
-            <div class="embed-responsive embed-responsive-16by9">
+            <div class="video-responsive">
               {% assign vid_id = video.id | downcase %}
               {% if vid_id contains 'pl' or vid_id contains 'list=' %}
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list={{ video.id }}" allowfullscreen title="{{ video.title }}"></iframe>
+                <iframe src="https://www.youtube.com/embed/videoseries?list={{ video.id }}" allowfullscreen title="{{ video.title }}"></iframe>
               {% else %}
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ video.id }}" allowfullscreen title="{{ video.title }}"></iframe>
+                <iframe src="https://www.youtube.com/embed/{{ video.id }}" allowfullscreen title="{{ video.title }}"></iframe>
               {% endif %}
             </div>
           </div>
