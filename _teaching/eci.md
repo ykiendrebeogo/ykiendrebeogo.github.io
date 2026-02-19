@@ -417,6 +417,10 @@ Students will review relevant research papers on each topic and actively engage 
 
 - **Math:** Undergraduate-level probability and statistics; some experience with regression analysis/econometrics is helpful
 - **Programming:** Knowledge of statistical programming (e.g., R and Python)
+- **Recommended prior coursework:**
+  - ISS5077 Business Analytics using Computational Statistics (BACS) — covers hypothesis testing, regression, and applied statistical modeling; ideal preparation for this course.
+  - ECON3033 Econometrics I and ECON3034 Econometrics II — causal inference foundations and regression methodology.
+  - ISS5066 Programming for Business Analytics (PBA) covers regression, statistical inference, and R programming, but students entering with PBA alone should expect a steeper learning curve.
 
 ## Teaching Team
 
