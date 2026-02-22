@@ -12,6 +12,7 @@ location: "TSMC Bldg. R406"
 instructor_office: "TSMC Bldg. R828B"
 instructor_email: "jaewon.yoo [at] iss.nthu.edu.tw"
 communication: "All course communication goes through <strong>MS Teams</strong>. Check the Teams channel regularly for announcements, discussion threads, and updates. For private matters, email the instructor."
+og_image: https://j1yoo.github.io/assets/courses/eci/eci_logo.png
 syllabus: /assets/courses/eci/ECI_Syllabus.pdf
 logo: /assets/courses/eci/eci_logo.png
 
