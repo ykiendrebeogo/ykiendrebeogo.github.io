@@ -95,7 +95,8 @@ schedule_content: |
   - Sharp null, randomization distribution
   - <span class="badge-read"><i class="fas fa-book-open"></i>Readings:</span> Imbens & Rubin Ch. 5 (skim Ch. 4); Rosenbaum (2002) Ch. 2
   <div class="schedule-deliverables">
-  <i class="fas fa-clipboard-list deliv-icon"></i> <em>Find a collaborator for the group project</em>
+  <i class="fas fa-clipboard-list deliv-icon"></i> <em>Find a collaborator for the group project</em><br>
+  <span class="badge-due">Due:</span> <em>The Effect</em> CH 2: Research Questions
   </div>
 
   **Week 3 — Inference for the Average Treatment Effect**
@@ -104,7 +105,8 @@ schedule_content: |
   - Finite-sample vs superpopulation inference
   - <span class="badge-read"><i class="fas fa-book-open"></i>Readings:</span> Imbens & Rubin Ch. 6, 9, 10; Angrist & Pischke Ch. 2
   <div class="schedule-deliverables">
-  <span class="badge-due">Due:</span> Problem Set 1 (Potential Outcomes)
+  <span class="badge-due">Due:</span> Problem Set 1 (Potential Outcomes)<br>
+  <span class="badge-due">Due:</span> <em>The Effect</em> CH 3: Describing Variables
   </div>
 
   **Week 4 — Linear Regression and Randomized Experiments**
@@ -115,9 +117,7 @@ schedule_content: |
   <div class="schedule-deliverables">
   <i class="fas fa-users deliv-icon"></i> Paper Presentations: 1.1 and 1.2<br>
   <span class="badge-due">Due:</span> Problem Set 2 (Randomization Inference)<br>
-  <span class="badge-due">Due:</span> <em>The Effect</em> — CH 2: Research Questions<br>
-  <span class="badge-due">Due:</span> <em>The Effect</em> — CH 3: Describing Variables<br>
-  <span class="badge-due">Due:</span> <em>The Effect</em> — CH 4: Describing Relationships
+  <span class="badge-due">Due:</span> <em>The Effect</em> CH 4: Describing Relationships
   </div>
 
   ### Part II: Observational Studies
@@ -130,8 +130,8 @@ schedule_content: |
   <div class="schedule-deliverables">
   <i class="fas fa-users deliv-icon"></i> Paper Presentations: 1.3 and 1.4<br>
   <span class="badge-due">Due:</span> Problem Set 3 (Inference for the ATE)<br>
-  <span class="badge-due">Due:</span> Project Proposal (half-page description)<br>
-  <span class="badge-due">Due:</span> <em>The Effect</em> — CH 13: Regression
+  <span class="badge-due">Due:</span> <strong>Project Proposal</strong> (half-page description)<br>
+  <span class="badge-due">Due:</span> <em>The Effect</em> CH 13: Regression
   </div>
 
   **Week 6 — Observational Studies II**
@@ -140,12 +140,15 @@ schedule_content: |
   - Sensitivity analysis; Partial identification
   - <span class="badge-read"><i class="fas fa-book-open"></i>Readings:</span> Imbens & Rubin Ch. 21–22; Morgan & Winship Ch. 4 *(handout provided)*
   <div class="schedule-deliverables">
-  <i class="fas fa-clipboard-list deliv-icon"></i> <em>Construct a DAG for your own research project</em><br>
-  <span class="badge-due">Due:</span> <em>The Effect</em> — CH 6: Causal Diagrams
+  <i class="fas fa-clipboard-list deliv-icon"></i> <em>Construct a DAG for your own research project</em>
   </div>
 
   **Week 7 — In-Class Group Project Meetings**
   - 30 minutes per group to discuss and materialize project ideas/topics
+  <div class="schedule-deliverables">
+  <span class="badge-due">Due:</span> <em>The Effect</em> CH 6: Causal Diagrams<br>
+  <span class="badge-due">Due:</span> <em>The Effect</em> CH 7: Drawing Causal Diagrams
+  </div>
 
   ### Part III: Quasi-Experimental Methods
 
@@ -157,7 +160,7 @@ schedule_content: |
   <div class="schedule-deliverables">
   <i class="fas fa-users deliv-icon"></i> Paper Presentations: 2.1 and 2.2<br>
   <span class="badge-due">Due:</span> Problem Set 4 (Observational Studies)<br>
-  <span class="badge-due">Due:</span> <em>The Effect</em> — CH 7: Drawing Causal Diagrams
+  <span class="badge-due">Due:</span> <em>The Effect</em> CH 8: Causal Paths and Closing Back Doors
   </div>
 
   **Week 9 — Instrumental Variables II**
@@ -165,8 +168,7 @@ schedule_content: |
   - Two-stage least squares
   - Review of IV applications
   <div class="schedule-deliverables">
-  <i class="fas fa-users deliv-icon"></i> Paper Presentations: 2.3 and 2.4<br>
-  <span class="badge-due">Due:</span> <em>The Effect</em> — CH 8: Causal Paths and Closing Backdoors
+  <i class="fas fa-users deliv-icon"></i> Paper Presentations: 2.3 and 2.4
   </div>
 
   **Week 10 — Panel Data, Fixed Effects, and Difference-in-Differences**
@@ -177,15 +179,15 @@ schedule_content: |
   <div class="schedule-deliverables">
   <i class="fas fa-users deliv-icon"></i> Paper Presentations: 3.1 and 3.2<br>
   <span class="badge-due">Due:</span> Problem Set 5 (Instrumental Variables)<br>
-  <span class="badge-due">Due:</span> Progress Report<br>
-  <span class="badge-due">Due:</span> <em>The Effect</em> — CH 19: Instrumental Variables
+  <span class="badge-due">Due:</span> <strong>Progress Report</strong><br>
+  <span class="badge-due">Due:</span> <em>The Effect</em> CH 19: Instrumental Variables
   </div>
 
   **Week 11 — Difference-in-Differences Cont.**
   - Applications of difference-in-differences
   <div class="schedule-deliverables">
   <i class="fas fa-users deliv-icon"></i> Paper Presentations: 3.3 and 3.4<br>
-  <span class="badge-due">Due:</span> <em>The Effect</em> — CH 18: Difference-in-Differences
+  <span class="badge-due">Due:</span> <em>The Effect</em> CH 18: Difference-in-Differences
   </div>
 
   **Week 12 — Matching and Weighting Estimators**
@@ -193,8 +195,7 @@ schedule_content: |
   - Propensity scores, matching, and weighting
   - <span class="badge-read"><i class="fas fa-book-open"></i>Readings:</span> Imbens & Rubin Ch. 13, 15, 18; [Stuart (2010)](https://doi.org/10.1214/09-STS313)
   <div class="schedule-deliverables">
-  <i class="fas fa-users deliv-icon"></i> Paper Presentations: 4.1, 4.2, 4.3, and 4.4<br>
-  <span class="badge-due">Due:</span> <em>The Effect</em> — CH 14: Matching
+  <i class="fas fa-users deliv-icon"></i> Paper Presentations: 4.1, 4.2, 4.3, and 4.4
   </div>
 
   **Week 13 — Regression Discontinuity Designs**
@@ -204,7 +205,7 @@ schedule_content: |
   - <span class="badge-read"><i class="fas fa-book-open"></i>Readings:</span> Angrist & Pischke Ch. 6; [Imbens & Lemieux (2008)](https://doi.org/10.1016/j.jeconom.2007.05.001)
   <div class="schedule-deliverables">
   <i class="fas fa-users deliv-icon"></i> Paper Presentations: 5.1 and 5.2<br>
-  <span class="badge-due">Due:</span> <em>The Effect</em> — CH 20: Regression Discontinuity
+  <span class="badge-due">Due:</span> <em>The Effect</em> CH 14: Matching
   </div>
 
   **Week 14 — Regression Discontinuity Designs Cont.**
@@ -225,7 +226,8 @@ schedule_content: |
       - <span class="badge-read"><i class="fas fa-book-open"></i>Readings:</span> [Imai, Keele & Yamamoto (2010)](https://doi.org/10.1214/10-STS321); [Imai et al. (2011)](https://doi.org/10.1017/S0003055411000414); [Acharya, Blackwell & Sen (2016)](https://doi.org/10.1017/S0003055416000216)
   - **Option B — Causal Machine Learning:** Heterogeneous treatment effects, CATE estimation, causal forests, double/debiased ML
   <div class="schedule-deliverables">
-  <span class="badge-due">Due:</span> Final Report
+  <span class="badge-due">Due:</span> <em>The Effect</em> CH 20: Regression Discontinuity<br>
+  <span class="badge-due">Due:</span> <strong>Final Report</strong>
   </div>
 
   **Week 16 — Final Group Project Presentations**
