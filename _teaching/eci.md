@@ -420,13 +420,14 @@ Students will review relevant research papers on each topic and actively engage 
 
 - **Math:** Undergraduate-level probability and statistics; some experience with regression analysis/econometrics is helpful. Basic linear algebra is helpful for following textbook derivations.
 - **Programming:** Knowledge of statistical programming (e.g., R and Python)
-- **Recommended prior coursework:**
-  - ISS5077 Computational Statistics for Data Science (CSDS) covers hypothesis testing, regression, and applied statistical modeling; ideal preparation for this course.
-  - ECON3033 Econometrics I and ECON3034 Econometrics II — regression methodology and empirical research designs.
-  - ISS5066 Programming for Business Analytics (PBA) covers regression, statistical inference, and R programming, but students entering with PBA alone should expect a steeper learning curve.
-  - ISS5090 Business Analytics with Machine Learning (BAML) relevant background for the causal ML topics covered in Weeks 14–15.
+- **Recommended prior coursework (ISS):**
+  - ISS5066 Programming for Business Analytics (PBA) covers statistical inference, R programming, and an introduction to causal inference including potential outcomes and difference-in-differences — all directly relevant to ECI. ECI goes considerably deeper, with more formal notation and careful assumption-based reasoning. Students entering with PBA will find the foundational concepts familiar, but should expect to engage more rigorously with the underlying theory. Qualified undergraduates and graduate students from other departments are welcome to join the class.
+  - ISS5077 Computational Statistics for Data Science (CSDS) covers hypothesis testing, regression, and applied statistical modeling and will provide a strong background for the statistical foundations covered in this course.
+  - ISS5090 Business Analytics with Machine Learning (BAML) covers supervised and unsupervised learning methods including trees, random forests, and neural networks and will provide helpful background for the causal ML topics covered in Weeks 14–15.
 
-  Students may also be interested in ECON5099 Causal Inference in Econometrics, which covers related topics.
+- **Related coursework in other departments:**
+  - ECON3033 Econometrics I and ECON3034 Econometrics II — regression methodology and empirical research designs.
+  - ECON5099 Causal Inference in Econometrics covers related topics.
 
 ## Teaching Team
 
