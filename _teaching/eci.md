@@ -452,7 +452,7 @@ Students will review relevant research papers on each topic and actively engage 
 
 ## MS Teams Integration
 
-This course uses **MS Teams** alongside this website:
+This course uses **[MS Teams](https://teams.microsoft.com/l/team/19%3AJP2R-tTEDQeUB1xDpd33-nu4Qo21bv_c8NkSr5XxMaM1%40thread.tacv2/conversations?groupId=b48faca7-6855-4284-b7ef-b9ba){:target="_blank"}** alongside this website:
 
 | Purpose | Platform |
 |:--------|:---------|
