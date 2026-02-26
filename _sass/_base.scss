@@ -719,19 +719,41 @@ html[data-theme="dark"] #particles-js {
 .publications {
   margin-top: 2rem;
 
-  // Add spacing between student entries (supervision page only)
+  // Circular photo layout for supervision page (instructor-card style)
   .student-row {
-    margin-bottom: 1.25rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+    margin-bottom: 0.25rem;
 
-    // Student photo styling for supervisions page
-    .col-sm-2.preview {
+    .student-photo {
+      flex-shrink: 0;
+
       img {
-        width: 100%;
-        max-width: 120px;
+        width: 130px;
         height: 130px;
+        border-radius: 50%;
         object-fit: cover;
-        border-radius: 6px;
         object-position: center top;
+        user-select: none;
+        -webkit-user-drag: none;
+        pointer-events: none;
+      }
+    }
+
+    .student-details {
+      flex: 1;
+      min-width: 0; // prevent overflow
+    }
+  }
+
+  @media (max-width: 576px) {
+    .student-row {
+      gap: 1rem;
+
+      .student-photo img {
+        width: 64px;
+        height: 64px;
       }
     }
   }
