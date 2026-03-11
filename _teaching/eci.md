@@ -11,7 +11,7 @@ time: "14:20–17:20"
 location: "TSMC Bldg. R406"
 instructor_office: "TSMC Bldg. R828B"
 instructor_email: "jaewon.yoo [at] iss.nthu.edu.tw"
-communication: "All course communication goes through <strong><a href=\"https://teams.microsoft.com/l/team/19%3AJP2R-tTEDQeUB1xDpd33-nu4Qo21bv_c8NkSr5XxMaM1%40thread.tacv2/conversations?groupId=b48faca7-6855-4284-b7ef-b9ba\" target=\"_blank\" rel=\"noopener noreferrer\">MS Teams</a></strong>. Homework submissions and grades are on <strong>Canvas</strong>. For private matters, email the instructor."
+communication: "All course communication goes through <strong><a href=\"https://teams.microsoft.com/l/team/19%3AJP2R-tTEDQeUB1xDpd33-nu4Qo21bv_c8NkSr5XxMaM1%40thread.tacv2/conversations?groupId=b48faca7-6855-4284-b7ef-b9ba\" target=\"_blank\" rel=\"noopener noreferrer\">MS Teams</a></strong>. Homework submissions and grades are on <strong>Canvas</strong>. For private matters, email or DM the instructor."
 og_image: https://j1yoo.github.io/assets/courses/eci/eci_logo.png
 syllabus: /assets/courses/eci/ECI_Syllabus.pdf
 logo: /assets/courses/eci/eci_logo.png
@@ -455,7 +455,7 @@ Students will review relevant research papers on each topic and actively engage 
 
 ## Course Platforms
 
-This course uses three platforms: **this website**, **[MS Teams](https://teams.microsoft.com/l/team/19%3AJP2R-tTEDQeUB1xDpd33-nu4Qo21bv_c8NkSr5XxMaM1%40thread.tacv2/conversations?groupId=b48faca7-6855-4284-b7ef-b9ba){:target="_blank"}**, and **Canvas (NTHU eeclass)**:
+This course uses three platforms: **this website**, **[MS Teams](https://teams.microsoft.com/l/team/19%3AJP2R-tTEDQeUB1xDpd33-nu4Qo21bv_c8NkSr5XxMaM1%40thread.tacv2/conversations?groupId=b48faca7-6855-4284-b7ef-b9ba){:target="_blank"}**, and **Canvas**:
 
 | Purpose | Platform |
 |:--------|:---------|
