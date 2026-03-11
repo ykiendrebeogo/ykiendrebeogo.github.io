@@ -268,6 +268,11 @@
     .materials-list li:last-child {
       border-bottom: none;
     }
+    .materials-buttons {
+      display: flex;
+      gap: 6px;
+      flex-shrink: 0;
+    }
 
     /* ── Blockquotes (notes) ── */
     .eci-section blockquote {
@@ -703,16 +708,23 @@
     <!-- ════════ MATERIALS ════════ -->
     <div class="eci-section" id="section-materials">
       {% if page.materials %}
-        <h2>Lecture Slides</h2>
+        <h2>Lecture Slides &amp; Handouts</h2>
         <ul class="materials-list">
           {% for item in page.materials %}
             <li>
               <span>{{ item.title }}</span>
-              {% if item.url %}
-                <a href="{{ item.url | relative_url }}#toolbar=0&navpanes=0" target="_blank" class="btn-eci btn-eci-sm" rel="noopener noreferrer">
-                  <i class="fas fa-eye"></i> View
-                </a>
-              {% endif %}
+              <span class="materials-buttons">
+                {% if item.handout_url %}
+                  <a href="{{ item.handout_url | relative_url }}#toolbar=0&navpanes=0" target="_blank" class="btn-eci btn-eci-sm" rel="noopener noreferrer">
+                    <i class="fas fa-file-alt"></i> Handout
+                  </a>
+                {% endif %}
+                {% if item.url %}
+                  <a href="{{ item.url | relative_url }}#toolbar=0&navpanes=0" target="_blank" class="btn-eci btn-eci-sm" rel="noopener noreferrer">
+                    <i class="fas fa-chalkboard-teacher"></i> Slides
+                  </a>
+                {% endif %}
+              </span>
             </li>
           {% endfor %}
         </ul>

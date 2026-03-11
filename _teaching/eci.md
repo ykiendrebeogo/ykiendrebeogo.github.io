@@ -11,7 +11,7 @@ time: "14:20–17:20"
 location: "TSMC Bldg. R406"
 instructor_office: "TSMC Bldg. R828B"
 instructor_email: "jaewon.yoo [at] iss.nthu.edu.tw"
-communication: "All course communication goes through <strong><a href=\"https://teams.microsoft.com/l/team/19%3AJP2R-tTEDQeUB1xDpd33-nu4Qo21bv_c8NkSr5XxMaM1%40thread.tacv2/conversations?groupId=b48faca7-6855-4284-b7ef-b9ba\" target=\"_blank\" rel=\"noopener noreferrer\">MS Teams</a></strong>. Check the Teams channel regularly for announcements, discussion threads, and updates. For private matters, email the instructor."
+communication: "All course communication goes through <strong><a href=\"https://teams.microsoft.com/l/team/19%3AJP2R-tTEDQeUB1xDpd33-nu4Qo21bv_c8NkSr5XxMaM1%40thread.tacv2/conversations?groupId=b48faca7-6855-4284-b7ef-b9ba\" target=\"_blank\" rel=\"noopener noreferrer\">MS Teams</a></strong>. Homework submissions and grades are on <strong>Canvas</strong>. For private matters, email the instructor."
 og_image: https://j1yoo.github.io/assets/courses/eci/eci_logo.png
 syllabus: /assets/courses/eci/ECI_Syllabus.pdf
 logo: /assets/courses/eci/eci_logo.png
@@ -43,10 +43,13 @@ videos:
 materials:
   - title: "Lecture 1: Intro and Potential Outcomes"
     url: "/assets/courses/eci/ECI_01_Intro_and_Potential_Outcomes.pdf"
+    handout_url: "/assets/courses/eci/ECI_01_Handout.pdf"
   - title: "Lecture 2: Randomization Inference"
     url: "/assets/courses/eci/ECI_02_Randomization_Inference.pdf"
+    handout_url: "/assets/courses/eci/ECI_02_Handout.pdf"
   - title: "Lecture 3: Inference for ATE"
     url: "/assets/courses/eci/ECI_03_Inference_for_ATE.pdf"
+    handout_url: "/assets/courses/eci/ECI_03_Handout.pdf"
   - title: "Lecture 4: Regression"
     url: "/assets/courses/eci/ECI_04_Regression.pdf"
   - title: "Lecture 4(b): Extensions of Completely Randomized Experiments"
@@ -450,14 +453,15 @@ Students will review relevant research papers on each topic and actively engage 
 
 <p style="color: #888; font-style: italic;">TBA</p>
 
-## MS Teams Integration
+## Course Platforms
 
-This course uses **[MS Teams](https://teams.microsoft.com/l/team/19%3AJP2R-tTEDQeUB1xDpd33-nu4Qo21bv_c8NkSr5XxMaM1%40thread.tacv2/conversations?groupId=b48faca7-6855-4284-b7ef-b9ba){:target="_blank"}** alongside this website:
+This course uses three platforms: **this website**, **[MS Teams](https://teams.microsoft.com/l/team/19%3AJP2R-tTEDQeUB1xDpd33-nu4Qo21bv_c8NkSr5XxMaM1%40thread.tacv2/conversations?groupId=b48faca7-6855-4284-b7ef-b9ba){:target="_blank"}**, and **Canvas (NTHU eeclass)**:
 
 | Purpose | Platform |
 |:--------|:---------|
 | Syllabus, schedule, readings, slides | **This website** |
 | Announcements & Q&A | **Teams → General channel** |
-| Paper submissions | **Teams → Assignments** |
 | Shared papers & resources | **Teams → Files** |
 | Office hours & consultations | **Teams → DM** + [Google Calendar](https://calendar.app.google/AkutVLBQks1gnJ9a7) |
+| Homework submission | **Canvas** |
+| Grades | **Canvas** |
