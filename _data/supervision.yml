@@ -1,7 +1,6 @@
 - name: Daniel Vinicio Gonzalez de Leon
   year: 2021-23
   info: "iMBA, National Tsing Hua University (NTHU)"
-  photo: daniel.jpg
   thesis: "Evaluating Risk-Reducing Incentives to Influence Consumers' Purchase Decision of Private-Label Products"
   abstract: "Private Labels (PL) continue to grow in sales and portfolio, driven by the increasing interest from both retailers and consumers toward PL. There has been continuous research in the field, and even after the constant improvement in the quality of PL products, the main concern faced by consumers when deciding whether to switch from National Brands to PL is the perceived risk. We test three different promotions, Price Promotion, Extra Warranty, and Free Returns, to evaluate the effectiveness to increase consumer PL purchase decisions and reduce perceived risk. This paper conducted three studies, to measure the main effect of the promotions on PL purchase decisions, PL purchase intention, and perceived risk. The effect was measured using an online base purchase scenario. A total of 300 participants were collected using Prolific Academic to collect the data. All three strategies were found to positively influence consumer purchase decisions of treated Private labels, varying across product price ranges. Study 3 shows that perceived risk mediates the effect of the promotion strategies. Also proving that results are still significant for “self” and “others” purchase scenarios."
   status: "Completed"
@@ -11,7 +10,7 @@
 - name: Yichun (Jean) Liu
   year: 2021-23
   info: "Institute of Service Science, National Tsing Hua University (NTHU)"
-  photo: jean.jpg
+
   thesis: "Does CSR Visibility Lead to Superior Financial Performance? Evidence from a Regression Discontinuity Design"
   abstract: "This study investigates the impact of Corporate Social Responsibility (CSR) Visibility on financial performance using a quasi-experimental design. CSR Visibility is operationalized through a leading sustainability index called the Dow Jones Sustainability World Index (DJSI). The study focuses on firms that are accepted or declined by a narrow margin of CSR score, which allows for the examination of the effect of DJSI membership on performance through the use of a Regression Discontinuity Design (RDD). Based on my empirical findings, it appears that greater CSR visibility does not result in improved financial performance. This suggests that firms with higher levels of CSR visibility may need to allocate more resources towards CSR activities in order to meet stakeholder expectations, or that stakeholders may not attach significant value to CSR certification. As a result, these firms may experience a decline in financial performance in the short term."
   degree: "Masters"
@@ -21,7 +20,7 @@
 - name: Sin-Yu (Celine) Lin
   year: 2022-24
   info: "Institute of Service Science, National Tsing Hua University (NTHU)"
-  photo: placeholder.png
+
   thesis: "Influence of Message Framing on Consumer Adoption of AI Services: Evidence from the Financial Sector"
   abstract: "This study investigates the factors influencing technology acceptance, focusing on the roles of perceived trust, mutual benefits, social influence, and perceived risk. Employing a combination of main effect, mediation, and moderation models, the research aims to elucidate the complex interactions between these variables. The main effect model highlights the critical importance of perceived trust in driving technology acceptance, while the mediation analysis reveals that perceived trust mediates the effects of mutual benefits and social influence on technology acceptance. The moderation analysis examines the influence of task complexity and task importance on the relationship between perceived risk and trust, finding significant moderation by task complexity but not by task importance. The study’s findings underscore the need for managers to prioritize trust-building measures and consider task-related factors when designing strategies to enhance technology adoption. Limitations include the sample size, diversity, and the cross- sectional nature of the data, suggesting the need for future research with larger, more diverse samples and longitudinal designs. Additionally, the current study’s reliance on email advertisements as the treatment medium suggests that future research should explore alternative communication channels to validate the findings. These insights provide a comprehensive understanding of the dynamics affecting technology acceptance and offer practical implications for enhancing adoption in various contexts."
   status: "Completed" 
@@ -31,7 +30,7 @@
 - name: Yu-Chen (Amy) Hsiao
   year: 2022-24
   info: "Institute of Service Science, National Tsing Hua University (NTHU)"
-  photo: placeholder.png
+
   thesis: "Examining the Impact of Paid Family and Medical Leave Policy on Firm Innovation: Evidence from Quasi-Experiments"
   abstract: "This thesis examines the impact of Paid Family and Medical Leave (PFML) on firm innovation within the United States, employing a novel empirical approach to address a gap in current research. As the U.S. marks the 30th anniversary of the Family and Medical Leave Act (FMLA), which offers unpaid leave, the absence of a federal paid leave policy stands in stark contrast to other OECD countries. This study explores how state-level PFML policies, which provide paid leave, affect firm innovation, a crucial aspect of economic competitiveness that has been underexplored in the context of PFML. Utilizing a difference-in-differences methodology as proposed by Callaway and Sant’Anna, the research investigates firm-level innovation outcomes, specifically the number of patents and adjusted total citations, across various states with staggered implementations of PFML policies from 1994 to 2015. The findings indicate that PFML has a positive and statistically significant effect on firm innovation, suggesting that PFML policies do not merely alleviate employee challenges but actively contribute to enhancing a firm’s innovative output. By integrating PFML into the broader discussion of workforce policies, this study challenges the prevailing view of such policies as burdensome costs to businesses. Instead, it highlights their potential as investments in human capital that yield returns in the form of higher innovation. These insights are particularly valuable for policymakers, business leaders, and scholars as they consider the implications of expanding family-friendly policies to foster a more inclusive and productive economic environment."
   status: "Completed"
@@ -41,7 +40,7 @@
 - name: Zhan-Yi Liao
   year: 2023-25
   info: "Institute of Information Management, National Yang Ming Chiao Tung University (NYCU)"
-  photo: placeholder.png
+
   thesis: "Structure-Aware Robust Counterfactual Explanations via Conditional Gaussian Network Classifiers"
   abstract: "Counterfactual explanation (CE), a core technique in explainable AI (XAI), is widely used to interpret model decisions and suggest actionable alternatives. This work proposes a structure-aware and robust counterfactual search method based on the Conditional Gaussian Network Classifier (CGNC). By modeling conditional dependencies among features via a graphical structure, CGNC naturally embeds variable relationships and generative logic into the search process, eliminating the need for additional feasibility constraints. Unlike most black-box approaches that overlook feature dependencies and data distributions, our method integrates these properties with perturbation robustness into the optimization process, ensuring consistency with the model’s generative structure. We employ a convergence-guaranteed cutting-set mechanism to iteratively solve a master-adversary optimization framework. To address the nonconvex quadratic structure introduced by the model, piecewise relaxation is applied to handle second-order terms, enabling reformulation into a mixed-integer linear program (MILP). Experiments show that even direct global optimization of the original nonconvex problem yields stable and efficient results. The framework is extensible to more complex constraint settings and future work on nonconvex quadratic programming designs."
   note: Co-advised with <strong> <a href="https://iim.nycu.edu.tw/en/teacher/chen-po-an" target="_blank">Po-An Chen</a> </strong> (NYCU)
@@ -55,7 +54,7 @@
 - name: Pei-Jou (Pearl) Lin
   year: 2023-25
   info: "Institute of Service Science, National Tsing Hua University (NTHU)"
-  photo: pearl.jpeg
+
   thesis: "Effects of Paid Family Leave Policy on Firm Risk-Taking: A Quasi-Experimental Approach"
   status: "In Progress"
   degree: "Masters"
@@ -65,7 +64,7 @@
 - name: Natasha Carissa Tedjasukmana
   year: 2023-25
   info: "iMBA, National Tsing Hua University (NTHU)"
-  photo: placeholder.png
+
   thesis: "Unintended Consequences of Sales Ban: Empirical Analysis of the Book Retailing Industry"
   status: "In Progress"
   degree: "Masters"
@@ -75,7 +74,7 @@
 - name: Medjine Nestant
   year: 2023-25
   info: "iMBA, National Tsing Hua University (NTHU)"
-  photo: placeholder.png
+
   thesis: "When Algorithms Go Silent: Effects of Trending Topic Suspension on Political Information Consumption"
   status: "In Progress"
   degree: "Masters"
@@ -85,23 +84,31 @@
 - name: Ting-Wen (Keri) Liu
   year: 2025-current
   info: "Institute of Service Science, National Tsing Hua University (NTHU)"
-  photo: placeholder.png
+
   degree: "Masters"
+  linkedin: "https://www.linkedin.com/in/ting-wen-liu-5289971b0"
+  github: "https://github.com/keri0502"
 
 - name: John Loui Santiago
   year: 2025-current
   info: "iMBA, National Tsing Hua University (NTHU)"
-  photo: placeholder.png
+
   degree: "Masters"
+  linkedin: "https://www.linkedin.com/in/johnlouisantiago/"
+  github: "https://github.com/johnlouisantiago"
 
 - name: Mave Kimara Alexander
   year: 2025-current
   info: "iMBA, National Tsing Hua University (NTHU)"
-  photo: placeholder.png
+
+  degree: "Masters"
+  description: "As a Tax Officer from Saint Lucia, Mave is interested in how regional cultural contexts influence housing markets and organizational behaviour. She aims to produce rigorous quantitative research that strengthens evidence-based policymaking and deepens understanding of Caribbean economic structures."
+  linkedin: "https://www.linkedin.com/in/mave-alexander-518406367"
+  github: "https://github.com/MaveKimaraAlexander"
 
 - name: Young Shin
   year: 2025-current
   info: "College of Electrical Engineering and Computer Science, National Tsing Hua University (NTHU)"
-  photo: placeholder.png
+
   note: Undergraduate research assistant
   degree: "Undergraduate"
