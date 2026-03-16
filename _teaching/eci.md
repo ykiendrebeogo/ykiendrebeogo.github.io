@@ -247,6 +247,7 @@ textbooks_content: |
   3. Huntington-Klein, N. (2021). [*The Effect: An Introduction to Research Design and Causality*](https://theeffectbook.net/). CRC Press. (Open-source PDF version provided by the author.)
 
   **Optional** (useful for additional coverage):
+  - Gerber, A. S., & Green, D. P. (2012). *Field Experiments: Design, Analysis, and Interpretation*. W. W. Norton & Company.
   - Morgan, S. L. & Winship, C. (2015). *Counterfactuals and Causal Inference*. 2nd ed. Cambridge University Press.
   - Angrist, J. D. & Pischke, J.-S. (2015). *Mastering 'Metrics*. Princeton University Press.
   - Cunningham, S. (2021). [*Causal Inference: The Mixtape*](https://mixtape.scunning.com/). Yale University Press.
