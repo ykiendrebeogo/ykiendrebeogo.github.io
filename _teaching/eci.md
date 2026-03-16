@@ -50,10 +50,9 @@ materials:
   - title: "Lecture 3: Inference for ATE"
     url: "/assets/courses/eci/ECI_03_Inference_for_ATE.pdf"
     handout_url: "/assets/courses/eci/ECI_03_Handout.pdf"
-  - title: "Lecture 4: Regression"
+  - title: "Lecture 4: Regression and Randomized Experiments"
     url: "/assets/courses/eci/ECI_04_Regression.pdf"
-  - title: "Lecture 4(b): Extensions of Completely Randomized Experiments"
-    url: "/assets/courses/eci/ECI_04(b)_Extensions_of_Completely_Randomized_Experiments.pdf"
+    handout_url: "/assets/courses/eci/ECI_04_Handout.pdf"
   - title: "Lecture 5: Observational Studies"
     url: "/assets/courses/eci/ECI_05_Observational_Studies.pdf"
   - title: "Lecture 6: DAGs"
@@ -114,7 +113,7 @@ schedule_content: |
   </div>
 
   **Week 4 — Linear Regression and Randomized Experiments**
-  <a class="badge-slides" href="/assets/courses/eci/ECI_04_Regression.pdf">Slides</a> <a class="badge-slides" href="/assets/courses/eci/ECI_04(b)_Extensions_of_Completely_Randomized_Experiments.pdf">Slides (b)</a>
+  <a class="badge-slides" href="/assets/courses/eci/ECI_04_Regression.pdf">Slides</a>
   - Simple linear regression in experiments
   - Covariate adjustment in experiments with regression
   - <span class="badge-read"><i class="fas fa-book-open"></i>Readings:</span> Imbens & Rubin Ch. 7, 9, 10; [Lin (2013)](https://doi.org/10.1214/12-AOAS583); [Freedman (2008)](https://doi.org/10.1016/j.aam.2006.12.003)
