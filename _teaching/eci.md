@@ -58,6 +58,7 @@ materials:
     handout_url: "/assets/courses/eci/ECI_04b_Handout.pdf"
   - title: "Lecture 5: Observational Studies"
     url: "/assets/courses/eci/ECI_05_Observational_Studies.pdf"
+    handout_url: "/assets/courses/eci/ECI_05_Handout.pdf"
   - title: "Lecture 6: DAGs"
     url: "/assets/courses/eci/ECI_06_DAGs.pdf"
   - title: "Lecture 6(b): Sensitivity Analysis"
