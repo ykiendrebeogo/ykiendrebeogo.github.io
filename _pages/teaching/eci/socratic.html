@@ -91,6 +91,11 @@ button{font-family:var(--sans);cursor:pointer}input,textarea{font-family:var(--s
 .footer a{color:var(--accent);text-decoration:none}.footer a:hover{text-decoration:underline}
 @media(max-width:640px){.header{padding:12px 16px;flex-wrap:wrap;gap:10px}.tabs{width:100%;justify-content:center}.tab{padding:7px 14px;font-size:12px}.content{padding:20px 16px}.chat-input-bar{padding:12px 16px}.msg-bubble{max-width:88%;padding:12px 16px;font-size:13.5px}.empty{padding:32px 16px}}
 </style>
+<!-- GA4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F2Y4X86JTT"></script>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-F2Y4X86JTT');
+</script>
 </head>
 <body>
 <header class="header">
@@ -372,6 +377,140 @@ var s=scenarios[currentScenario];
 if(currentQ<s.questions.length-1){currentQ++;answered=false;renderQuestion()}
 else{practiceCompleted[s.id]=true;renderPracticeHome()}
 }
+</script>
+<script>
+/* ══ SocratIC Analytics & Full Interaction Logging ══ */
+var APPS_SCRIPT_URL='PASTE_YOUR_APPS_SCRIPT_URL_HERE';
+var SESSION_ID='s_'+Date.now()+'_'+Math.random().toString(36).substr(2,8);
+
+/* Get GA4 client_id for cross-referencing */
+function getGAClientId(cb){
+  try{gtag('get','G-F2Y4X86JTT','client_id',function(id){cb(id)})}
+  catch(e){cb('')}
+}
+
+/* Fire-and-forget POST to Apps Script */
+function logToSheet(payload){
+  if(APPS_SCRIPT_URL.indexOf('PASTE')!==-1)return;
+  payload.session_id=SESSION_ID;
+  try{navigator.sendBeacon(APPS_SCRIPT_URL,JSON.stringify(payload))}
+  catch(e){fetch(APPS_SCRIPT_URL,{method:'POST',body:JSON.stringify(payload),mode:'no-cors'}).catch(function(){})}
+}
+
+/* GA4 custom event helper */
+function logGA4(name,params){
+  params=params||{};
+  params.socratic_session_id=SESSION_ID;
+  try{gtag('event',name,params)}catch(e){}
+}
+
+/* Session start */
+window.addEventListener('load',function(){
+  setTimeout(function(){
+    getGAClientId(function(cid){
+      logToSheet({type:'session_start',ga_client_id:cid,user_agent:navigator.userAgent,screen_width:screen.width,screen_height:screen.height,referrer:document.referrer,landing_url:location.href});
+      logGA4('socratic_session_start',{ga_client_id:cid});
+    });
+  },1500);
+});
+
+/* Override startFlow to add logging */
+var _origStartFlow=startFlow;
+startFlow=function(i){
+  var topic=socraticFlows[i].topic;
+  logGA4('socratic_flow_start',{topic:topic,flow_index:i});
+  logToSheet({type:'interaction',event_type:'flow_start',tab:'chat',topic:topic,step_index:0});
+  _origStartFlow(i);
+};
+
+/* Override appendMsg to log bot messages */
+var _origAppendMsg=appendMsg;
+appendMsg=function(sender,type,html){
+  if(sender==='bot'&&currentFlow!=null){
+    var topic=socraticFlows[currentFlow]?socraticFlows[currentFlow].topic:'';
+    logToSheet({type:'interaction',event_type:'bot_message',tab:'chat',topic:topic,step_index:currentStep,step_type:type,bot_message:html.replace(/<[^>]*>/g,'').substring(0,500)});
+    logGA4('socratic_bot_msg',{topic:topic,step_type:type,step_index:currentStep});
+  }
+  _origAppendMsg(sender,type,html);
+};
+
+/* Override sendMessage to log user input */
+var _origSendMessage=sendMessage;
+sendMessage=function(){
+  var input=document.getElementById('chatInput');
+  var text=input?input.value.trim():'';
+  if(text&&waitingForUser&&currentFlow!=null){
+    var topic=socraticFlows[currentFlow]?socraticFlows[currentFlow].topic:'';
+    logToSheet({type:'interaction',event_type:'user_message',tab:'chat',topic:topic,step_index:currentStep,user_input:text});
+    logGA4('socratic_user_msg',{topic:topic,step_index:currentStep,msg_length:text.length});
+  }
+  _origSendMessage();
+};
+
+/* Override switchTab to log */
+var _origSwitchTab=switchTab;
+switchTab=function(t){
+  logToSheet({type:'page_event',event_type:'tab_switch',detail:t});
+  logGA4('socratic_tab_switch',{tab:t});
+  _origSwitchTab(t);
+};
+
+/* Override startScenario to log */
+var _origStartScenario=startScenario;
+startScenario=function(i){
+  var s=scenarios[i];
+  logToSheet({type:'interaction',event_type:'practice_start',tab:'practice',scenario_id:s.id,topic:s.topic});
+  logGA4('socratic_practice_start',{scenario_id:s.id,topic:s.topic});
+  _origStartScenario(i);
+};
+
+/* Override selectOption to log MC answers */
+var _origSelectOption=selectOption;
+selectOption=function(idx){
+  if(!answered&&currentScenario!=null){
+    var s=scenarios[currentScenario];var q=s.questions[currentQ];
+    var correct=idx===q.correct;
+    logToSheet({type:'interaction',event_type:'practice_answer',tab:'practice',scenario_id:s.id,question_index:currentQ,question_type:'mc',selected_option:idx,is_correct:correct});
+    logGA4('socratic_practice_answer',{scenario_id:s.id,question_index:currentQ,question_type:'mc',is_correct:correct});
+  }
+  _origSelectOption(idx);
+};
+
+/* Override submitOpen to log open-ended answers */
+var _origSubmitOpen=submitOpen;
+submitOpen=function(){
+  if(!answered&&currentScenario!=null){
+    var ta=document.getElementById('openAnswer');
+    var text=ta?ta.value.trim():'';
+    if(text){
+      var s=scenarios[currentScenario];var q=s.questions[currentQ];
+      var answer=text.toLowerCase();
+      var hits=[],misses=[];
+      q.keyPoints.forEach(function(kp){
+        var words=kp.toLowerCase().split(' ');
+        var found=words.some(function(w){return w.length>3&&answer.indexOf(w)!==-1});
+        if(found)hits.push(kp);else misses.push(kp);
+      });
+      logToSheet({type:'interaction',event_type:'practice_answer',tab:'practice',scenario_id:s.id,question_index:currentQ,question_type:'open',user_input:text,key_points_hit:hits.join('; '),key_points_missed:misses.join('; ')});
+      logGA4('socratic_practice_answer',{scenario_id:s.id,question_index:currentQ,question_type:'open',hits:hits.length,misses:misses.length});
+    }
+  }
+  _origSubmitOpen();
+};
+
+/* Page visibility tracking */
+document.addEventListener('visibilitychange',function(){
+  logToSheet({type:'page_event',event_type:document.hidden?'page_hidden':'page_visible',detail:''});
+});
+
+/* Time on page (log every 60s) */
+var _pageTime=0;
+setInterval(function(){_pageTime+=60;logToSheet({type:'page_event',event_type:'time_on_page',detail:_pageTime+'s'});logGA4('socratic_heartbeat',{seconds:_pageTime})},60000);
+
+/* Log on unload */
+window.addEventListener('beforeunload',function(){
+  logToSheet({type:'page_event',event_type:'session_end',detail:_pageTime+'s total'});
+});
 </script>
 </body>
 </html>
