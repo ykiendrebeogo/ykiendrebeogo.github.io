@@ -17,8 +17,10 @@
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    {% if page.url == "/" %}
     <!-- Particles.js container -->
     <div id="particles-js"></div>
+    {% endif %}
 
     <!-- Header -->
     {% include header.liquid %}
@@ -59,6 +61,7 @@
     <!-- JavaScripts -->
     {% include scripts.liquid %}
 
+    {% if page.url == "/" %}
     <!-- Particles.js scripts -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script>
@@ -96,5 +99,6 @@
         observer.observe(document.documentElement, { attributes: true });
       });
     </script>
+    {% endif %}
   </body>
 </html>

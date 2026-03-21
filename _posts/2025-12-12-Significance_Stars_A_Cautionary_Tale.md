@@ -1,5 +1,6 @@
 ---
 layout: post
+math: true
 title: "Significance Stars: A Cautionary Tale"
 description: "P-values, power, and the three types of significance: a guide to interpreting quantitative evidence."
 categories: Note

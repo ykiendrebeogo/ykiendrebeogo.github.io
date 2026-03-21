@@ -1,5 +1,6 @@
 ---
 layout: post
+math: true
 title: "Multi-Armed Bandit (MAB) as an Alternative to A/B Testing: a Simulation using R"
 description: "Earn while you learn: comparing bandit algorithms that optimize experiments in real time."
 categories: Simulation

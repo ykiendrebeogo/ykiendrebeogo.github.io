@@ -1,5 +1,6 @@
 ---
 layout: post
+math: true
 title: "Three Fundamental Conceptual Shifts in Causal Inference"
 description: "From missing data to survivor bias: three ideas that will reshape how you think about cause and effect."
 categories: Note

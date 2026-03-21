@@ -1,5 +1,6 @@
 ---
 layout: post
+math: true
 title: "One Sample to Rule Them All? The Subtle Power of the Bootstrap"
 description: "How resampling from your own data can reveal an estimator's uncertainty: the logic and limits of the bootstrap."
 categories: Note

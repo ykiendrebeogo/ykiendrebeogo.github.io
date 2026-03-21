@@ -1,5 +1,6 @@
 ---
 layout: post
+math: true
 title: "What Directed Acyclic Graphs (DAGs) Teach Us About Choosing Covariates"
 description: Why adding more controls can backfire, and how causal graphs help you pick the right ones.
 categories: Note

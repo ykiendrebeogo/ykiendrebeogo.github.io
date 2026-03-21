@@ -1,5 +1,6 @@
 ---
 layout: post
+math: true
 title: "Why Causal Mechanisms Are Harder Than You Think"
 description: "The hidden costs of explaining how something works: cross-world counterfactuals and heroic assumptions."
 categories: Note
