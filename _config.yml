@@ -8,12 +8,14 @@ middle_name:
 last_name: Yoo
 contact_note: >
   If you are interested in my research, feel free to contact me via any means listed above.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+description: >-
+  Jaewon Yoo is an Assistant Professor at National Tsing Hua University.
+  His research focuses on causal inference, platform economics, and digital market
+  design using field experiments and quasi-experimental methods.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: counterfactual, causal machine learning # add your own keywords or leave empty
+keywords: causal inference, platform economics, field experiments, quasi-experimental methods, difference-in-differences, regression discontinuity, causal machine learning, digital markets, business analytics, counterfactual, RCT
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: JW_favicon.svg # Aquicon-Github.jpg # ⚛️ Aquicon-Github.jpg the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -402,8 +404,8 @@ enable_google_analytics: true # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
 enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
-enable_google_verification: false # enables google site verification
-enable_bing_verification: false # enables bing site verification
+enable_google_verification: true # enables google site verification
+enable_bing_verification: true # enables bing site verification
 enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
