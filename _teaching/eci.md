@@ -59,11 +59,10 @@ materials:
   - title: "Lecture 5: Observational Studies"
     url: "/assets/courses/eci/ECI_05_Observational_Studies.pdf"
     handout_url: "/assets/courses/eci/ECI_05_Handout.pdf"
-  - title: "Lecture 5(b): Sensitivity Analysis"
-    url: "/assets/courses/eci/ECI_05b_Sensitivity_Analysis.pdf"
-    handout_url: "/assets/courses/eci/ECI_05b_Handout.pdf"
   - title: "Lecture 6: DAGs"
     url: "/assets/courses/eci/ECI_06_DAGs.pdf"
+  - title: "Lecture 6(b): Sensitivity Analysis"
+    url: "/assets/courses/eci/ECI_06(b)_Sensitivity_Analysis.pdf"
   - title: "Lecture 7: Noncompliance and IV"
     url: "/assets/courses/eci/ECI_07_Noncompliance_and_IV.pdf"
   - title: "Lecture 9: TSLS"
@@ -131,7 +130,7 @@ schedule_content: |
   ### Part II: Observational Studies
 
   **Week 5 — Observational Studies I**
-  <a class="badge-slides" href="/assets/courses/eci/ECI_05_Observational_Studies.pdf">Slides</a> <a class="badge-slides" href="/assets/courses/eci/ECI_05b_Sensitivity_Analysis.pdf">Slides (b)</a>
+  <a class="badge-slides" href="/assets/courses/eci/ECI_05_Observational_Studies.pdf">Slides</a>
   - Selection on observables
   - Regression for observational data
   - <span class="badge-read"><i class="fas fa-book-open"></i>Readings:</span> Angrist & Pischke Ch. 3
@@ -143,9 +142,9 @@ schedule_content: |
   </div>
 
   **Week 6 — Observational Studies II**
-  <a class="badge-slides" href="/assets/courses/eci/ECI_06_DAGs.pdf">Slides</a>
+  <a class="badge-slides" href="/assets/courses/eci/ECI_06_DAGs.pdf">Slides</a> <a class="badge-slides" href="/assets/courses/eci/ECI_06(b)_Sensitivity_Analysis.pdf">Slides (b)</a>
   - DAGs and the back-door criterion
-  - Partial identification
+  - Sensitivity analysis; Partial identification
   - <span class="badge-read"><i class="fas fa-book-open"></i>Readings:</span> Imbens & Rubin Ch. 21–22; Morgan & Winship Ch. 4 *(handout provided)*
   <div class="schedule-deliverables">
   <i class="fas fa-clipboard-list deliv-icon"></i> <em>Construct a DAG for your own research project</em>
