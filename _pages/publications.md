@@ -2,7 +2,7 @@
 layout: page
 permalink: /research/
 title: research
-description: Peer-reviewed publications by Jaewon Yoo in information systems, marketing, and causal inference methods.
+description: The corresponding author is denoted by *. Video summaries 🎬 generated with NotebookLM. 
 categories: ['manuscripts under review', 'working papers', 'work-in-progress', 'publications']
 catprint: ['', 'manuscripts under review', 'working papers', 'work-in-progress', 'publications']
 nav: true

@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /people/
 title: supervision
-description: Research group members and collaborators at Jaewon Yoo's lab, NTHU Institute of Service Science.
+# description: This is a members of the research lab who
 nav: false
 nav_order: 7
 

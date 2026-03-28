@@ -4,7 +4,6 @@ permalink: /blog/
 title: blog
 nav: true
 nav_order: 1
-description: Articles and notes by Jaewon Yoo on causal inference, data science, and academic life.
 pagination:
   enabled: true
   collection: posts
