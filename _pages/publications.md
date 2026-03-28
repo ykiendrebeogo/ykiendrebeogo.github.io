@@ -2,7 +2,7 @@
 layout: page
 permalink: /research/
 title: research
-description: The corresponding author is denoted by *. Video summaries 🎬 generated with NotebookLM. 
+description: Peer-reviewed publications by Jaewon Yoo in information systems, marketing, and causal inference methods.
 categories: ['manuscripts under review', 'working papers', 'work-in-progress', 'publications']
 catprint: ['', 'manuscripts under review', 'working papers', 'work-in-progress', 'publications']
 nav: true

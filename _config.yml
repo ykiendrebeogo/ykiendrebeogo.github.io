@@ -8,10 +8,8 @@ middle_name:
 last_name: Yoo
 contact_note: >
   If you are interested in my research, feel free to contact me via any means listed above.
-description: >-
-  Jaewon Yoo is an Assistant Professor at National Tsing Hua University.
-  His research focuses on causal inference, platform economics, and digital market
-  design using field experiments and quasi-experimental methods.
+description: >
+  Jaewon Yoo, Assistant Professor at National Tsing Hua University. Research on causal inference, information systems, and marketing at the intersection of emerging technologies and societal impact.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

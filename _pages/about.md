@@ -2,6 +2,7 @@
 layout: about
 title: about
 permalink: /
+description: Jaewon Yoo is an Assistant Professor at NTHU's Institute of Service Science, researching causal inference and the socioeconomic impacts of emerging technologies.
 subtitle: <span class="wave-emoji">👋</span> Hi, my name is 유재원 ("Jay-One"; 兪在元, Yú Zài-Yuán) and I am an Assistant Professor at the <a href='https://www.iss.nthu.edu.tw'>Institute of Service Science</a> in the <a href='http://www.ctm.nthu.edu.tw/'>College of Technology Management</a>, <a href='https://nthu-en.site.nthu.edu.tw/'>National Tsing Hua University (NTHU)</a> where I teach <a href='/teaching/'>courses</a> related to business analytics and causal inference using experimental and observational studies. I direct the <b><a href='https://cadi-lab.github.io'>CADI Lab</a></b> (Causal Analysis for Digital Interventions Lab), where my group investigates how platform design choices causally shape user behavior and market outcomes. Every now and then, I share thoughts on topics that interest me on my <a href='/blog/'>blog</a>.
 
 profile:
