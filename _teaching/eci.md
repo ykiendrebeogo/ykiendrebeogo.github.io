@@ -59,8 +59,8 @@ materials:
   - title: "Lecture 5: Observational Studies"
     url: "/assets/courses/eci/ECI_05_Observational_Studies.pdf"
     handout_url: "/assets/courses/eci/ECI_05_Handout.pdf"
-  - title: "Lecture 5(b): Sensitivity Analysis"
-    url: "/assets/courses/eci/ECI_05b_Sensitivity_Analysis.pdf"
+  - title: "Lecture 5(b): Partial Identification"
+    url: "/assets/courses/eci/ECI_05b_Partial_Identification.pdf"
     handout_url: "/assets/courses/eci/ECI_05b_Handout.pdf"
   - title: "Lecture 6: DAGs"
     url: "/assets/courses/eci/ECI_06_DAGs.pdf"
@@ -82,11 +82,11 @@ materials:
 schedule_content: |
   ## Weekly Schedule
 
-  *Please refer to the [Syllabus PDF](/assets/courses/eci/ECI_Syllabus.pdf) for the most up-to-date schedule and full reading lists. Click the purple <span class="badge-slides" style="font-size:0.75rem; cursor:default;">Slides</span> badges to view lecture slides. <span class="badge-read" style="font-size:0.75rem; cursor:default;"><i class="fas fa-book-open"></i>Readings</span> should be completed **before** class. Items marked <span class="badge-due" style="font-size:0.75rem; cursor:default;">Due</span> must be submitted via Teams **before** that week's class begins (Thu 14:20).*
+  *Please refer to the [Syllabus PDF](/assets/courses/eci/ECI_Syllabus.pdf) for the most up-to-date schedule and full reading lists. Click the purple <span class="badge-slides" style="font-size:0.75rem; cursor:default;">Slides</span> badges to view lecture slides. <span class="badge-read" style="font-size:0.75rem; cursor:default;"><i class="fas fa-book-open"></i>Readings</span> should be completed **before** class. Items marked <span class="badge-due" style="font-size:0.75rem; cursor:default;">Due</span> must be submitted via Canvas **before** that week's class begins (Thu 14:20).*
 
   ### Part I: Foundations of Causal Inference
 
-  **Week 1 — Introduction and Potential Outcomes**
+  **Week 1 (Feb 26) — Introduction and Potential Outcomes**
   <a class="badge-slides" href="/assets/courses/eci/ECI_01_Intro_and_Potential_Outcomes.pdf">Slides</a>
   - Neyman-Rubin causal model
   - Fundamental problem of causal inference (FPOCI)
@@ -96,7 +96,7 @@ schedule_content: |
   <i class="fas fa-clipboard-list deliv-icon"></i> <em>Group forming & ice breaking activities</em>
   </div>
 
-  **Week 2 — Randomization Inference**
+  **Week 2 (Mar 5) — Randomization Inference**
   <a class="badge-slides" href="/assets/courses/eci/ECI_02_Randomization_Inference.pdf">Slides</a>
   - Randomized experiments
   - Fisher's approach to inference, permutation tests
@@ -107,7 +107,7 @@ schedule_content: |
   <span class="badge-due">Due:</span> <em>The Effect</em> CH 2: Research Questions
   </div>
 
-  **Week 3 — Inference for the Average Treatment Effect**
+  **Week 3 (Mar 12) — Inference for the Average Treatment Effect**
   <a class="badge-slides" href="/assets/courses/eci/ECI_03_Inference_for_ATE.pdf">Slides</a>
   - Neyman's approach to inference for the ATE
   - Finite-sample vs superpopulation inference
@@ -117,7 +117,7 @@ schedule_content: |
   <span class="badge-due">Due:</span> <em>The Effect</em> CH 3: Describing Variables
   </div>
 
-  **Week 4 — Linear Regression and Randomized Experiments**
+  **Week 4 (Mar 19) — Linear Regression and Randomized Experiments**
   <a class="badge-slides" href="/assets/courses/eci/ECI_04_Regression.pdf">Slides</a>
   - Simple linear regression in experiments
   - Covariate adjustment in experiments with regression
@@ -130,75 +130,73 @@ schedule_content: |
 
   ### Part II: Observational Studies
 
-  **Week 5 — Observational Studies I**
-  <a class="badge-slides" href="/assets/courses/eci/ECI_05_Observational_Studies.pdf">Slides</a> <a class="badge-slides" href="/assets/courses/eci/ECI_05b_Sensitivity_Analysis.pdf">Slides (b)</a>
-  - Selection on observables
-  - Regression for observational data
-  - <span class="badge-read"><i class="fas fa-book-open"></i>Readings:</span> Angrist & Pischke Ch. 3
+  **Week 5 (Mar 26) — Individual/Group Project Meetings**
+  - Schedule a meeting during office hours to discuss and materialize your project ideas.
   <div class="schedule-deliverables">
-  <i class="fas fa-users deliv-icon"></i> Paper Presentations: 1.3 and 1.4<br>
   <span class="badge-due">Due:</span> Problem Set 3 (Inference for the ATE)<br>
   <span class="badge-due">Due:</span> <strong>Project Proposal</strong> (half-page description)<br>
   <span class="badge-due">Due:</span> <em>The Effect</em> CH 13: Regression
   </div>
 
-  **Week 6 — Observational Studies II**
+  **Week 6 (Apr 2) — School Holiday** *(no regular class; makeup session on Sunday, Apr 12, between Weeks 7 and 8)*
+  <a class="badge-slides" href="/assets/courses/eci/ECI_07_Noncompliance_and_IV.pdf">Slides</a>
+  - Makeup: Instrumental Variables I (noncompliance, IV in observational studies)
+  - <span class="badge-read"><i class="fas fa-book-open"></i>Readings (for makeup):</span> Imbens & Rubin Ch. 23–24; Angrist & Pischke Ch. 4
+  <div class="schedule-deliverables">
+  </div>
+
+  **Week 7 (Apr 9) — Observational Studies I**
+  <a class="badge-slides" href="/assets/courses/eci/ECI_05_Observational_Studies.pdf">Slides</a>
+  - Selection on observables
+  - Regression for observational data
+  - <span class="badge-read"><i class="fas fa-book-open"></i>Readings:</span> Angrist & Pischke Ch. 3
+  <div class="schedule-deliverables">
+  <i class="fas fa-users deliv-icon"></i> Paper Presentations: 1.3 and 1.4
+  </div>
+
+  **Week 8 (Apr 16) — DAGs and Covariate Selection**
   <a class="badge-slides" href="/assets/courses/eci/ECI_06_DAGs.pdf">Slides</a>
   - DAGs and the back-door criterion
   - Partial identification
   - <span class="badge-read"><i class="fas fa-book-open"></i>Readings:</span> Imbens & Rubin Ch. 21–22; Morgan & Winship Ch. 4 *(handout provided)*
   <div class="schedule-deliverables">
+  <i class="fas fa-users deliv-icon"></i> Paper Presentations: 2.3 and 2.4<br>
   <i class="fas fa-clipboard-list deliv-icon"></i> <em>Construct a DAG for your own research project</em>
-  </div>
-
-  **Week 7 — In-Class Group Project Meetings**
-  - 30 minutes per group to discuss and materialize project ideas/topics
-  <div class="schedule-deliverables">
-  <span class="badge-due">Due:</span> <em>The Effect</em> CH 6: Causal Diagrams<br>
-  <span class="badge-due">Due:</span> <em>The Effect</em> CH 7: Drawing Causal Diagrams
   </div>
 
   ### Part III: Quasi-Experimental Methods
 
-  **Week 8 — Instrumental Variables I**
-  <a class="badge-slides" href="/assets/courses/eci/ECI_07_Noncompliance_and_IV.pdf">Slides</a>
-  - Noncompliance in randomized experiments
-  - Instrumental variables in observational studies
-  - <span class="badge-read"><i class="fas fa-book-open"></i>Readings:</span> Imbens & Rubin Ch. 23–24; Angrist & Pischke Ch. 4
-  <div class="schedule-deliverables">
-  <i class="fas fa-users deliv-icon"></i> Paper Presentations: 2.1 and 2.2<br>
-  <span class="badge-due">Due:</span> Problem Set 4 (Observational Studies)<br>
-  <span class="badge-due">Due:</span> <em>The Effect</em> CH 8: Causal Paths and Closing Back Doors
-  </div>
-
-  **Week 9 — Instrumental Variables II**
+  **Week 9 (Apr 23) — Instrumental Variables II (TSLS)**
   <a class="badge-slides" href="/assets/courses/eci/ECI_09_TSLS.pdf">Slides</a>
   - Two-stage least squares
   - Review of IV applications
   <div class="schedule-deliverables">
-  <i class="fas fa-users deliv-icon"></i> Paper Presentations: 2.3 and 2.4
+  <i class="fas fa-users deliv-icon"></i> Paper Presentation: 2.5<br>
+  <span class="badge-due">Due:</span> <em>The Effect</em> CH 6 & 7 Exercises<br>
+  <span class="badge-due">Due:</span> <em>The Effect</em> CH 8: Causal Paths and Closing Back Doors
   </div>
 
-  **Week 10 — Panel Data, Fixed Effects, and Difference-in-Differences**
+  **Week 10 (Apr 30) — Panel Data, Fixed Effects, and Difference-in-Differences**
   <a class="badge-slides" href="/assets/courses/eci/ECI_10_Panel_Data_and_DID.pdf">Slides</a>
   - Fixed effects and first differences
   - Difference-in-differences
   - <span class="badge-read"><i class="fas fa-book-open"></i>Readings:</span> Angrist & Pischke Ch. 5; [Imai & Kim (2019)](https://doi.org/10.1111/ajps.12417)
   <div class="schedule-deliverables">
   <i class="fas fa-users deliv-icon"></i> Paper Presentations: 3.1 and 3.2<br>
-  <span class="badge-due">Due:</span> Problem Set 5 (Instrumental Variables)<br>
+  <span class="badge-due">Due:</span> Problem Set 4 (Observational Studies)<br>
   <span class="badge-due">Due:</span> <strong>Progress Report</strong><br>
   <span class="badge-due">Due:</span> <em>The Effect</em> CH 19: Instrumental Variables
   </div>
 
-  **Week 11 — Difference-in-Differences Cont.**
+  **Week 11 (May 7) — Difference-in-Differences Cont.**
   - Applications of difference-in-differences
   <div class="schedule-deliverables">
   <i class="fas fa-users deliv-icon"></i> Paper Presentations: 3.3 and 3.4<br>
+  <span class="badge-due">Due:</span> Problem Set 5 (Instrumental Variables)<br>
   <span class="badge-due">Due:</span> <em>The Effect</em> CH 18: Difference-in-Differences
   </div>
 
-  **Week 12 — Matching and Weighting Estimators**
+  **Week 12 (May 14) — Matching and Weighting Estimators**
   <a class="badge-slides" href="/assets/courses/eci/ECI_11_Matching_Methods.pdf">Slides</a>
   - Propensity scores, matching, and weighting
   - <span class="badge-read"><i class="fas fa-book-open"></i>Readings:</span> Imbens & Rubin Ch. 13, 15, 18; [Stuart (2010)](https://doi.org/10.1214/09-STS313)
@@ -206,7 +204,7 @@ schedule_content: |
   <i class="fas fa-users deliv-icon"></i> Paper Presentations: 4.1, 4.2, 4.3, and 4.4
   </div>
 
-  **Week 13 — Regression Discontinuity Designs**
+  **Week 13 (May 21) — Regression Discontinuity Designs**
   <a class="badge-slides" href="/assets/courses/eci/ECI_12_Sharp_RD.pdf">Slides</a>
   - Sharp RD designs, identification
   - Estimation and bandwidth selection
@@ -216,7 +214,7 @@ schedule_content: |
   <span class="badge-due">Due:</span> <em>The Effect</em> CH 14: Matching
   </div>
 
-  **Week 14 — Regression Discontinuity Designs Cont.**
+  **Week 14 (May 28) — Regression Discontinuity Designs Cont.**
   <a class="badge-slides" href="/assets/courses/eci/ECI_13_Fuzzy_RD.pdf">Slides</a>
   - Fuzzy RD designs
   - Applications of RDDs
@@ -228,7 +226,7 @@ schedule_content: |
 
   ### Part IV: Advanced Topics & Research Workshop
 
-  **Week 15 — Advanced Topics** <span style="font-size:0.78rem; color:#e67e22; font-weight:600;">TENTATIVE</span>
+  **Week 15 (Jun 4) — Advanced Topics** <span style="font-size:0.78rem; color:#e67e22; font-weight:600;">TENTATIVE</span>
   - *One of the following topics will be covered (to be announced):*
   - **Option A — Causal Mechanisms:** Mediation analysis, controlled direct effects, natural direct and indirect effects <a class="badge-slides" href="/assets/courses/eci/ECI_14_Causal_Mechanisms.pdf">Slides</a>
       - <span class="badge-read"><i class="fas fa-book-open"></i>Readings:</span> [Imai, Keele & Yamamoto (2010)](https://doi.org/10.1214/10-STS321); [Imai et al. (2011)](https://doi.org/10.1017/S0003055411000414); [Acharya, Blackwell & Sen (2016)](https://doi.org/10.1017/S0003055416000216)
@@ -238,7 +236,7 @@ schedule_content: |
   <span class="badge-due">Due:</span> <strong>Final Report</strong>
   </div>
 
-  **Week 16 — Final Group Project Presentations**
+  **Week 16 (Jun 11) — Final Group Project Presentations**
   - Each group presents their research project, followed by structured peer feedback and class discussion.
 
 textbooks_content: |
