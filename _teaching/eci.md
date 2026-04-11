@@ -64,6 +64,7 @@ materials:
     handout_url: "/assets/courses/eci/ECI_05b_Handout.pdf"
   - title: "Lecture 6: DAGs"
     url: "/assets/courses/eci/ECI_06_DAGs.pdf"
+    handout_url: "/assets/courses/eci/ECI_06_Handout.pdf"
   - title: "Lecture 7: Noncompliance and IV"
     url: "/assets/courses/eci/ECI_07_Noncompliance_and_IV.pdf"
     handout_url: "/assets/courses/eci/ECI_07_Handout.pdf"
