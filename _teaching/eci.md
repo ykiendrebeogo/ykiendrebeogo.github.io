@@ -66,6 +66,7 @@ materials:
     url: "/assets/courses/eci/ECI_06_DAGs.pdf"
   - title: "Lecture 7: Noncompliance and IV"
     url: "/assets/courses/eci/ECI_07_Noncompliance_and_IV.pdf"
+    handout_url: "/assets/courses/eci/ECI_07_Handout.pdf"
   - title: "Lecture 9: TSLS"
     url: "/assets/courses/eci/ECI_09_TSLS.pdf"
   - title: "Lecture 10: Panel Data and DID"
