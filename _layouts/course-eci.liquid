@@ -731,6 +731,19 @@
         </ul>
       {% endif %}
 
+      {% if page.written_notes %}
+        <hr>
+        <h2>Written Notes</h2>
+        <p style="font-size: 0.9rem; color: #666; margin-bottom: 0.8rem;">Detailed notes in article format, covering material discussed in class and beyond.</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+          {% for note in page.written_notes %}
+            <a href="{{ note.url | relative_url }}#toolbar=0&navpanes=0" target="_blank" class="btn-eci btn-eci-sm" rel="noopener noreferrer" style="white-space: nowrap;">
+              <i class="fas fa-book"></i> {{ note.title }}
+            </a>
+          {% endfor %}
+        </div>
+      {% endif %}
+
       {% if page.textbooks_content %}
         <hr>
         {{ page.textbooks_content | markdownify }}

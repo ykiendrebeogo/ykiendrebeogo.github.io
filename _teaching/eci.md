@@ -80,6 +80,12 @@ materials:
   - title: "Lecture 14: Causal Mechanisms"
     url: "/assets/courses/eci/ECI_14_Causal_Mechanisms.pdf"
 
+written_notes:
+  - title: "Week 5: Observational Studies"
+    url: "/assets/courses/eci/ECI_05_Notes.pdf"
+  - title: "Week 7: Noncompliance and Instrumental Variables"
+    url: "/assets/courses/eci/ECI_07_Notes.pdf"
+
 schedule_content: |
   ## Weekly Schedule
 
