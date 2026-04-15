@@ -6,6 +6,9 @@ nav: false
 ---
 
 
+### Manuscripts In Revision
+{% bibliography --query @*[kind=manuscripts in revision] --template bib_clean %}
+
 ### Manuscripts Under Review
 {% bibliography --query @*[kind=manuscripts under review] --template bib_clean %}
 
