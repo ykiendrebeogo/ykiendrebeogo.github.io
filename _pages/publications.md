@@ -3,8 +3,8 @@ layout: page
 permalink: /research/
 title: research
 description: The corresponding author is denoted by *. Video summaries 🎬 generated with NotebookLM. 
-categories: ['manuscripts under review', 'working papers', 'work-in-progress', 'publications']
-catprint: ['', 'manuscripts under review', 'working papers', 'work-in-progress', 'publications']
+categories: ['manuscripts in revision', 'manuscripts under review', 'working papers', 'work-in-progress', 'publications']
+catprint: ['', 'manuscripts in revision', 'manuscripts under review', 'working papers', 'work-in-progress', 'publications']
 nav: true
 nav_order: 2
 ---
