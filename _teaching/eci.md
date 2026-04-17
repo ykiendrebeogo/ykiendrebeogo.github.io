@@ -465,9 +465,26 @@ Students will review relevant research papers on each topic and actively engage 
   </div>
 </div>
 
-### Teaching Fellows
+### Teaching Assistants
 
-<p style="color: #888; font-style: italic;">TBA</p>
+<div class="ta-grid">
+  <div class="ta-card">
+    <img src="/assets/courses/eci/ta_justin_kao.svg" alt="Kai-Chieh (Justin) Kao">
+    <div class="ta-info">
+      <p class="ta-name">Kai-Chieh (Justin) Kao</p>
+      <p class="ta-affiliation">M.S. Alumnus, ISS</p>
+      <p class="ta-contact"><i class="fas fa-envelope"></i> justin.kao [at] iss.nthu.edu.tw</p>
+    </div>
+  </div>
+  <div class="ta-card">
+    <img src="/assets/courses/eci/ta_keri_liu.jpg" alt="Ting-Wen (Keri) Liu" style="object-position: center 30%;">
+    <div class="ta-info">
+      <p class="ta-name">Ting-Wen (Keri) Liu</p>
+      <p class="ta-affiliation">M.S. Student, ISS, CADI Lab</p>
+      <p class="ta-contact"><i class="fas fa-envelope"></i> keri.liu [at] iss.nthu.edu.tw</p>
+    </div>
+  </div>
+</div>
 
 ## Course Platforms
 
