@@ -469,15 +469,15 @@ Students will review relevant research papers on each topic and actively engage 
 
 <div class="ta-grid">
   <div class="ta-card">
-    <img src="/assets/courses/eci/ta_justin_kao.svg" alt="Kai-Chieh (Justin) Kao">
+    <img src="/assets/courses/eci/ta_justin_kao.svg" alt="Kai-Chieh (Justin) Kao" class="photo-clickable" data-full="/assets/courses/eci/ta_justin_kao.svg">
     <div class="ta-info">
       <p class="ta-name">Kai-Chieh (Justin) Kao</p>
-      <p class="ta-affiliation">M.S. Alumnus, ISS</p>
+      <p class="ta-affiliation">Alumnus, ISS</p>
       <p class="ta-contact"><i class="fas fa-envelope"></i> justin.kao [at] iss.nthu.edu.tw</p>
     </div>
   </div>
   <div class="ta-card">
-    <img src="/assets/courses/eci/ta_keri_liu.jpg" alt="Ting-Wen (Keri) Liu" style="object-position: center 30%;">
+    <img src="/assets/courses/eci/ta_keri_liu.jpg" alt="Ting-Wen (Keri) Liu" class="photo-clickable" data-full="/assets/courses/eci/ta_keri_liu.jpg" style="object-position: center 30%;">
     <div class="ta-info">
       <p class="ta-name">Ting-Wen (Keri) Liu</p>
       <p class="ta-affiliation">M.S. Student, ISS, CADI Lab</p>

@@ -421,6 +421,60 @@
       .ta-card { flex-direction: row; flex: none; }
     }
 
+    /* ── TA photo lightbox ── */
+    .ta-card img.photo-clickable {
+      cursor: pointer;
+      transition: transform 0.2s ease, filter 0.2s ease;
+    }
+    .ta-card img.photo-clickable:hover {
+      transform: scale(1.05);
+      filter: brightness(1.1);
+    }
+    #eciPhotoLightbox {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0,0,0,0.85);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease, visibility 0.3s ease;
+      backdrop-filter: blur(8px);
+    }
+    #eciPhotoLightbox.active {
+      opacity: 1;
+      visibility: visible;
+    }
+    #eciPhotoLightbox .lightbox-close {
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem;
+      background: none;
+      border: none;
+      color: #fff;
+      font-size: 2rem;
+      cursor: pointer;
+      width: 44px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      transition: background 0.2s;
+    }
+    #eciPhotoLightbox .lightbox-close:hover { background: rgba(255,255,255,0.15); }
+    #eciPhotoLightbox .lightbox-img {
+      max-width: 85vw;
+      max-height: 85vh;
+      border-radius: 12px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+      transform: scale(0.9);
+      transition: transform 0.3s ease;
+    }
+    #eciPhotoLightbox.active .lightbox-img { transform: scale(1); }
+
     /* ── Schedule parts ── */
     .eci-section h3 {
       font-size: 1.2rem;
@@ -829,6 +883,12 @@
 
   </div>
 
+  <!-- Photo Lightbox -->
+  <div id="eciPhotoLightbox">
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <img class="lightbox-img" id="eciLightboxImg" src="" alt="">
+  </div>
+
   <!-- Scripts -->
   <script src="{{ site.third_party_libraries.jquery.url.js }}" integrity="{{ site.third_party_libraries.jquery.integrity.js }}" crossorigin="anonymous"></script>
   <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
@@ -914,6 +974,35 @@
     // Evaluation TOC: from h2 headings
     buildToc('eval-content', 'eval-toc-list', 'h2', 'eval');
   });
+  </script>
+  <script>
+  (function() {
+    var lightbox = document.getElementById('eciPhotoLightbox');
+    var lightboxImg = document.getElementById('eciLightboxImg');
+    var closeBtn = lightbox.querySelector('.lightbox-close');
+
+    document.querySelectorAll('.photo-clickable').forEach(function(img) {
+      img.addEventListener('click', function() {
+        lightboxImg.src = this.getAttribute('data-full') || this.src;
+        lightboxImg.alt = this.alt;
+        lightbox.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      });
+    });
+
+    function closeLightbox() {
+      lightbox.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    closeBtn.addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', function(e) {
+      if (e.target === lightbox) closeLightbox();
+    });
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') closeLightbox();
+    });
+  })();
   </script>
 {% if site.enable_google_analytics %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
