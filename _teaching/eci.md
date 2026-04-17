@@ -77,6 +77,8 @@ materials:
     url: "/assets/courses/eci/ECI_10_Panel_Data_and_DID.pdf"
   - title: "Lecture 11: Matching Methods"
     url: "/assets/courses/eci/ECI_11_Matching_Methods.pdf"
+  - title: "Lecture 11(b): Weighting Estimators"
+    url: "/assets/courses/eci/ECI_11b_Weighting_Estimators.pdf"
   - title: "Lecture 12: Sharp RD"
     url: "/assets/courses/eci/ECI_12_Sharp_RD.pdf"
   - title: "Lecture 13: Fuzzy RD"
@@ -208,7 +210,7 @@ schedule_content: |
   </div>
 
   **Week 12 (May 14) — Matching and Weighting Estimators**
-  <a class="badge-slides" href="/assets/courses/eci/ECI_11_Matching_Methods.pdf">Slides</a>
+  <a class="badge-slides" href="/assets/courses/eci/ECI_11_Matching_Methods.pdf">Slides</a> <a class="badge-slides" href="/assets/courses/eci/ECI_11b_Weighting_Estimators.pdf">Slides (b)</a>
   - Propensity scores, matching, and weighting
   - <span class="badge-read"><i class="fas fa-book-open"></i>Readings:</span> Imbens & Rubin Ch. 13, 15, 18; [Stuart (2010)](https://doi.org/10.1214/09-STS313)
   <div class="schedule-deliverables">
