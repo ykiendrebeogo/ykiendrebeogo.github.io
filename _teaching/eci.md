@@ -453,7 +453,7 @@ Students will review relevant research papers on each topic and actively engage 
 ### Instructor
 
 <div class="instructor-card">
-  <img src="/assets/img/prof_jaewon_yoo.jpg" alt="Jaewon Yoo">
+  <img src="/assets/img/prof_jaewon_yoo.jpg" alt="Jaewon Yoo" class="photo-clickable" data-full="/assets/img/prof_jaewon_yoo.jpg">
   <div class="instructor-info">
     <p><strong><a href="https://j1yoo.github.io/" target="_blank" rel="noopener noreferrer">Jaewon Yoo</a></strong> · Assistant Professor</p>
     <p>Institute of Service Science, College of Technology Management<br>National Tsing Hua University</p>
