@@ -389,12 +389,29 @@
       flex: 1 1 260px;
       min-width: 0;
     }
-    .ta-card img {
+    .ta-card .ta-photo {
       width: 90px;
       height: 90px;
       border-radius: 50%;
-      object-fit: cover;
+      overflow: hidden;
       flex-shrink: 0;
+      position: relative;
+      display: block;
+      cursor: pointer;
+    }
+    .ta-card .ta-photo img {
+      width: 130px;
+      height: 130px;
+      object-fit: cover;
+      position: absolute;
+      left: 50%;
+      top: 0;
+      transform: translateX(-50%);
+      transition: transform 0.2s ease, filter 0.2s ease;
+    }
+    .ta-card .ta-photo:hover img {
+      transform: translateX(-50%) scale(1.05);
+      filter: brightness(1.1);
     }
     .ta-card .ta-info {
       flex: 1;
