@@ -224,7 +224,7 @@
         <div class="entry">
              <div class="entry-header">
                 <span>{{ course.title }}</span>
-                <span>{{ course.semester }} - </span>
+                <span>{% if course.first_offered %}{{ course.first_offered }} - present{% else %}{{ course.semester }} - {% endif %}</span>
             </div>
             <div class="entry-content">
                 {{ course.course_number }} · {{ course.description }}

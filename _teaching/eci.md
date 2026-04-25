@@ -4,6 +4,7 @@ title: Experiments and Causal Inference
 description: A graduate seminar on experimental and quasi-experimental designs for causal inference.
 semester: "Spring 2026"
 semester_dates: "Feb 23 – Jun 15, 2026"
+first_offered: "Spring 2022"
 course_number: "ISS5096"
 series: "Methods"
 day: "Thursday"
