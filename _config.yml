@@ -173,6 +173,11 @@ collections:
     output: true
   projects:
     output: true
+  gallery_events:
+    output: true
+    permalink: /gallery/:path/
+    defaults:
+      layout: page
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------

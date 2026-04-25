@@ -81,14 +81,6 @@
   thesis_url: https://etd.lib.nthu.edu.tw/detail/252b0089ebe61c7618327accc66ba0ec/
   abstract: "This thesis investigates how the temporary removal of algorithmic amplification, specifically the suspension of trending topics features, impacts citizens’ engagement with political news on major Korean portal platforms during the April 2020 legislative elections. Employing a quasi-natural experimental design and leveraging user-level panel interaction data from over 2,000 users across the two major platforms, the study applies a difference-in-differences framework, supplemented with triple differences, event studies, and machine learning–assisted robustness checks. Results indicate that suspending trending topics significantly reduced user engagement with political articles, particularly among heavy users, without corresponding increases in content diversity or declines in engagement volatility. These findings offer empirical support for the proposition that algorithmic infrastructure influences not just content visibility, but also political attention allocation. Theoretically, the thesis contributes to agenda-setting theory in digital environments and emphasizes the political consequences of de-amplification. Normatively, it raises design questions about democratic information flows, especially in contexts of state–platform interaction. Robustness checks suggest that the effects are not artifacts of selection bias or time-varying confounders."
 
-- name: Ting-Wen (Keri) Liu
-  year: 2025-current
-  info: "Institute of Service Science, National Tsing Hua University (NTHU)"
-
-  degree: "Masters"
-  linkedin: "https://www.linkedin.com/in/ting-wen-liu-5289971b0"
-  github: "https://github.com/keri0502"
-
 - name: John Loui Santiago
   year: 2025-current
   info: "iMBA, National Tsing Hua University (NTHU)"
@@ -112,3 +104,17 @@
 
   note: Undergraduate research assistant
   degree: "Undergraduate"
+
+- name: Ting-Wen (Keri) Liu
+  year: 2026-current
+  info: "Institute of Service Science, National Tsing Hua University (NTHU)"
+
+  degree: "Masters"
+  linkedin: "https://www.linkedin.com/in/ting-wen-liu-5289971b0"
+  github: "https://github.com/keri0502"
+
+- name: Hsin-Yu (Joanna) Hsiao
+  year: 2026-current
+  info: "Institute of Service Science, National Tsing Hua University (NTHU)"
+
+  degree: "Masters"
