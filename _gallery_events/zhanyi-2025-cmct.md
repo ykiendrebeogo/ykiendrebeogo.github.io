@@ -22,8 +22,19 @@ importance: 1
 {% assign event_photos_png = site.static_files | where_exp: "f", "f.path contains 'gallery/zhanyi-2025-cmct/'" | where: "extname", ".png" %}
 {% assign event_photos = event_photos_jpg | concat: event_photos_jpeg | concat: event_photos_png | sort: "path" %}
 
+<style>
+  .gallery-event-grid figure { margin: 0; height: 100%; }
+  .gallery-event-grid figure img,
+  .gallery-event-grid figure picture img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    display: block;
+  }
+</style>
+
 {% if event_photos.size > 0 %}
-<div class="row mt-4">
+<div class="row mt-4 gallery-event-grid">
 {% for photo in event_photos %}
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path=photo.path title="2025 Best Master's Thesis Award: Zhan-Yi Liao" class="img-fluid rounded z-depth-1" zoomable=true %}
