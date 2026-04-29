@@ -13,6 +13,13 @@ location: "TSMC Bldg. R406"
 instructor_office: "TSMC Bldg. R828B"
 instructor_email: "jaewon.yoo [at] iss.nthu.edu.tw"
 communication: "All course communication goes through <strong><a href=\"https://teams.microsoft.com/l/team/19%3AJP2R-tTEDQeUB1xDpd33-nu4Qo21bv_c8NkSr5XxMaM1%40thread.tacv2/conversations?groupId=b48faca7-6855-4284-b7ef-b9ba\" target=\"_blank\" rel=\"noopener noreferrer\">MS Teams</a></strong>. Homework submissions and grades are on <strong>Canvas</strong>. For private matters, email or DM the instructor."
+
+updates_note: "I update the ECI GitHub Page regularly throughout the semester. Items below have been recently revised and need your attention."
+
+updates:
+  - text: "<strong>Paper presentations</strong> now follow a hybrid format: each student presents one paper live in class and one as a recorded video, with a short in-class round-table afterwards (see <strong>Evaluation</strong> → Paper Introduction Presentations)."
+  - text: "<strong>AI Use Policy: useful guidance on using AI in academic writing.</strong> Practical insights added: risks to watch (cognitive offloading, voice homogenization) and practices that help (editor-not-rewriter mode, self-check question), with references to leading guides. <strong>Worth reading carefully</strong> before using AI tools on coursework (see <strong>Policies</strong> → AI Use Policy)."
+  - text: "<strong>Lecture materials</strong> are being uploaded as the course progresses; check the <strong>Materials</strong> tab regularly for the latest slides, handouts, and written notes."
 og_image: https://j1yoo.github.io/assets/courses/eci/eci_logo.png
 syllabus: /assets/courses/eci/ECI_Syllabus.pdf
 logo: /assets/courses/eci/eci_logo.png
