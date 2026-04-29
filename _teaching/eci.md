@@ -38,7 +38,7 @@ features:
     description: "Graphical models for identification and exploring causal mechanisms."
 
 videos:
-  - title: "Lecture 7 - Noncompliance and Instrumental Variables"
+  - title: "Lecture 7: Noncompliance and Instrumental Variables"
     id: "8S06mqd6pTM"
 
 materials:
@@ -100,7 +100,7 @@ schedule_content: |
 
   ### Part I: Foundations of Causal Inference
 
-  **Week 1 (Feb 26) — Introduction and Potential Outcomes**
+  **Week 1 (Feb 26): Introduction and Potential Outcomes**
   <a class="badge-slides" href="/assets/courses/eci/ECI_01_Intro_and_Potential_Outcomes.pdf">Slides</a>
   - Neyman-Rubin causal model
   - Fundamental problem of causal inference (FPOCI)
@@ -110,7 +110,7 @@ schedule_content: |
   <i class="fas fa-clipboard-list deliv-icon"></i> <em>Group forming & ice breaking activities</em>
   </div>
 
-  **Week 2 (Mar 5) — Randomization Inference**
+  **Week 2 (Mar 5): Randomization Inference**
   <a class="badge-slides" href="/assets/courses/eci/ECI_02_Randomization_Inference.pdf">Slides</a>
   - Randomized experiments
   - Fisher's approach to inference, permutation tests
@@ -121,7 +121,7 @@ schedule_content: |
   <span class="badge-due">Due:</span> <em>The Effect</em> CH 2: Research Questions
   </div>
 
-  **Week 3 (Mar 12) — Inference for the Average Treatment Effect**
+  **Week 3 (Mar 12): Inference for the Average Treatment Effect**
   <a class="badge-slides" href="/assets/courses/eci/ECI_03_Inference_for_ATE.pdf">Slides</a>
   - Neyman's approach to inference for the ATE
   - Finite-sample vs superpopulation inference
@@ -131,7 +131,7 @@ schedule_content: |
   <span class="badge-due">Due:</span> <em>The Effect</em> CH 3: Describing Variables
   </div>
 
-  **Week 4 (Mar 19) — Linear Regression and Randomized Experiments**
+  **Week 4 (Mar 19): Linear Regression and Randomized Experiments**
   <a class="badge-slides" href="/assets/courses/eci/ECI_04_Regression.pdf">Slides</a>
   - Simple linear regression in experiments
   - Covariate adjustment in experiments with regression
@@ -144,7 +144,7 @@ schedule_content: |
 
   ### Part II: Observational Studies
 
-  **Week 5 (Mar 26) — Individual/Group Project Meetings**
+  **Week 5 (Mar 26): Individual/Group Project Meetings**
   - Schedule a meeting during office hours to discuss and materialize your project ideas.
   <div class="schedule-deliverables">
   <span class="badge-due">Due:</span> Problem Set 3 (Inference for the ATE)<br>
@@ -152,14 +152,11 @@ schedule_content: |
   <span class="badge-due">Due:</span> <em>The Effect</em> CH 13: Regression
   </div>
 
-  **Week 6 (Apr 2) — School Holiday** *(no regular class; makeup session on Sunday, Apr 12, between Weeks 7 and 8)*
-  <a class="badge-slides" href="/assets/courses/eci/ECI_07_Noncompliance_and_IV.pdf">Slides</a>
-  - Makeup: Instrumental Variables I (noncompliance, IV in observational studies)
-  - <span class="badge-read"><i class="fas fa-book-open"></i>Readings (for makeup):</span> Imbens & Rubin Ch. 23–24; Angrist & Pischke Ch. 4
+  **Week 6 (Apr 2): School Holiday** *(no class)*
   <div class="schedule-deliverables">
   </div>
 
-  **Week 7 (Apr 9) — Observational Studies I**
+  **Week 7 (Apr 9): Observational Studies I**
   <a class="badge-slides" href="/assets/courses/eci/ECI_05_Observational_Studies.pdf">Slides</a>
   - Selection on observables
   - Regression for observational data
@@ -168,7 +165,7 @@ schedule_content: |
   <i class="fas fa-users deliv-icon"></i> Paper Presentations: 1.3 and 1.4
   </div>
 
-  **Week 8 (Apr 16) — DAGs and Covariate Selection**
+  **Week 8 (Apr 16): DAGs and Covariate Selection**
   <a class="badge-slides" href="/assets/courses/eci/ECI_06_DAGs.pdf">Slides</a>
   - DAGs and the back-door criterion
   - Partial identification
@@ -180,17 +177,24 @@ schedule_content: |
 
   ### Part III: Quasi-Experimental Methods
 
-  **Week 9 (Apr 23) — Instrumental Variables II (TSLS)**
+  **Week 9 (Apr 23): Instrumental Variables I (Noncompliance and IV)**
+  <a class="badge-slides" href="/assets/courses/eci/ECI_07_Noncompliance_and_IV.pdf">Slides</a>
+  - Noncompliance and IV in observational studies
+  - <span class="badge-read"><i class="fas fa-book-open"></i>Readings:</span> Imbens & Rubin Ch. 23–24; Angrist & Pischke Ch. 4
+  <div class="schedule-deliverables">
+  <span class="badge-due">Due:</span> <em>The Effect</em> CH 6 & 7 Exercises
+  </div>
+
+  **Week 10 (Apr 30): Instrumental Variables II (TSLS)**
   <a class="badge-slides" href="/assets/courses/eci/ECI_09_TSLS.pdf">Slides</a>
   - Two-stage least squares
   - Review of IV applications
   <div class="schedule-deliverables">
   <i class="fas fa-users deliv-icon"></i> Paper Presentation: 2.5<br>
-  <span class="badge-due">Due:</span> <em>The Effect</em> CH 6 & 7 Exercises<br>
   <span class="badge-due">Due:</span> <em>The Effect</em> CH 8: Causal Paths and Closing Back Doors
   </div>
 
-  **Week 10 (Apr 30) — Panel Data, Fixed Effects, and Difference-in-Differences**
+  **Week 11 (May 7): Panel Data, Fixed Effects, and Difference-in-Differences**
   <a class="badge-slides" href="/assets/courses/eci/ECI_10_Panel_Data_and_DID.pdf">Slides</a>
   - Fixed effects and first differences
   - Difference-in-differences
@@ -202,23 +206,17 @@ schedule_content: |
   <span class="badge-due">Due:</span> <em>The Effect</em> CH 19: Instrumental Variables
   </div>
 
-  **Week 11 (May 7) — Difference-in-Differences Cont.**
-  - Applications of difference-in-differences
-  <div class="schedule-deliverables">
-  <i class="fas fa-users deliv-icon"></i> Paper Presentations: 3.3 and 3.4<br>
-  <span class="badge-due">Due:</span> Problem Set 5 (Instrumental Variables)<br>
-  <span class="badge-due">Due:</span> <em>The Effect</em> CH 18: Difference-in-Differences
-  </div>
-
-  **Week 12 (May 14) — Matching and Weighting Estimators**
+  **Week 12 (May 14): Matching and Weighting Estimators**
   <a class="badge-slides" href="/assets/courses/eci/ECI_11_Matching_Methods.pdf">Slides</a> <a class="badge-slides" href="/assets/courses/eci/ECI_11b_Weighting_Estimators.pdf">Slides (b)</a>
   - Propensity scores, matching, and weighting
   - <span class="badge-read"><i class="fas fa-book-open"></i>Readings:</span> Imbens & Rubin Ch. 13, 15, 18; [Stuart (2010)](https://doi.org/10.1214/09-STS313)
   <div class="schedule-deliverables">
-  <i class="fas fa-users deliv-icon"></i> Paper Presentations: 4.1, 4.2, 4.3, and 4.4
+  <i class="fas fa-users deliv-icon"></i> Paper Presentations: 4.1, 4.2, 4.3, and 4.4<br>
+  <span class="badge-due">Due:</span> Problem Set 5 (Instrumental Variables)<br>
+  <span class="badge-due">Due:</span> <em>The Effect</em> CH 18: Difference-in-Differences
   </div>
 
-  **Week 13 (May 21) — Regression Discontinuity Designs**
+  **Week 13 (May 21): Regression Discontinuity Designs**
   <a class="badge-slides" href="/assets/courses/eci/ECI_12_Sharp_RD.pdf">Slides</a>
   - Sharp RD designs, identification
   - Estimation and bandwidth selection
@@ -228,7 +226,7 @@ schedule_content: |
   <span class="badge-due">Due:</span> <em>The Effect</em> CH 14: Matching
   </div>
 
-  **Week 14 (May 28) — Regression Discontinuity Designs Cont.**
+  **Week 14 (May 28): Regression Discontinuity Designs Cont.**
   <a class="badge-slides" href="/assets/courses/eci/ECI_13_Fuzzy_RD.pdf">Slides</a>
   - Fuzzy RD designs
   - Applications of RDDs
@@ -240,17 +238,17 @@ schedule_content: |
 
   ### Part IV: Advanced Topics & Research Workshop
 
-  **Week 15 (Jun 4) — Advanced Topics** <span style="font-size:0.78rem; color:#e67e22; font-weight:600;">TENTATIVE</span>
+  **Week 15 (Jun 4): Advanced Topics** <span style="font-size:0.78rem; color:#e67e22; font-weight:600;">TENTATIVE</span>
   - *One of the following topics will be covered (to be announced):*
-  - **Option A — Causal Mechanisms:** Mediation analysis, controlled direct effects, natural direct and indirect effects <a class="badge-slides" href="/assets/courses/eci/ECI_14_Causal_Mechanisms.pdf">Slides</a>
+  - **Option A (Causal Mechanisms):** Mediation analysis, controlled direct effects, natural direct and indirect effects <a class="badge-slides" href="/assets/courses/eci/ECI_14_Causal_Mechanisms.pdf">Slides</a>
       - <span class="badge-read"><i class="fas fa-book-open"></i>Readings:</span> [Imai, Keele & Yamamoto (2010)](https://doi.org/10.1214/10-STS321); [Imai et al. (2011)](https://doi.org/10.1017/S0003055411000414); [Acharya, Blackwell & Sen (2016)](https://doi.org/10.1017/S0003055416000216)
-  - **Option B — Causal Machine Learning:** Heterogeneous treatment effects, CATE estimation, causal forests, double/debiased ML
+  - **Option B (Causal Machine Learning):** Heterogeneous treatment effects, CATE estimation, causal forests, double/debiased ML
   <div class="schedule-deliverables">
   <span class="badge-due">Due:</span> <em>The Effect</em> CH 20: Regression Discontinuity<br>
   <span class="badge-due">Due:</span> <strong>Final Report</strong>
   </div>
 
-  **Week 16 (Jun 11) — Final Group Project Presentations**
+  **Week 16 (Jun 11): Final Group Project Presentations**
   - Each group presents their research project, followed by structured peer feedback and class discussion.
 
 textbooks_content: |
@@ -308,8 +306,8 @@ assignments_content: |
 
   To give you a clear sense of expectations and grading criteria, here is a sample final report with instructor evaluation from a previous offering:
 
-  - [Sample Final Report (PDF)](/assets/courses/eci/ECI_Sample_Final_Report.pdf){:target="_blank"} — a student project using DiD, Callaway & Sant'Anna, and DML
-  - [Sample Instructor Evaluation (PDF)](/assets/courses/eci/ECI_Sample_Evaluation.pdf){:target="_blank"} — detailed rubric scores, comments, and suggestions (89.5/100)
+  - [Sample Final Report (PDF)](/assets/courses/eci/ECI_Sample_Final_Report.pdf){:target="_blank"}: a student project using DiD, Callaway & Sant'Anna, and DML
+  - [Sample Instructor Evaluation (PDF)](/assets/courses/eci/ECI_Sample_Evaluation.pdf){:target="_blank"}: detailed rubric scores, comments, and suggestions (89.5/100)
 
   ### Project Milestones
 
@@ -317,7 +315,7 @@ assignments_content: |
   |:----------|:----|:------------|
   | Find a collaborator | Week 2 | Form a team or obtain permission for individual project |
   | Project proposal | Week 5 | Half-page description of proposed project & feasible research plan |
-  | Progress report | Week 10 | 5-page memo with preliminary results, tables, figures, and analysis |
+  | Progress report | Week 11 | 5-page memo with preliminary results, tables, figures, and analysis |
   | Final project report | Week 15 | Submit final version of the paper |
   | Final presentation | Week 16 | In-class group presentation |
 
@@ -327,7 +325,7 @@ assignments_content: |
 
   → [Open Printable Feedback Form](/assets/courses/eci/ECI_Peer_Feedback_Form.html){:target="_blank"}
 
-  Feedback forms are shared with presenters to support their final revisions. The **quality and thoughtfulness** of your feedback — not the scores you give — contributes to your **Participation** grade. Presenter grades are determined by the instructor independently.
+  Feedback forms are shared with presenters to support their final revisions. The **quality and thoughtfulness** of your feedback (not the scores you give) contributes to your **Participation** grade. Presenter grades are determined by the instructor independently.
 
   ---
 
@@ -335,8 +333,8 @@ assignments_content: |
 
   You will have two types of homework:
 
-  1. **Problem sets** — a mix of conceptual questions, analytic problems, computer simulations, and data analysis that closely resemble what we discuss in lectures.
-  2. ***The Effect* assignments** — exercises from our third textbook.
+  1. **Problem sets**: a mix of conceptual questions, analytic problems, computer simulations, and data analysis that closely resemble what we discuss in lectures.
+  2. ***The Effect* assignments**: exercises from our third textbook.
 
   You are encouraged to work in groups, but you must always write your own solutions including your own computer code. It is hugely beneficial to attempt the problems on your own before working in groups.
 
@@ -346,24 +344,28 @@ assignments_content: |
 
   ## One-Page Summaries, Presentations & Reading Assignments
 
-  - **One-Page Summaries:** Before each class, every student submits a 1-page summary of the assigned papers. Graded on a **complete/incomplete** basis — submission is what counts.
-  - **Paper Introduction Presentations:** Students take turns presenting assigned papers each week. Presentations should cover the value of the topic and the motivational story. All students should read the paper before class. Quality of presentations is reflected in the **Participation** grade.
+  - **One-Page Summaries:** Before each class, every student submits a 1-page summary of the assigned papers. Graded on a **complete/incomplete** basis: submission is what counts.
+  - **Paper Introduction Presentations:** Students take turns presenting assigned papers throughout the semester. Each student presents **two papers**: one **live in class** and one as a **recorded video**. Presentations should cover the value of the topic and the motivational story, then connect to the methodology we cover in class: where the paper applies the methods, where it stops short or pushes further, and what was particularly interesting about the paper.
+      - **Recording upload:** to MS Teams by **Monday** of the week the paper is scheduled.
+      - **Pre-class viewing & evaluation:** all students watch the week's recording(s) and submit the **peer evaluation form** before Thursday class.
+      - **In-class roundtable:** If time permits after the lecture, peers will discuss the recorded paper(s) in a roundtable format, with the presenter available to clarify points as needed.
+      - **Grading:** both **presentation quality** (for presenters) and **evaluation quality** (for evaluators) contribute to the **Participation** grade.
 
   ### One-Page Summary Guideline
 
   Choose **5 papers** from the assigned reading list and write a one-page summary addressing the following:
 
-  1. **Main Question** — What is the main question of the paper? Why do we care?
-  2. **Parameters of Interest** — What model aspects or facts are being estimated? What parameter answers the main question?
-  3. **Data** — What is the unit of observation? Where are the data from? How were they collected? Do the data appear reliable?
-  4. **Answers** — What does the paper find? What are the main weaknesses? How could it be improved? If you were a practitioner, what implications would you draw?
-  5. **Extensions** — After the current paper, what could be done next in this general area?
+  1. **Main Question**: What is the main question of the paper? Why do we care?
+  2. **Parameters of Interest**: What model aspects or facts are being estimated? What parameter answers the main question?
+  3. **Data**: What is the unit of observation? Where are the data from? How were they collected? Do the data appear reliable?
+  4. **Answers**: What does the paper find? What are the main weaknesses? How could it be improved? If you were a practitioner, what implications would you draw?
+  5. **Extensions**: After the current paper, what could be done next in this general area?
 
   You may also discuss: one-sentence conclusion, institutional background, conceptual framework, or relevant literature. Submit as PDF via Teams.
 
   ### Reading Assignments by Topic
 
-  Students will present papers from the following five topic groups. Each group contains five readings — a textbook chapter plus published applications from top journals. Presentation assignments will be finalized before the first presentation week.
+  Students will present papers from the following five topic groups. Each group contains five readings: a textbook chapter plus published applications from top journals. Presentation assignments will be finalized before the first presentation week.
 
   > **Note:** If you have a top-journal paper that uses a method covered in one of these modules (e.g., a DiD paper for the DiD module) and you would prefer to present it instead, please contact the instructor before presentations begin to request a substitution.
 
@@ -381,7 +383,7 @@ assignments_content: |
   4. Dewan, S. & Ramaprasad, J. (2012). "Music Blogging, Online Sampling, and the Long Tail." *Information Systems Research*, 23(3), 1056–1067.
   5. Barron, K., Kung, E., & Proserpio, D. (2021). "The Effect of Home-Sharing on House Prices and Rents: Evidence from Airbnb." *Marketing Science*, 40(1), 23–47.
 
-  **3. Difference-in-Differences** (Weeks 10–11)
+  **3. Difference-in-Differences** (Week 11)
   1. Angrist, J. D. & Pischke, J.-S. (2009). Ch. 5, "Parallel Worlds: Fixed Effects, Difference-in-Differences, and Panel Data." *Mostly Harmless Econometrics*. Princeton University Press.
   2. Bertrand, M., Duflo, E., & Mullainathan, S. (2004). "How Much Should We Trust Differences-in-Differences Estimates?" *Quarterly Journal of Economics*, 119(1), 249–275.
   3. Dranove, D., Kessler, D., McClellan, M., & Satterthwaite, M. (2003). "Is More Information Better? The Effects of 'Report Cards' on Health Care Providers." *Journal of Political Economy*, 111(3), 555–588.
@@ -413,11 +415,22 @@ policies_content: |
 
   **Academic Honesty:** All work submitted must be the student's own. Violations will result in a zero for the first offense; subsequent violations result in a failing grade for the course. Submissions will be checked via Turnitin.
 
-  **AI Use Policy:** Students are permitted to use AI tools (e.g., ChatGPT, Claude) responsibly as aids for brainstorming and generating initial drafts. However, the final submission must predominantly reflect the student's understanding and personal input. If you use AI tools, you must:
-  - Provide a detailed explanation of how the AI tool was used
-  - Submit the original AI-generated responses
-  - Critically evaluate and clearly indicate AI-generated portions
-  - Give proper attribution to AI-generated content
+  **AI Use Policy:** Students are permitted to use AI tools (e.g., ChatGPT, Claude) responsibly as **editorial assistants and sounding boards** to refine, stress-test, or get feedback on their own work, not to generate drafts in their place. The final submission must predominantly reflect the student's own understanding and reasoning.
+
+  A few risks to avoid and practices to adopt when using AI for scholarly writing:
+  - **Cognitive offloading** *(risk)*: it is tempting to let the LLM do your thinking for you, but the intellectual work behind your writing is what develops you as a scholar; outsourcing it weakens that development.
+  - **Voice homogenization** *(risk)*: AI tends to produce a default, generic academic voice that gradually erodes your scholarly identity over time.
+  - **Editor, not rewriter** *(practice)*: ask for inline comments and feedback rather than text replacement. This is the simplest way to preserve both your voice and ownership of the argument.
+  - **Self-check** *(practice)*: before reaching for AI, ask yourself *"Can I discuss this idea coherently without it?"* If the answer is no, AI shouldn't be writing about it on your behalf either.
+
+  If you use AI tools, you must:
+  - Use AI as an **editor, not a rewriter** (ask for feedback or inline comments rather than text replacement).
+  - Provide a detailed explanation of how the AI tool was used.
+  - Submit the original AI-generated responses.
+  - Critically evaluate and clearly indicate AI-generated portions.
+  - Give proper attribution to AI-generated content.
+
+  For deeper discussion of these trade-offs, see Paul Goldsmith-Pinkham's (Yale) [Writing and Thinking with AI Assistance](https://paulgp.substack.com/p/writing-and-thinking-with-ai-assistance). For practical writing principles and discipline-specific norms AI tools often miss (active voice, concrete examples, citation integrity, anti-AI-pattern hygiene), see this open-source [GitHub repository](https://github.com/hanlulong/econ-writing-skill) by Lu Han, which distills writing guidance from leading social scientists, including Nobel laureates Claudia Goldin and Michael Kremer alongside John Cochrane, Deirdre McCloskey, and Jesse Shapiro. The takeaway I find most compelling: academic writing is not an art but a learnable craft, a set of best practices that students can study and apply directly.
 
   **Accommodation:** Students with disabilities or special needs should contact the instructor during the first week of class to arrange appropriate accommodations.
 ---
@@ -441,12 +454,12 @@ Students will review relevant research papers on each topic and actively engage 
 - **Math:** Undergraduate-level probability and statistics; some experience with regression analysis/econometrics is helpful. Basic linear algebra is helpful for following textbook derivations.
 - **Programming:** Knowledge of statistical programming (e.g., R and Python)
 - **Recommended prior coursework (ISS):**
-  - ISS5066 Programming for Business Analytics (PBA) covers statistical inference, R programming, and an introduction to causal inference including potential outcomes and difference-in-differences — all directly relevant to ECI. ECI goes considerably deeper, with more formal notation and careful assumption-based reasoning. Students entering with PBA will find the foundational concepts familiar, but should expect to engage more rigorously with the underlying theory. Qualified undergraduates and graduate students from other departments are welcome to join the class.
+  - ISS5066 Programming for Business Analytics (PBA) covers statistical inference, R programming, and an introduction to causal inference including potential outcomes and difference-in-differences. All of these are directly relevant to ECI. ECI goes considerably deeper, with more formal notation and careful assumption-based reasoning. Students entering with PBA will find the foundational concepts familiar, but should expect to engage more rigorously with the underlying theory. Qualified undergraduates and graduate students from other departments are welcome to join the class.
   - ISS5077 Computational Statistics for Data Science (CSDS) covers hypothesis testing, regression, and applied statistical modeling and will provide a strong background for the statistical foundations covered in this course.
   - ISS5090 Business Analytics with Machine Learning (BAML) covers supervised and unsupervised learning methods including trees, random forests, and neural networks and will provide helpful background for the causal ML topics covered in Weeks 14–15.
 
 - **Related coursework in other departments:**
-  - ECON3033 Econometrics I and ECON3034 Econometrics II — regression methodology and empirical research designs.
+  - ECON3033 Econometrics I and ECON3034 Econometrics II: regression methodology and empirical research designs.
   - ECON5099 Causal Inference in Econometrics covers related topics.
 
 ## Teaching Team
