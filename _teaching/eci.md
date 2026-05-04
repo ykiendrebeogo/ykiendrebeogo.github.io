@@ -79,8 +79,9 @@ materials:
   - title: "Lecture 7: Noncompliance and IV"
     url: "/assets/courses/eci/ECI_07_Noncompliance_and_IV.pdf"
     handout_url: "/assets/courses/eci/ECI_07_Handout.pdf"
-  - title: "Lecture 9: TSLS"
+  - title: "Lecture 9: TSLS and Modern IV"
     url: "/assets/courses/eci/ECI_09_TSLS.pdf"
+    handout_url: "/assets/courses/eci/ECI_09_Handout.pdf"
   - title: "Lecture 10: Panel Data and DID"
     url: "/assets/courses/eci/ECI_10_Panel_Data_and_DID.pdf"
   - title: "Lecture 11: Matching Methods"
@@ -192,9 +193,11 @@ schedule_content: |
   <span class="badge-due">Due:</span> <em>The Effect</em> CH 6 & 7 Exercises
   </div>
 
-  **Week 10 (Apr 30): Instrumental Variables II (TSLS)**
+  **Week 10 (Apr 30): Instrumental Variables II (TSLS and Modern IV)**
   <a class="badge-slides" href="/assets/courses/eci/ECI_09_TSLS.pdf">Slides</a>
-  - Two-stage least squares
+  <a class="badge-handout" href="/assets/courses/eci/ECI_09_Handout.pdf">Handout</a>
+  - Two-stage least squares; weak-instrument inference (Stock-Yogo, Lee et al.\ 2022, Anderson-Rubin)
+  - Modern IV via Machine Learning (PLIV, DRIV, DoubleML); Causal Forest IV demo on a digital advertising RCT
   - Review of IV applications
   <div class="schedule-deliverables">
   <i class="fas fa-users deliv-icon"></i> Paper Presentation: 2.5<br>
