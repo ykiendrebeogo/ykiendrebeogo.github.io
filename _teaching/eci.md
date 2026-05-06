@@ -195,7 +195,6 @@ schedule_content: |
 
   **Week 10 (Apr 30): Instrumental Variables II (TSLS and Modern IV)**
   <a class="badge-slides" href="/assets/courses/eci/ECI_09_TSLS.pdf">Slides</a>
-  <a class="badge-handout" href="/assets/courses/eci/ECI_09_Handout.pdf">Handout</a>
   - Two-stage least squares; weak-instrument inference (Stock-Yogo, Lee et al.\ 2022, Anderson-Rubin)
   - Modern IV via Machine Learning (PLIV, DRIV, DoubleML); Causal Forest IV demo on a digital advertising RCT
   - Review of IV applications
