@@ -234,9 +234,15 @@
     }
     gtag('js', new Date());
 
-    gtag('config', '{{ site.google_analytics }}');
+    gtag('config', '{{ site.google_analytics }}', {
+      cookie_domain: 'auto',
+      cookie_flags: 'SameSite=None;Secure',
+      linker: {
+        domains: ['j1yoo.github.io', 'cadi-lab.github.io']
+      }
+    });
   </script>
-  <script defer src="{{ '/assets/js/google-analytics-setup.js' | relative_url }}"></script>
+  <!-- NOTE: google-analytics-setup.js removed: it duplicated gtag('config') causing double page_view events -->
   <script defer src="{{ '/assets/js/enhanced-tracking.js' | relative_url }}"></script>
 {% endif %}
 
