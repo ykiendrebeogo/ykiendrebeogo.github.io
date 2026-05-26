@@ -97,10 +97,9 @@ materials:
   - title: "Lecture 11(b): Weighting Estimators"
     url: "/assets/courses/eci/ECI_11b_Weighting_Estimators.pdf"
     handout_url: "/assets/courses/eci/ECI_11b_Weighting_Estimators.pdf"
-  - title: "Lecture 12: Sharp RD"
-    url: "/assets/courses/eci/ECI_12_Sharp_RD.pdf"
-  - title: "Lecture 13: Fuzzy RD"
-    url: "/assets/courses/eci/ECI_13_Fuzzy_RD.pdf"
+  - title: "Lecture 12 & 13: Sharp and Fuzzy RD"
+    url: "/assets/courses/eci/ECI_12_Regression_Discontinuity_Designs.pdf"
+    handout_url: "/assets/courses/eci/ECI_12_Handout.pdf"
   - title: "Lecture 14: Causal Mechanisms"
     url: "/assets/courses/eci/ECI_14_Causal_Mechanisms.pdf"
 
@@ -235,7 +234,7 @@ schedule_content: |
   </div>
 
   **Week 13 (May 21): Regression Discontinuity Designs**
-  <a class="badge-slides" href="/assets/courses/eci/ECI_12_Sharp_RD.pdf">Slides</a>
+  <a class="badge-slides" href="/assets/courses/eci/ECI_12_Regression_Discontinuity_Designs.pdf">Slides</a>
   - Sharp RD designs, identification
   - Estimation and bandwidth selection
   - <span class="badge-read"><i class="fas fa-book-open"></i>Readings:</span> Angrist & Pischke Ch. 6; [Imbens & Lemieux (2008)](https://doi.org/10.1016/j.jeconom.2007.05.001)
@@ -245,7 +244,7 @@ schedule_content: |
   </div>
 
   **Week 14 (May 28): Regression Discontinuity Designs Cont.**
-  <a class="badge-slides" href="/assets/courses/eci/ECI_13_Fuzzy_RD.pdf">Slides</a>
+  <a class="badge-slides" href="/assets/courses/eci/ECI_12_Regression_Discontinuity_Designs.pdf">Slides</a>
   - Fuzzy RD designs
   - Applications of RDDs
   - <span class="badge-read"><i class="fas fa-book-open"></i>Readings:</span> [Cattaneo, Idrobo & Titiunik (2020)](https://doi.org/10.1017/9781108684606)
