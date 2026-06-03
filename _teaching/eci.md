@@ -102,6 +102,7 @@ materials:
     handout_url: "/assets/courses/eci/ECI_12_Handout.pdf"
   - title: "Lecture 14: Causal Mechanisms"
     url: "/assets/courses/eci/ECI_14_Causal_Mechanisms.pdf"
+    handout_url: "/assets/courses/eci/ECI_14_Handout.pdf"
 
 written_notes:
   - title: "Week 5: Observational Studies"
