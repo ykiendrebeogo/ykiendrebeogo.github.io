@@ -2,9 +2,9 @@
 layout: page
 permalink: /research/
 title: research
-description: The corresponding author is denoted by *. Video summaries 🎬 generated with NotebookLM. 
-categories: ['manuscripts in revision', 'manuscripts under review', 'working papers', 'work-in-progress', 'publications']
-catprint: ['', 'manuscripts in revision', 'manuscripts under review', 'working papers', 'work-in-progress', 'publications']
+description: Research by Youssouf Kiendrebeogo.
+categories: ['working papers', 'publications']
+catprint: ['', 'working papers', 'publications']
 nav: true
 nav_order: 2
 ---
