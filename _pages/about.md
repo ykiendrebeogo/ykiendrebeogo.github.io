@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-description: Youssouf Kiendrebeogo is an economist at the International Monetary Fund, with research interests in AI-related productivity gains, crypto-assets, economic growth, and structural transformation.
+description: Youssouf Kiendrebeogo is a Senior Economist at the International Monetary Fund, with research interests in financing for sustainable development, macro-fiscal surveillance, and country engagement and program monitoring.
 subtitle: >
-  Economist at the <a href='https://www.imf.org'>International Monetary Fund</a>.
-  Research interests in AI-related productivity gains, monetary implications of crypto-assets,
-  economic growth, and structural transformation.
+  Senior Economist at the <a href='https://www.imf.org'>International Monetary Fund</a>.
+  Research interests in financing for sustainable development, macro-fiscal surveillance,
+  and country engagement and program monitoring.
 
 profile:
   align: right
@@ -28,7 +28,7 @@ latest_posts:
 
 ---
 
-I am a seasoned economist at the [International Monetary Fund](https://www.imf.org) with over a decade of experience in research and operational work. My research interests include AI-related productivity gains, monetary implications of crypto-assets, economic growth, and structural transformation.
+I am a Senior Economist at the [International Monetary Fund](https://www.imf.org) with over a decade of experience in research and operational work. My research interests include financing for sustainable development, macro-fiscal surveillance, and country engagement and program monitoring.
 
 Previously, I held positions at the [World Bank](https://www.worldbank.org), notably in the Chief Economist Office for the Middle East & North Africa region and the Macro, Trade & Investment Global Practice.
 
