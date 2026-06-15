@@ -1,8 +1,9 @@
-# Add student supervisions here.
+[]
+# Add student supervisions here when ready.
 # Format:
 # - name: Student Name
 #   year: "YYYY-YY"
 #   info: "Degree, Institution"
 #   thesis: "Thesis Title"
-#   status: "Completed"  # or "Ongoing"
-#   degree: "Masters"    # or "PhD", "Undergraduate"
+#   status: "Completed"
+#   degree: "Masters"
