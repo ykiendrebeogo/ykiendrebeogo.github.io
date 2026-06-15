@@ -2,22 +2,22 @@
 layout: about
 title: about
 permalink: /
-description: Jaewon Yoo is an Assistant Professor at NTHU's Institute of Service Science, researching causal inference and the socioeconomic impacts of emerging technologies.
-subtitle: <span class="wave-emoji">👋</span> Hi, my name is 유재원 ("Jay-One"; 兪在元, Yú Zài-Yuán) and I am an Assistant Professor at the <a href='https://www.iss.nthu.edu.tw'>Institute of Service Science</a> in the <a href='http://www.ctm.nthu.edu.tw/'>College of Technology Management</a>, <a href='https://nthu-en.site.nthu.edu.tw/'>National Tsing Hua University (NTHU)</a> where I teach <a href='/teaching/'>courses</a> related to business analytics and causal inference using experimental and observational studies. I direct the <b><a href='https://cadi-lab.github.io'>CADI Lab</a></b> (Causal Analysis for Digital Interventions Lab), where my group investigates how platform design choices causally shape user behavior and market outcomes. Every now and then, I share thoughts on topics that interest me on my <a href='/blog/'>blog</a>.
+description: Youssouf Kiendrebeogo is an economist at the International Monetary Fund, with research interests in AI-related productivity gains, crypto-assets, economic growth, and structural transformation.
+subtitle: >
+  Economist at the <a href='https://www.imf.org'>International Monetary Fund</a>.
+  Research interests in AI-related productivity gains, monetary implications of crypto-assets,
+  economic growth, and structural transformation.
 
 profile:
   align: right
-  image: prof_jaewon_yoo.jpg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  #more_info: >
-  #  <p>Assistant Professor</p>
-  #  <p>Institute of Service Science</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: # leave blank to include all the news in the `_news` folder
 
@@ -28,27 +28,10 @@ latest_posts:
 
 ---
 
-Before joining NTHU, I was a visiting postdoc fellow at the [Center of Business Education and Research](https://cber.shanghai.nyu.edu/), <a href='https://shanghai.nyu.edu/'>New York University (NYU) Shanghai</a> where I was advised by <a href='https://shanghai.nyu.edu/academics/faculty/directory/yuxin-chen'>Dr. Yuxin Chen</a>. I received my Ph.D. from the <a href='https://btm.kaist.ac.kr/en/'>School of Business and Technology Management</a>, <a href='https://www.business.kaist.edu/'>KAIST College of Business</a>, <a href='https://www.kaist.ac.kr/en/'>KAIST</a> where I was advised by <a href='https://wjkim.kaist.ac.kr/'>Dr. Wonjoon Kim</a>.
+I am a seasoned economist at the [International Monetary Fund](https://www.imf.org) with over a decade of experience in research and operational work. My research interests include AI-related productivity gains, monetary implications of crypto-assets, economic growth, and structural transformation.
 
-My [research]({% link _pages/publications.md %}) investigates the following question:
+Previously, I held positions at the [World Bank](https://www.worldbank.org), notably in the Chief Economist Office for the Middle East & North Africa region and the Macro, Trade & Investment Global Practice.
 
-> How do platform and technology design choices shape user/consumer behavior and market outcomes through frictions in decision-making and execution, such as search and evaluation costs, transaction costs, uncertainty, and attention allocation?
-{:.research-question}
+My work has been published in peer-reviewed journals including [Structural Change & Economic Dynamics](https://www.sciencedirect.com/journal/structural-change-and-economic-dynamics), [World Economy](https://onlinelibrary.wiley.com/journal/14679701), [Journal of Development Studies](https://www.tandfonline.com/journals/fjds20), and [Review of Development Economics](https://onlinelibrary.wiley.com/journal/14679361).
 
-Substantively, I study this question in digital platform and technology-enabled market settings, including online media platforms, digital advertising and customer journey interventions, and retail technologies. Across these contexts, my work examines how platform and technology design changes (e.g., participation features, information structures, and intervention formats) alter decision environments, reallocate cognitive and transactional frictions, and in turn affect outcomes such as engagement, choice difficulty, conversion, consumption variety, spending, and firms' strategic behavior.
-
-Methodologically, my work is grounded in causal inference. I rely on large-scale field experiments (RCTs), conducted through industry collaborations, as well as quasi-experimental designs such as regression discontinuity (RD) and difference-in-differences (DiD) variants, e.g., Synthetic DiD. I also incorporate causal machine learning (ML) tools, such as double/debiased ML (DML) and meta learners, when high-dimensional adjustment is required and when uncovering systematic treatment effect heterogeneity (HTE) is central to the research question.
-
-In parallel, I pursue cross-disciplinary research on counterfactual reasoning at the intersection of causal inference and explainable artificial intelligence (XAI), with work that is naturally positioned for ML venues and methodological journal outlets. This research examines how credible counterfactuals, both for estimating causal effects and for producing interpretable, actionable counterfactual explanations (CFEs), can be constructed when clean control groups, defensible adjustment sets, or transparent decision rules are difficult to obtain. For more detailed information on my publications and ongoing projects, please visit [the research section]({% link _pages/publications.md %}) of my webpage.
-
-I serve as an ad hoc reviewer for leading journals in information systems, marketing, and innovation studies, including [MIS Quarterly](http://www.misq.org/) (UTD24/FT50 journal), [Research Policy](https://www.sciencedirect.com/journal/research-policy) (FT50 journal), and [Journal of Business Research](https://www.sciencedirect.com/journal/journal-of-business-research) (SSCI/NSTC Mgmt. II Top Journal List), and also contribute to the peer review process at field-facing conferences, such as the [Conference on Information Systems and Technology (CIST)](https://sites.google.com/view/cist2025). I am also a member of the Editorial Board of [Asia Marketing Journal](https://amj.kma.re.kr/journal/), the flagship journal of the Korean Marketing Association.
-
-**<u>For prospective students:</u>**
-
-Students who are interested in pursuing research under my supervision are strongly encouraged to have first completed at least one of my courses. Familiarity with the material from [ISS5096]({% link _pages/teaching.md %}eci/) is particularly beneficial.
-
-When reaching out, please include a <ins>cover letter</ins> detailing your research interests and proposed topic area, accompanied by your <ins>CV</ins> and <ins>academic transcript</ins>. You may want to browse my [completed and ongoing supervisions]({% link _pages/supervisions.md %}) to get a sense of potential research directions.
-
-**<u>Guidelines for Letter Recommendations:</u>**
-
-I provide recommendation letters for students who have completed a minimum of two courses under my instruction and have engaged with me academically for at least one full semester.
+I received my Ph.D. in Economics in 2014 from the [University of Auvergne (CERDI)](https://cerdi.uca.fr/), where I also taught econometrics.

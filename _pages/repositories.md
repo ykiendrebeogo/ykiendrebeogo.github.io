@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: GitHub repositories and open-source projects by Jaewon Yoo, including teaching materials and research code.
+description: GitHub repositories and open-source projects by Youssouf Kiendrebeogo.
 nav: false
 nav_order: 4
 ---

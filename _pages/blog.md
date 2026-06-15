@@ -4,7 +4,7 @@ permalink: /blog/
 title: blog
 nav: true
 nav_order: 1
-description: Articles and notes by Jaewon Yoo on causal inference, data science, and academic life.
+description: Articles and notes by Youssouf Kiendrebeogo on economics, AI, development, and data science.
 pagination:
   enabled: true
   collection: posts

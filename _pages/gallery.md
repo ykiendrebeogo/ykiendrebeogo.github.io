@@ -2,15 +2,14 @@
 layout: page
 permalink: /gallery/
 title: gallery
-description: "Photo gallery from CADI Lab milestones: student awards, lab events, conferences, and visiting talks."
+description: "Photo gallery of events, conferences, and milestones."
 nav: false
 nav_order: 9
 display_categories: [awards, events, conferences, talks]
 horizontal: false
 ---
 
-> A growing photo log of milestones from the <a href="https://cadi-lab.github.io" target="_blank" style="font-weight: bold;">CADI Lab</a>. Each card opens a dedicated page for that event.
-{:.research-question}
+A growing photo log of events and milestones. Each card opens a dedicated page for that event.
 
 <div class="projects">
 {% if page.display_categories %}

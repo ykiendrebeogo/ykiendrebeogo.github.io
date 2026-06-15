@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Research and applied projects by Jaewon Yoo, spanning causal inference, business analytics, and information systems.
+description: Research and applied projects by Youssouf Kiendrebeogo, spanning AI, economic growth, and development economics.
 nav: false
 nav_order: 3
 display_categories: [work, fun]

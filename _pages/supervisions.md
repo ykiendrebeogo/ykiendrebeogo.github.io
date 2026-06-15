@@ -7,8 +7,6 @@ nav: true
 nav_order: 8
 ---
 
-> Students in my group are part of the <a href="https://cadi-lab.github.io" target="_blank" style="font-weight: bold;">CADI Lab</a>. Prospective students and collaborators can find more about our research directions and how to <a href="https://cadi-lab.github.io/join/" target="_blank">join us</a> on the lab page.
-{:.research-question}
 
 <div class="publications">
 {%- assign students_by_year = site.data.supervision | group_by: 'year' | sort: 'name' | reverse -%}

@@ -4,8 +4,8 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 10
-description: "Academic CV of Jaewon Yoo: education, publications, research experience, and professional activities."
-subtitle: "Automatically generated from [website content](https://j1yoo.github.io) via [Jekyll](https://jekyllrb.com/), [Puppeteer](https://pptr.dev/), and [GitHub Actions](https://github.com/features/actions)."
+description: "CV of Youssouf Kiendrebeogo: education, publications, research experience, and professional activities."
+subtitle: ""
 # toc:
 #   sidebar: left
 ---
@@ -72,7 +72,7 @@ subtitle: "Automatically generated from [website content](https://j1yoo.github.i
       <i class="fa-solid fa-rotate"></i> Updated on {{ site.time | date: "%B %d, %Y" }}
     </div>
     <div>
-        <a href="{{ 'assets/pdf/cv_jaewon.pdf' | relative_url }}" class="btn btn-theme z-depth-0" target="_blank">
+        <a href="{{ 'assets/pdf/cv.pdf' | relative_url }}" class="btn btn-theme z-depth-0" target="_blank">
             <i class="fas fa-file-pdf"></i> Download/Open PDF
         </a>
     </div>
@@ -80,7 +80,7 @@ subtitle: "Automatically generated from [website content](https://j1yoo.github.i
 
   <!-- Desktop: Interactive PDF iframe -->
   <div class="responsive">
-    <iframe src="{{ 'assets/pdf/cv_jaewon.pdf' | relative_url }}"></iframe>
+    <iframe src="{{ 'assets/pdf/cv.pdf' | relative_url }}"></iframe>
   </div>
 
 </html>

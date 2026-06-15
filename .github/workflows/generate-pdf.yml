@@ -68,8 +68,8 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
           # Check if the PDF has changed
-          if [[ -n $(git status --porcelain assets/pdf/cv_jaewon.pdf) ]]; then
-            git add assets/pdf/cv_jaewon.pdf
+          if [[ -n $(git status --porcelain assets/pdf/cv.pdf) ]]; then
+            git add assets/pdf/cv.pdf
             git commit -m "Update CV PDF [skip ci]"
             git push
           else
