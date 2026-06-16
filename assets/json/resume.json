@@ -1,131 +1,181 @@
 {
   "basics": {
-    "name": "Jaewon Yoo",
-    "label": "Assistant Professor",
+    "name": "Youssouf Kiendrebeogo",
+    "label": "Senior Economist",
     "image": "",
-    "email": "jaewon.yoo@iss.nthu.edu.tw",
-    "phone": "+886-03-5162543",
+    "email": "ykiendrebeogo@imf.org",
+    "phone": "+1-202-413-5920",
     "url": "https://ykiendrebeogo.github.io",
-    "summary": "Assistant Professor at the Institute of Service Science, National Tsing Hua University (NTHU). Research interests include business analytics, causal inference, and counterfactual reasoning.",
+    "summary": "Senior Economist at the Fiscal Affairs Department, International Monetary Fund. Research interests include financing for sustainable development, macro-fiscal surveillance, and country engagement and program monitoring.",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Hsinchu",
-      "countryCode": "TW",
-      "region": ""
+      "address": "1900 Pennsylvania Avenue NW",
+      "postalCode": "20431",
+      "city": "Washington",
+      "countryCode": "US",
+      "region": "DC"
     },
     "profiles": [
       {
         "network": "GitHub",
-        "username": "j1yoo",
-        "url": "https://github.com/j1yoo"
+        "username": "ykiendrebeogo",
+        "url": "https://github.com/ykiendrebeogo"
       }
     ]
   },
   "work": [
     {
-      "name": "National Tsing Hua University",
-      "position": "Assistant Professor",
-      "url": "https://nthu-en.site.nthu.edu.tw/",
-      "startDate": "2021-08-01",
+      "name": "International Monetary Fund",
+      "position": "Senior Economist",
+      "url": "https://www.imf.org",
+      "startDate": "2021-01-01",
       "endDate": "",
-      "summary": "Institute of Service Science, College of Technology Management.",
-      "highlights": [
-        "Committee member, International Master of Business Administration Program (iMBA) ::: March 2022 -",
-        "Committee member, International Bachelor of Business Administration Program (iBBA) ::: March 2022 -"
-      ]
+      "summary": "Fiscal Affairs Department.",
+      "highlights": []
     },
     {
-      "name": "New York University (NYU) Shanghai",
-      "position": "Visiting Postdoc Fellow",
-      "url": "https://shanghai.nyu.edu/",
-      "startDate": "2020-03-01",
-      "endDate": "2020-10-31",
-      "summary": "Center of Business Education and Research.",
-      "highlights": [
-        "Advised by Dr. Yuxin Chen"
-      ]
+      "name": "World Bank",
+      "position": "Senior Economist",
+      "url": "https://www.worldbank.org",
+      "startDate": "2018-01-01",
+      "endDate": "2021-12-31",
+      "summary": "Macroeconomics, Trade & Investment Global Practice.",
+      "highlights": []
+    },
+    {
+      "name": "World Bank",
+      "position": "Research Economist",
+      "url": "https://www.worldbank.org",
+      "startDate": "2014-01-01",
+      "endDate": "2018-12-31",
+      "summary": "Office of the Chief Economist.",
+      "highlights": []
+    },
+    {
+      "name": "International Monetary Fund",
+      "position": "Research Fellow",
+      "url": "https://www.imf.org",
+      "startDate": "2013-01-01",
+      "endDate": "2013-12-31",
+      "summary": "Office of Executive Directors.",
+      "highlights": []
+    },
+    {
+      "name": "INRA",
+      "position": "Research Assistant",
+      "url": "https://www.inrae.fr",
+      "startDate": "2010-01-01",
+      "endDate": "2011-12-31",
+      "summary": "France.",
+      "highlights": []
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "Korea Advanced Institute of Science and Technology (KAIST)",
-      "location": "Daejeon, South Korea",
-      "url": "https://www.kaist.ac.kr/en/",
-      "area": "Business and Technology Management",
-      "studyType": "Ph.D.",
-      "startDate": "2013-09-01",
-      "endDate": "2020-02-28",
-      "score": "",
-      "courses": [
-        "Dissertation: \"Studies on the Impacts of Innovation and Emerging Technologies on Marketing\"",
-        "Committee: Wonjoon Kim (Chair), Yuxin Chen (NYU), Minki Kim, Dukhee Lee, Hyejin Kim",
-        "Visiting scholar at NYU Center for Business Education and Research (2018)"
-      ]
-    },
-    {
-      "institution": "Korea Advanced Institute of Science and Technology (KAIST)",
-      "location": "Daejeon, South Korea",
-      "url": "https://www.kaist.ac.kr/en/",
-      "area": "Management Science",
-      "studyType": "M.Eng.",
-      "startDate": "2011-09-01",
-      "endDate": "2013-08-31",
-      "score": "",
-      "courses": [
-        "Thesis: \"Exploring the Influence of Social Recommendation on Choice Overload Phenomenon: Focusing on Cognitive Conflict and Ideal Point Availability\"",
-        "Committee: Wonjoon Kim (Chair), Hangjung Zo, Youngyim Doh"
-      ]
-    },
-    {
-      "institution": "University of Arizona",
-      "location": "Tucson, AZ",
-      "url": "https://www.arizona.edu/",
+      "institution": "University of Auvergne (CERDI)",
+      "location": "Clermont-Ferrand, France",
+      "url": "https://cerdi.uca.fr/",
       "area": "Economics",
-      "studyType": "B.A.",
-      "startDate": "2006-08-01",
-      "endDate": "2010-12-31",
+      "studyType": "Ph.D.",
+      "startDate": "2011-09-01",
+      "endDate": "2014-12-31",
       "score": "",
       "courses": [
-        "Minor in Japanese",
-        "Honorable mention (2008-2009), Dean's list (2009)"
+        "Dissertation: \"Essays on New Sources of Comparative Advantage\"",
+        "Committee: Jaime De Melo (Geneva), Olivier Cadot (Lausanne), Albert Zeufack (World Bank), Quy-Toan Do (World Bank), Patricia Augier (Aix-Marseille), Alexandru Minea (Auvergne), Patrick Plane (Auvergne)"
       ]
+    },
+    {
+      "institution": "University of Auvergne (CERDI)",
+      "location": "Clermont-Ferrand, France",
+      "url": "https://cerdi.uca.fr/",
+      "area": "Economics",
+      "studyType": "M.S.",
+      "startDate": "2010-09-01",
+      "endDate": "2011-08-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "University of Auvergne (CERDI)",
+      "location": "Clermont-Ferrand, France",
+      "url": "https://cerdi.uca.fr/",
+      "area": "Project Appraisal",
+      "studyType": "M.A.",
+      "startDate": "2010-09-01",
+      "endDate": "2011-08-31",
+      "score": "",
+      "courses": []
     }
   ],
   "awards": [],
-  "certificates": [],
+  "certificates": [
+    {
+      "name": "Debt Sustainability Analysis",
+      "issuer": "International Monetary Fund"
+    },
+    {
+      "name": "Green Public Financial Management",
+      "issuer": "International Monetary Fund"
+    },
+    {
+      "name": "Macroeconomics of Climate Change",
+      "issuer": "International Monetary Fund"
+    },
+    {
+      "name": "Inclusive Growth",
+      "issuer": "International Monetary Fund"
+    }
+  ],
   "publications": [],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Statistical & Scientific Computing",
+      "level": "",
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "MATLAB",
+        "R",
+        "C++",
+        "Julia",
+        "Python",
+        "Stata",
+        "EViews"
+      ]
+    }
+  ],
   "languages": [
+    {
+      "language": "French",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
     {
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
     },
     {
-      "language": "Korean",
-      "fluency": "Native speaker",
+      "language": "Arabic",
+      "fluency": "Beginner",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Causal Inference",
+      "name": "Financing for Sustainable Development",
       "icon": "fa-solid fa-chart-line",
-      "keywords": [
-        "Experimental Design",
-        "Observational Studies",
-        "Synthetic DiD"
-      ]
+      "keywords": []
     },
     {
-      "name": "Machine Learning",
-      "icon": "fa-solid fa-code",
-      "keywords": [
-        "Double Machine Learning",
-        "Causal ML"
-      ]
+      "name": "Macro-fiscal Surveillance",
+      "icon": "fa-solid fa-magnifying-glass-chart",
+      "keywords": []
+    },
+    {
+      "name": "Country Engagement and Program Monitoring",
+      "icon": "fa-solid fa-globe",
+      "keywords": []
     }
   ],
   "references": [],
