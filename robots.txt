@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://ykiendrebeogo.github.io/sitemap.xml
