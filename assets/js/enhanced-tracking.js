@@ -1,6 +1,6 @@
 // ============================================================
 // Enhanced GA4 Custom Event Tracking
-// 대상: j1yoo.github.io (개인+ECI) & cadi-lab.github.io (연구실)
+// 대상: ykiendrebeogo.github.io
 //
 // 수집하는 커스텀 이벤트:
 //   pdf_download      - 논문/슬라이드 PDF 다운로드

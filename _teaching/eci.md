@@ -20,7 +20,7 @@ updates:
   - text: "<strong>Paper presentations</strong> now follow a hybrid format: each student presents one paper live in class and one as a recorded video, with a short in-class round-table afterwards (see <strong>Evaluation</strong> → Paper Introduction Presentations)."
   - text: "<strong>AI Use Policy: useful guidance on using AI in academic writing.</strong> Practical insights added: risks to watch (cognitive offloading, voice homogenization) and practices that help (editor-not-rewriter mode, self-check question), with references to leading guides. <strong>Worth reading carefully</strong> before using AI tools on coursework (see <strong>Policies</strong> → AI Use Policy)."
   - text: "<strong>Lecture materials</strong> are being uploaded as the course progresses; check the <strong>Materials</strong> tab regularly for the latest slides, handouts, and written notes."
-og_image: https://j1yoo.github.io/assets/courses/eci/eci_logo.png
+og_image: https://ykiendrebeogo.github.io/assets/courses/eci/eci_logo.png
 syllabus: /assets/courses/eci/ECI_Syllabus.pdf
 logo: /assets/courses/eci/eci_logo.png
 
@@ -487,7 +487,7 @@ Students will review relevant research papers on each topic and actively engage 
 <div class="instructor-card">
   <img src="/assets/img/prof_jaewon_yoo.jpg" alt="Jaewon Yoo" class="photo-clickable" data-full="/assets/img/prof_jaewon_yoo.jpg">
   <div class="instructor-info">
-    <p><strong><a href="https://j1yoo.github.io/" target="_blank" rel="noopener noreferrer">Jaewon Yoo</a></strong> · Assistant Professor</p>
+    <p><strong><a href="https://ykiendrebeogo.github.io/" target="_blank" rel="noopener noreferrer">Jaewon Yoo</a></strong> · Assistant Professor</p>
     <p>Institute of Service Science, College of Technology Management<br>National Tsing Hua University</p>
     <ul class="info-list" style="margin-top: 0.5rem;">
       <li><i class="fas fa-door-open"></i> TSMC Bldg. R828B</li>
