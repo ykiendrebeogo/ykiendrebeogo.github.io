@@ -14,7 +14,7 @@ nav_order: 2
   {% comment %} Set up dynamic years {% endcomment %}
   {% assign current_year = site.time | date: "%Y" | plus: 0 %}
   {% assign max_year = current_year | plus: 2 %}
-  {% assign base_year = 2015 %}
+  {% assign base_year = 2012 %}
   {% assign special_years = "current,forthcoming" | split: "," %}
   {% assign numeric_years = '' | split: '' %}
   {% for year in (base_year..max_year) reversed %}
