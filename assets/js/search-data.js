@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "Teaching",
-          description: "",
+          description: "Courses taught at the University of Auvergne (CERDI), France.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -51,62 +51,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-why-causal-mechanisms-are-harder-than-you-think",
-        
-          title: "Why Causal Mechanisms Are Harder Than You Think",
-        
-        description: "The hidden costs of explaining how something works: cross-world counterfactuals and heroic assumptions.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/Why_Causal_Mechanisms_Are_Harder_Than_You_Think/";
-          
-        },
-      },{id: "post-why-better-models-can-create-stranger-counterfactuals",
-        
-          title: "Why Better Models Can Create Stranger Counterfactuals",
-        
-        description: "When AI explanations respect real-world constraints, the &quot;what-ifs&quot; become fewer but more meaningful.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/Why_Better_Models_Can_Create_Stranger_Counterfactuals/";
-          
-        },
-      },{id: "post-what-directed-acyclic-graphs-dags-teach-us-about-choosing-covariates",
-        
-          title: "What Directed Acyclic Graphs (DAGs) Teach Us About Choosing Covariates",
-        
-        description: "Why adding more controls can backfire, and how causal graphs help you pick the right ones.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/What_Directed_Acyclic_Graphs_Teach_Us_About_Choosing_Covariates/";
-          
-        },
-      },{id: "post-three-fundamental-conceptual-shifts-in-causal-inference",
-        
-          title: "Three Fundamental Conceptual Shifts in Causal Inference",
-        
-        description: "From missing data to survivor bias: three ideas that will reshape how you think about cause and effect.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/Three_Conceptual_Shifts_That_Will_Change_How_You_See_Causal_Inference/";
-          
-        },
-      },{id: "post-significance-stars-a-cautionary-tale",
-        
-          title: "Significance Stars: A Cautionary Tale",
-        
-        description: "P-values, power, and the three types of significance: a guide to interpreting quantitative evidence.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/Significance_Stars_A_Cautionary_Tale/";
-          
-        },
-      },{id: "post-ddd-estimators-and-distributional-effects",
+        },{id: "post-ddd-estimators-and-distributional-effects",
         
           title: 'DDD Estimators and Distributional Effects <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
@@ -117,81 +62,59 @@ ninja.data = [{
             window.open("https://diddigest.substack.com/p/ddd-estimators-distributional-effects", "_blank");
           
         },
-      },{id: "post-one-sample-to-rule-them-all-the-subtle-power-of-the-bootstrap",
+      },{id: "post-who-supports-violent-extremism-in-developing-countries",
         
-          title: "One Sample to Rule Them All? The Subtle Power of the Bootstrap",
+          title: 'Who supports violent extremism in developing countries? <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "How resampling from your own data can reveal an estimator&#39;s uncertainty: the logic and limits of the bootstrap.",
+        description: "Media coverage of research on attitudes toward terrorism based on value surveys.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/One_Sample_to_Rule_Them_All_The_Subtle_Power_of_the_Bootstrap/";
+            window.open("https://www.washingtonpost.com", "_blank");
           
         },
-      },{id: "post-multi-armed-bandit-mab-as-an-alternative-to-a-b-testing-a-simulation-using-r",
+      },{id: "post-two-ways-financial-crises-affect-export-dynamics",
         
-          title: "Multi-Armed Bandit (MAB) as an Alternative to A/B Testing: a Simulation using R...",
+          title: 'Two Ways Financial Crises Affect Export Dynamics <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "Earn while you learn: comparing bandit algorithms that optimize experiments in real time.",
+        description: "Blog post on the channels through which banking crises affect bilateral exports.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2021/Multi_Armed_Bandit_(MAB)_as_an_Alternative_to_AB_Testing_a_Simulation_Using_R/";
+            window.open("https://blogs.worldbank.org", "_blank");
           
         },
-      },{id: "post-scraping-the-online-job-posting-data-39-indeed-com-39",
+      },{id: "post-financial-constraints-and-export-market-participation-in-the-arab-republic-of-egypt",
         
-          title: "Scraping the Online Job Posting Data: &#39;Indeed.com&#39;",
+          title: 'Financial constraints and export market participation in the Arab Republic of Egypt <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "Collecting 100k+ AI job postings from Indeed using R for labor market research.",
+        description: "Blog post on how financial constraints limit export participation among Egyptian manufacturing firms.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2019/Scraping_the_Online_Job_Posting_Data_Indeed_com/";
+            window.open("https://blogs.worldbank.org", "_blank");
           
         },
-      },{id: "post-collection-of-useful-packages-cheat-sheets-r-and-python-and-tips",
+      },{id: "post-the-power-of-investing-in-girls-in-sierra-leone",
         
-          title: "Collection of Useful Packages, Cheat Sheets (R and Python), and Tips",
+          title: 'The Power of Investing in Girls in Sierra Leone <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "A curated list of go-to packages and resources for data science workflows.",
+        description: "Blog post on the returns to education investments for girls in Sierra Leone.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2019/Collection_of_Useful_Packages,_Cheat_Sheets_(R_and_Python),_and_Tips/";
+            window.open("https://www.brookings.edu", "_blank");
           
         },
-      },{id: "post-hand-rolling-ols-using-r",
+      },{id: "post-human-development-accounting",
         
-          title: "Hand-Rolling OLS Using R",
+          title: 'Human development accounting <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "Deriving and coding OLS from scratch to understand what happens under the hood.",
+        description: "Blog post on measuring and decomposing human development outcomes across countries.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2019/Hand_Rolling_OLS_Using_R/";
-          
-        },
-      },{id: "post-places-to-visit-in-seoul-south-korea",
-        
-          title: "Places to visit in Seoul, South Korea",
-        
-        description: "A local&#39;s guide to nightlife, culture, and hidden gems in Korea&#39;s capital.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2018/Places_to_visit_in_Seoul,_South_Korea/";
-          
-        },
-      },{id: "post-crawling-the-annual-reports-i-e-10-ks-using-r",
-        
-          title: "Crawling the Annual Reports (i.e., 10-Ks) using R",
-        
-        description: "Automating SEC filings extraction with R for large-scale text analysis.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2017/Crawling_the_Annual_Reports_(i.e.,_10-Ks)_using_R/";
+            window.open("https://blogs.worldbank.org", "_blank");
           
         },
       },{id: "books-the-godfather",
