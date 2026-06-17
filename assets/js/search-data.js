@@ -10,14 +10,14 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-blog",
-          title: "blog",
+          title: "Blog",
           description: "Articles and notes by Youssouf Kiendrebeogo on economics, AI, development, and data science.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
           },
         },{id: "nav-research",
-          title: "research",
+          title: "Research",
           description: "Research by Youssouf Kiendrebeogo.",
           section: "Navigation",
           handler: () => {
@@ -31,7 +31,7 @@ ninja.data = [{
             window.location.href = "/teaching/";
           },
         },{id: "nav-talks",
-          title: "talks",
+          title: "Talks",
           description: "List of invited talks and academic conference presentations.",
           section: "Navigation",
           handler: () => {
