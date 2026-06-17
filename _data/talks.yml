@@ -1,8 +1,17 @@
-[]
-# Add talks and presentations here when ready.
-# Format:
-# - title: "Talk Title"
-#   venue: "Conference or Institution, City, Country"
-#   date: YYYY-MM-DD
-#   year: YYYY
-#   type: invited  # optional: invited, conference, seminar
+- title: "Annual Bank Conference on Africa"
+  venue: "Stanford, CA, USA"
+  date: 2018-06-14
+  year: "2018"
+  type: conference
+
+- title: "Africa Meeting of the Econometric Society"
+  venue: "Algiers, Algeria"
+  date: 2017-06-29
+  year: "2017"
+  type: conference
+
+- title: "International Economic Association World Congress"
+  venue: "Mexico City, Mexico"
+  date: 2017-06-19
+  year: "2017"
+  type: conference
