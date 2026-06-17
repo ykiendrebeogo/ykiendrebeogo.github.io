@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /blog/
-title: blog
+title: Blog
 nav: true
 nav_order: 1
 description: Articles and notes by Youssouf Kiendrebeogo on economics, AI, development, and data science.

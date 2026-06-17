@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /research/
-title: research
+title: Research
 description: Research by Youssouf Kiendrebeogo.
 categories: ['working papers', 'publications']
 catprint: ['', 'working papers', 'publications']
