@@ -62,17 +62,6 @@ ninja.data = [{
             window.open("https://diddigest.substack.com/p/ddd-estimators-distributional-effects", "_blank");
           
         },
-      },{id: "post-who-supports-violent-extremism-in-developing-countries",
-        
-          title: 'Who supports violent extremism in developing countries? <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "Media coverage of research on attitudes toward terrorism based on value surveys.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://www.washingtonpost.com", "_blank");
-          
-        },
       },{id: "post-two-ways-financial-crises-affect-export-dynamics",
         
           title: 'Two Ways Financial Crises Affect Export Dynamics <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
