@@ -24,7 +24,7 @@ ninja.data = [{
             window.location.href = "/research/";
           },
         },{id: "nav-teaching",
-          title: "teaching",
+          title: "Teaching",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -38,7 +38,7 @@ ninja.data = [{
             window.location.href = "/talks/";
           },
         },{id: "nav-supervision",
-          title: "supervision",
+          title: "Supervision",
           description: "My thesis supervisions, past and present.",
           section: "Navigation",
           handler: () => {
