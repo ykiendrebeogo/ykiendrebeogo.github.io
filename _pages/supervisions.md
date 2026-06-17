@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /supervision/
-title: supervision
+title: Supervision
 description: "My thesis supervisions, past and present."
 nav: true
 nav_order: 8
