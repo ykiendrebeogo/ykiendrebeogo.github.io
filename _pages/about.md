@@ -2,11 +2,8 @@
 layout: about
 title: about
 permalink: /
-description: Youssouf Kiendrebeogo is a Senior Economist at the International Monetary Fund, with research interests in financing for sustainable development, macro-fiscal surveillance, and country engagement and program monitoring.
-subtitle: >
-  Senior Economist at the <a href='https://www.imf.org'>International Monetary Fund</a>.
-  Research interests in financing for sustainable development, macro-fiscal surveillance,
-  and country engagement and program monitoring.
+description: Youssouf Kiendrebeogo 
+subtitle: 
 
 profile:
   align: right
