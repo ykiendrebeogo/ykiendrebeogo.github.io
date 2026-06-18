@@ -31,7 +31,7 @@ const puppeteer = require('puppeteer');
         // We assume running from root
 
         await page.pdf({
-            path: 'assets/pdf/cv_jaewon.pdf',
+            path: 'assets/pdf/cv.pdf',
             format: 'A4',
             printBackground: true,
             // Margin is handled by CSS in cv_clean.liquid
@@ -50,7 +50,7 @@ const puppeteer = require('puppeteer');
             `
         });
 
-        console.log('✅ PDF generated successfully at assets/pdf/cv_jaewon.pdf');
+        console.log('✅ PDF generated successfully at assets/pdf/cv.pdf');
     } catch (error) {
         console.error('❌ Error generating PDF:', error);
         console.error('Make sure your local server is running (bundle exec jekyll serve).');
