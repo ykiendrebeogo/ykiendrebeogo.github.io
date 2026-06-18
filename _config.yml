@@ -272,8 +272,8 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["Causal Inference", "Machine Learning", "Explainable AI", "Statistics", "R"] # shown with # icon, links to /blog/tag/
-display_categories: ["Note", "Tutorial", "Simulation"] # shown with tag icon, links to /blog/category/
+display_tags: []
+display_categories: []
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
