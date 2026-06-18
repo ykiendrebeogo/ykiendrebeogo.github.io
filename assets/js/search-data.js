@@ -51,18 +51,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-ddd-estimators-and-distributional-effects",
-        
-          title: 'DDD Estimators and Distributional Effects <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "A discussion of recent developments in Difference-in-Differences (DDD) estimation, focusing on how to account for distributional effects....",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://diddigest.substack.com/p/ddd-estimators-distributional-effects", "_blank");
-          
-        },
-      },{id: "post-who-supports-violent-extremism-in-developing-countries",
+        },{id: "post-who-supports-violent-extremism-in-developing-countries",
         
           title: 'Who supports violent extremism in developing countries? <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
