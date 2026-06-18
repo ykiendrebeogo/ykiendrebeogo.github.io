@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Youssouf Kiendrebeogo",
-    "label": "Senior Economist",
+    "label": "Economist",
     "image": "",
     "email": "ykiendrebeogo@imf.org",
     "phone": "+1-202-413-5920",
     "url": "https://ykiendrebeogo.github.io",
-    "summary": "Senior Economist at the Fiscal Affairs Department, International Monetary Fund. Research interests include financing for sustainable development, macro-fiscal surveillance, and country engagement and program monitoring.",
+    "summary": "Economist at the Fiscal Affairs Department, International Monetary Fund. Research interests include financing for sustainable development, macro-fiscal surveillance, and country engagement and program monitoring.",
     "location": {
       "address": "1900 Pennsylvania Avenue NW",
       "postalCode": "20431",
@@ -25,7 +25,7 @@
   "work": [
     {
       "name": "International Monetary Fund",
-      "position": "Senior Economist",
+      "position": "Economist",
       "url": "https://www.imf.org",
       "startDate": "2021-01-01",
       "endDate": "",
