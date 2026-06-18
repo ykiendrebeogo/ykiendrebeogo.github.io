@@ -40,6 +40,8 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    {% include sharing.liquid %}
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>

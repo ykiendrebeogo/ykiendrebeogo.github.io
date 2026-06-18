@@ -90,6 +90,8 @@ layout: default
     {% endif %}
   {% endif %}
 
+  {% include sharing.liquid %}
+
   {% if site.disqus_shortname and page.disqus_comments %}
     {% include disqus.liquid %}
   {% endif %}

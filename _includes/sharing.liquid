@@ -1,0 +1,23 @@
+{% assign page_url = site.url | append: site.baseurl | append: page.url %}
+{% assign encoded_url = page_url | url_encode %}
+{% assign encoded_title = page.title | default: site.title | url_encode %}
+
+<div class="share-buttons">
+  <span class="share-label">Share:</span>
+  <a href="https://twitter.com/intent/tweet?url={{ encoded_url }}&text={{ encoded_title }}"
+     target="_blank" rel="noopener noreferrer" title="Share on X" class="share-btn share-x">
+    <i class="fa-brands fa-x-twitter"></i>
+  </a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ encoded_url }}"
+     target="_blank" rel="noopener noreferrer" title="Share on Facebook" class="share-btn share-facebook">
+    <i class="fa-brands fa-facebook"></i>
+  </a>
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ encoded_url }}"
+     target="_blank" rel="noopener noreferrer" title="Share on LinkedIn" class="share-btn share-linkedin">
+    <i class="fa-brands fa-linkedin"></i>
+  </a>
+  <a href="https://api.whatsapp.com/send?text={{ encoded_title }}%20{{ encoded_url }}"
+     target="_blank" rel="noopener noreferrer" title="Share on WhatsApp" class="share-btn share-whatsapp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+</div>

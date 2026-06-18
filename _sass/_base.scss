@@ -193,6 +193,45 @@ ul.task-list input[type="checkbox"] {
   color: var(--global-theme-color);
 }
 
+// Share buttons
+
+.share-buttons {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--global-divider-color);
+
+  .share-label {
+    font-size: 0.875rem;
+    color: var(--global-text-color-light);
+    margin-right: 0.25rem;
+  }
+
+  .share-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    opacity: 0.65;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+
+    &:hover {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+
+    &.share-x { color: var(--global-text-color); }
+    &.share-facebook { color: #1877f2; }
+    &.share-linkedin { color: #0a66c2; }
+    &.share-whatsapp { color: #25d366; }
+  }
+}
+
 // Profile
 
 .profile {
