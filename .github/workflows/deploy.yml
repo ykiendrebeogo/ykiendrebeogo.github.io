@@ -114,10 +114,6 @@ jobs:
           npm ci
           export JEKYLL_ENV=production
           bundle exec jekyll build
-      - name: Generate PDF 📄
-        run: |
-          npm run pdf
-          cp assets/pdf/cv.pdf _site/assets/pdf/cv.pdf
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss

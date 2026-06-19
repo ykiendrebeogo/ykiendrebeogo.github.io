@@ -1,13 +1,7 @@
 name: Generate PDF
 
 on:
-  push:
-    branches:
-      - main
-    paths-ignore:
-      - 'assets/pdf/**'
-      - 'README.md'
-  workflow_dispatch:  # Allow manual triggering for testing
+  workflow_dispatch:  # Manual trigger only — CV PDF is now maintained manually
 
 jobs:
   build:
