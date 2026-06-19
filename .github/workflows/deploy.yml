@@ -6,6 +6,7 @@ on:
       - master
       - main
     paths:
+  workflow_dispatch:
       - "assets/**"
       - "_sass/**"
       - "_scripts/**"
