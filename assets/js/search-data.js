@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-who-supports-violent-extremism-in-developing-countries",
+        },{id: "post-when-war-strikes-hunger-follows",
+        
+          title: "When War Strikes, Hunger Follows",
+        
+        description: "New research across 22 conflict-affected countries shows that armed violence triggers food crises that persist long after the fighting—and that food aid alone is not the answer.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/when-war-strikes-hunger-follows/";
+          
+        },
+      },{id: "post-who-supports-violent-extremism-in-developing-countries",
         
           title: 'Who supports violent extremism in developing countries? <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
