@@ -6,7 +6,7 @@ description: New research across 22 conflict-affected countries shows that armed
 tags: [conflict, food insecurity, fragile states, development, Africa]
 ---
 
-New research across 22 conflict-affected countries shows that armed violence triggers food crises that persist long after the fighting—and that food aid alone is not the answer.
+***New research across 22 conflict-affected countries shows that armed violence triggers food crises that persist long after the fighting—and that food aid alone is not the answer.***
 
 In 2024, more than 343 million people across 74 countries faced acute food insecurity — roughly 10 million more than the year before and nearly 200 million more than before the COVID-19 pandemic. Behind these numbers lies a pattern that humanitarian workers have long recognized but economists have struggled to measure: wherever conflict goes, hunger tends to follow. In 2024, roughly 65 percent of the world's acutely food-insecure people lived in fragile and conflict-affected states (FCS). Every country classified by the World Bank as fragile and conflict-affected recorded a food security rating of 'in crisis' or worse.
 
