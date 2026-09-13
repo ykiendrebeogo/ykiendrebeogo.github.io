@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/research/";
           },
+        },{id: "nav-policy-work",
+          title: "Policy Work",
+          description: "Policy reports, flagship publications, and institutional contributions.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/policy-work/";
+          },
         },{id: "nav-teaching",
           title: "Teaching",
           description: "Courses taught at the University of Auvergne (CERDI), France.",
