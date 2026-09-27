@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 description: Youssouf Kiendrebeogo 
-subtitle: 
+subtitle: "Economist · IMF"
 
 profile:
   align: right
