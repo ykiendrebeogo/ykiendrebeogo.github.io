@@ -98,3 +98,11 @@ It is read at the start of each session to maintain project context.
 **Description:** File already existed with history from 2026-07-12. Appended all prompts from the 2026-09-13 session. Established (and saved to Claude memory) the convention: read this file at session start, and append each new prompt as the very first action.
 
 ---
+
+## Session: 2026-07-12 (continued)
+
+### Prompt 7
+**Exact prompt:** On my google profile, my title appears as "Mr. Youssouf Kiendrebeogo", "Author". I have saved a screenshot of a google search with my name as YK-Google-Profile.png in the _data folder. Can you help me modify my profile to "Youssouf Kiendrebeogo", "Economist"?
+**Description:** Viewed screenshot confirming Google Knowledge Panel showed "Mr. Youssouf Kiendrebeogo" / "Author". Fixed the "Author" label by setting `academic_title: Economist` in `_config.yml`, which populates the schema.org JSON-LD `jobTitle` field Google uses for the Knowledge Panel subtitle. Explained that removing "Mr." requires changing the Google account name directly (myaccount.google.com → Personal info → Name).
+
+---
