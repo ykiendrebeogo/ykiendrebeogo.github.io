@@ -106,3 +106,27 @@ It is read at the start of each session to maintain project context.
 **Description:** Viewed screenshot confirming Google Knowledge Panel showed "Mr. Youssouf Kiendrebeogo" / "Author". Fixed the "Author" label by setting `academic_title: Economist` in `_config.yml`, which populates the schema.org JSON-LD `jobTitle` field Google uses for the Knowledge Panel subtitle. Explained that removing "Mr." requires changing the Google account name directly (myaccount.google.com → Personal info → Name).
 
 ---
+
+### Prompt 8
+**Exact prompt:** I have checked on https://myaccount.google.com but I can't find "Mr. Youssouf Kiendrebeogo". I could only find "Youssouf Kiendrebeogo" on my "Personal Info" page. Please take a closer look and help me remove the "Mr." from my google profile.
+**Description:** Viewed YK-Google-Profile2.png — Google account name is already "Youssouf Kiendrebeogo" (no "Mr."). Determined "Mr." originates from external web sources Google aggregates, not the account itself. Advised using Knowledge Panel claim or Feedback option, and checking World Bank/IMF profile pages.
+
+---
+
+### Prompt 9
+**Exact prompt:** Claim this knowledge panel
+**Description:** Explained that claiming a Knowledge Panel must be done manually in the browser — cannot be done programmatically. Provided step-by-step instructions to find and click "Claim this knowledge panel" at the bottom of the right-side panel.
+
+---
+
+### Prompt 10
+**Exact prompt:** I can't find the "Claim this knowledge panel" link at the bottom. But I was able to click on the Feedback option. How can I use this option to delete the "Mr." from my name?
+**Description:** Guided user through using the Google Knowledge Panel Feedback option: select the name field, mark it incorrect, submit a correction note. Noted changes may take days to weeks.
+
+---
+
+### Prompt 11
+**Exact prompt:** Now I want you to help me make the papers and blog post from my website (ykiendrebeogo.github.io) visible on google scholar and ideas repec, same as my Journal publications and IMF and World Bank working papers.
+**Description:** Exploring site structure to plan citation metadata (Google Scholar) and ReDIF registration (IDEAS/RePEC) implementation.
+
+---
