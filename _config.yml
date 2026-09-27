@@ -72,10 +72,10 @@ og_image: https://ykiendrebeogo.github.io/assets/img/prof_pic.jpg # The site-wid
 
 # Academic profile information
 academic_title: Economist
-academic_department:
-academic_institution:
-academic_institution_url:
-academic_expertise: []
+academic_department: Research Department
+academic_institution: International Monetary Fund
+academic_institution_url: https://www.imf.org
+academic_expertise: [Macroeconomics, Fiscal Policy, Development Economics, International Trade, Conflict Economics, Food Security]
 academic_languages: ["English", "French"]
 scholar_userid: _vqmvHMAAAAJ # your Google Scholar ID
 

@@ -4,6 +4,11 @@ title: When War Strikes, Hunger Follows
 date: 2026-07-12
 description: New research across 22 conflict-affected countries shows that armed violence triggers food crises that persist long after the fighting—and that food aid alone is not the answer.
 tags: [conflict, food insecurity, fragile states, development, Africa]
+scholar_paper: true
+citation_pdf_url: /assets/pdf/Conflict-Food-Insecurity.pdf
+citation_institution: International Monetary Fund
+citation_number: "IMF Working Paper (Forthcoming)"
+citation_language: en
 ---
 
 ***New research across 22 conflict-affected countries shows that armed violence triggers food crises that persist long after the fighting—and that food aid alone is not the answer.***
