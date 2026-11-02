@@ -130,3 +130,17 @@ It is read at the start of each session to maintain project context.
 **Description:** Exploring site structure to plan citation metadata (Google Scholar) and ReDIF registration (IDEAS/RePEC) implementation.
 
 ---
+
+## Session: 2026-11-01
+
+### Prompt 1
+**Exact prompt:** `restart you previous session from the prompt_history file`
+**Description:** Read prompt_history.md to restore context. Last session ended after commit `398aa22` (Add Google Scholar citation metadata and IDEAS/RePEC personal archive). A new file `AI-Productivity-Trade.pdf` is present in `_data` (untracked). Restoring context and catching up on where work left off.
+
+### Prompt 2
+**Exact prompt:** `add this paper to my website`
+**Description:** Added "Beyond Hulten: AI and the Open-Economy Input-Output Decomposition" (October 2026, IMF) to the Research page. Copied PDF to `assets/pdf/AI-Productivity-Trade.pdf` and added a new BibTeX entry (`kiendrebeogo2026hulten`) to `_bibliography/papers.bib` with full abstract and PDF link. Committed and pushed.
+
+---
+
+---
