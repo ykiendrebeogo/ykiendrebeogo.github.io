@@ -141,6 +141,34 @@ It is read at the start of each session to maintain project context.
 **Exact prompt:** `add this paper to my website`
 **Description:** Added "Beyond Hulten: AI and the Open-Economy Input-Output Decomposition" (October 2026, IMF) to the Research page. Copied PDF to `assets/pdf/AI-Productivity-Trade.pdf` and added a new BibTeX entry (`kiendrebeogo2026hulten`) to `_bibliography/papers.bib` with full abstract and PDF link. Committed and pushed.
 
+### Prompt 3
+**Exact prompt:** Please remove that older same paper and keep the new one.
+**Description:** Removed the duplicate placeholder entry `kiendrebeogo2025ai` ("Artificial Intelligence, Structural Change, and the Baumol Effect in Open Economies") from `_bibliography/papers.bib` since it referred to the same paper as the new `kiendrebeogo2026hulten` entry.
+
+### Prompt 4
+**Exact prompt:** generate a link to the paper for me to add it to the placeholder just above the abstract
+**Description:** Provided the hosted PDF URL: `https://ykiendrebeogo.github.io/assets/pdf/AI-Productivity-Trade.pdf` for the user to embed in the paper itself as "Most recent draft here."
+
+### Prompt 5
+**Exact prompt:** I still can't see the paper on my page. please double check and fix
+**Description:** Investigated why the paper wasn't appearing. Suspected Unicode em dashes in the abstract field breaking bibtex-ruby. Replaced with ASCII equivalents (` --- `, "to"). Committed as `e595142`.
+
+### Prompt 6
+**Exact prompt:** I still can't see the paper on my page. please double check, fix and add the hyperlink to the paper
+**Description:** Diagnosed true root cause: GitHub Actions deploy was failing on every push. `ruby-version: "3.3.5"` was unavailable on `ubuntu-26.04` runners. Fixed by changing to `ruby-version: "3.3"` in `deploy.yml`. Deploy succeeded after commit `335465c`.
+
+### Prompt 7
+**Exact prompt:** check if it's live now
+**Description:** Confirmed deploy workflow succeeded; paper now visible on the Research page at `https://ykiendrebeogo.github.io/publications/`.
+
+### Prompt 8
+**Exact prompt:** I have saved a new version of the AI paper. Please commit and push it to my personal github page
+**Description:** Identified the correct new PDF (`_data/AI-Productivity-Trade.pdf`, 487730 bytes, Nov 2 timestamp) vs. older October file. Copied to `assets/pdf/AI-Productivity-Trade.pdf` and committed as `2430577`.
+
+### Prompt 9
+**Exact prompt:** I have saved a new blog post on the AI-Productivity-Trade paper as Blog-AI-and-Global-Trade.docx in the C:\Users\k_you\ykiendrebeogo.github.io\_data folder. Use it to add a new blog post to the blog page of my github website (https://ykiendrebeogo.github.io/blog/).
+**Description:** Extracted content from `_data/Blog-AI-and-Global-Trade.docx` via PowerShell ZIP extraction. Created `_posts/2026-11-05-ai-and-global-trade-productivity-dividend.md` following the al-folio blog post format, structured around the three key findings from the AI paper. Committed and pushed.
+
 ---
 
 ---
