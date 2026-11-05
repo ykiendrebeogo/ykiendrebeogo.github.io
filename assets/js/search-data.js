@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-when-war-strikes-hunger-follows",
+        },{id: "post-ai-and-global-trade-who-captures-the-productivity-dividend",
+        
+          title: "AI and Global Trade: Who Captures the Productivity Dividend?",
+        
+        description: "Standard AI productivity estimates treat countries as closed economies. New research across 77 economies shows this assumption is structurally wrong—and that trade is AI&#39;s primary amplification mechanism.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/ai-and-global-trade-productivity-dividend/";
+          
+        },
+      },{id: "post-when-war-strikes-hunger-follows",
         
           title: "When War Strikes, Hunger Follows",
         
