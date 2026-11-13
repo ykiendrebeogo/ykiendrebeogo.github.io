@@ -61,4 +61,4 @@ Effective responses must therefore address all three transmission channels simul
 
 ---
 
-*This post summarizes the working paper "[Armed Conflict and Acute Food Insecurity: Evidence from a High-Frequency District-Level Panel](/assets/pdf/Conflict-Food-Insecurity.pdf)" by Youssouf Kiendrebeogo (IMF Working Paper, Forthcoming).*
+*This post summarizes the working paper "[Armed Conflict and Food Insecurity: IV Identification in a Dynamic Binary Panel](/assets/pdf/Conflict-Food-Insecurity.pdf)" by Youssouf Kiendrebeogo (IMF Working Paper, Forthcoming).*
