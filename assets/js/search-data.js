@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/research/";
           },
+        },{id: "nav-data-amp-computer-code",
+          title: "Data &amp; Computer Code",
+          description: "Datasets and replication code for published and working papers.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/data-code/";
+          },
         },{id: "nav-policy-work",
           title: "Policy Work",
           description: "Policy reports, flagship publications, and institutional contributions.",
