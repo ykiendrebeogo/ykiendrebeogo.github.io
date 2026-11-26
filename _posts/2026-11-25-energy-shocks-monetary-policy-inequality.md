@@ -29,7 +29,7 @@ I embed this distributional fact into a Heterogeneous-Agent New Keynesian (HANK)
 
 The intuition is sharp. When the central bank raises interest rates in response to an energy shock, it compounds the distributional harm through a second regressive channel: tighter credit hurts borrowing-constrained low-income households the most. A Ramsey-optimal central bank internalizes both channels and therefore prescribes a systematically less aggressive tightening than its representative-agent counterpart.
 
-Crucially, the correction differs across economies in a testable way. The Euro Area's income gradient (Q1/Q5 = 2.76) is steeper than the US's (Q1/Q5 = 2.28). My model therefore predicts the ECB's optimal rate should sit further below the RANK benchmark than the Fed's — by a specific, model-derived ratio of 1.312.
+The correction differs across economies in a testable way. The Euro Area's income gradient (Q1/Q5 = 2.76) is steeper than the US's (Q1/Q5 = 2.28). My model therefore predicts the ECB's optimal rate should sit further below the RANK benchmark than the Fed's — by a specific, model-derived ratio of 1.312.
 
 ## The 2022 episode confirms the theory
 
