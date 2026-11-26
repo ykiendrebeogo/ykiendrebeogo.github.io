@@ -65,7 +65,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-ai-and-global-trade-who-captures-the-productivity-dividend",
+        },{id: "post-the-poor-pay-twice-why-standard-rate-rules-get-energy-shocks-wrong",
+        
+          title: "The Poor Pay Twice: Why Standard Rate Rules Get Energy Shocks Wrong",
+        
+        description: "When energy prices surge, low-income households are hit hardest — and aggressive rate hikes compound the damage. New research shows the Fed and ECB were right to hold back in 2022, and derives the optimal rule that explains why.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/energy-shocks-monetary-policy-inequality/";
+          
+        },
+      },{id: "post-ai-and-global-trade-who-captures-the-productivity-dividend",
         
           title: "AI and Global Trade: Who Captures the Productivity Dividend?",
         
