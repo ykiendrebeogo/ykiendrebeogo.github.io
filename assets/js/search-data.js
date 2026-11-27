@@ -69,7 +69,7 @@ ninja.data = [{
         
           title: "The Poor Pay Twice: Why Standard Rate Rules Get Energy Shocks Wrong",
         
-        description: "When energy prices surge, low-income households are hit hardest — and aggressive rate hikes compound the damage. New research shows the Fed and ECB were right to hold back in 2022, and derives the optimal rule that explains why.",
+        description: "When energy prices surge, low-income households are hit hardest, and aggressive rate hikes compound the damage. New research shows the Fed and ECB were right to hold back in 2022 and derives the optimal rule that explains why.",
         section: "Posts",
         handler: () => {
           
